@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#f47b38">
+    <title>Cosplay Wig Styling Lessons</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow">30-day tracker</p>
+          <h1>Cosplay Wig Styling</h1>
+        </div>
+        <div class="top-actions" aria-label="Progress tools">
+          <button class="ghost-button" type="button" id="exportButton" title="Export progress">Export</button>
+          <label class="ghost-button file-button" for="importFile" title="Import progress">Import</label>
+          <input id="importFile" type="file" accept="application/json">
+        </div>
+      </header>
+
+      <main>
+        <section class="overview" aria-labelledby="overviewTitle">
+          <div class="overview-copy">
+            <p class="eyebrow">Current pace</p>
+            <h2 id="overviewTitle">Today's lesson</h2>
+            <p id="todaySummary">Loading lesson data...</p>
+          </div>
+          <div class="progress-block" aria-label="Course completion">
+            <div class="progress-number" id="progressNumber">0%</div>
+            <div class="progress-track" aria-hidden="true">
+              <span id="progressFill"></span>
+            </div>
+            <p id="progressText">0 of 30 lessons complete</p>
+          </div>
+        </section>
+
+        <nav class="tabs" aria-label="Views">
+          <button class="tab is-active" type="button" data-view="today">Today</button>
+          <button class="tab" type="button" data-view="lessons">All lessons</button>
+          <button class="tab" type="button" data-view="glossary">Glossary</button>
+          <button class="tab" type="button" data-view="progress">Progress</button>
+        </nav>
+
+        <div class="workspace">
+          <aside class="lesson-list" aria-label="Lesson list">
+            <div class="search-wrap">
+              <label for="lessonSearch">Find a lesson</label>
+              <input id="lessonSearch" type="search" placeholder="Search lessons or terms">
+            </div>
+            <div id="lessonList"></div>
+          </aside>
+
+          <section class="detail" id="detail" aria-live="polite"></section>
+        </div>
+      </main>
+    </div>
+
+    <template id="lessonButtonTemplate">
+      <button class="lesson-button" type="button">
+        <span class="lesson-day"></span>
+        <span class="lesson-title"></span>
+        <span class="lesson-state"></span>
+      </button>
+    </template>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

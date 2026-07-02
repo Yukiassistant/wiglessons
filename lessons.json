@@ -1,0 +1,1558 @@
+{
+  "course": {
+    "title": "Cosplay Wig Styling",
+    "startDate": "2026-07-02",
+    "timezone": "America/Los_Angeles",
+    "description": "A simple 30-day tracker for cosplay wig styling lessons, vocabulary, practice, and readiness."
+  },
+  "lessons": [
+    {
+      "day": 1,
+      "title": "Cosplay Wig Map: Anatomy, Goals, and Vocabulary",
+      "objective": "Learn the terms needed to describe wig structure, fiber behavior, and cosplay styling goals accurately.",
+      "concept": "Cosplay wig styling is hair design plus sculpture, comfort planning, and repair planning. Today is about building the vocabulary you will use for every later decision: cap, weft, lace front, density, fiber, hairline, crimping, ventilating, hard cap, shell, and armature.",
+      "glossary": [
+        {
+          "term": "cap",
+          "definition": "The base of the wig that sits on your head and holds the hair or wefts."
+        },
+        {
+          "term": "weft",
+          "definition": "A sewn strip of wig hair that can be added, removed, moved, or harvested."
+        },
+        {
+          "term": "lace front",
+          "definition": "A wig with sheer lace at the front where individual hairs create a realistic hairline."
+        },
+        {
+          "term": "density",
+          "definition": "How much hair is present in an area; higher density looks fuller but adds weight."
+        },
+        {
+          "term": "fiber",
+          "definition": "The synthetic hair material the wig is made from."
+        },
+        {
+          "term": "hairline",
+          "definition": "The visible edge where wig hair begins around the forehead, temples, sideburns, or nape."
+        },
+        {
+          "term": "crimping",
+          "definition": "Adding tiny waves with a crimping iron to create grip, volume, and hidden structure."
+        },
+        {
+          "term": "ventilating",
+          "definition": "Tying individual hairs into lace or mesh to create hairlines, parts, or repairs."
+        },
+        {
+          "term": "hard cap",
+          "definition": "A rigid or semi-rigid wig base built to hold sculptural shapes."
+        },
+        {
+          "term": "shell",
+          "definition": "A rigid or semi-rigid base structure that carries a shape, usually hidden under hair."
+        },
+        {
+          "term": "armature",
+          "definition": "A hidden support skeleton, often wire, foam, mesh, or plastic, that holds a shape."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Epic Cosplay Wigs: Tips and Tricks",
+          "url": "https://www.epiccosplay.com/pages/tips-and-tricks"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Wigs.com: Cap Construction Guide",
+          "url": "https://www.wigs.com/pages/cap-construction-guide"
+        },
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        }
+      ],
+      "practice": "Skim today's definitions, then pick three cosplay characters and label each as naturalistic, stylized, structural, or helmet/hard-shell candidate.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which character hair looks impossible because of gravity, size, hairline, color, or attachment?",
+      "readiness": "You can explain the difference between a soft styled wig, a supported wig, and a helmet/hard-shell wig."
+    },
+    {
+      "day": 2,
+      "title": "Fit, Blocking, and the Work Head",
+      "objective": "Set up a correctly sized work surface so later styling and helmet-wig construction fit your real head.",
+      "concept": "Many wig problems start before styling: the foam head is too small, the wig is pinned crooked, or the ears and hairline are guessed. A rigid shell preserves sizing mistakes, so measure first and mark your block clearly.",
+      "glossary": [
+        {
+          "term": "block",
+          "definition": "The head form used for styling, cutting, fitting, and building wig structures."
+        },
+        {
+          "term": "hairline landmark",
+          "definition": "A marked reference point for the front, temples, sideburns, ears, or nape."
+        },
+        {
+          "term": "front-to-nape",
+          "definition": "A head measurement from front hairline over the crown to the nape of the neck."
+        },
+        {
+          "term": "ear-to-ear",
+          "definition": "A head measurement over the crown from one ear area to the other."
+        },
+        {
+          "term": "expansion gap",
+          "definition": "Extra space left in a rigid build for comfort, padding, hair, and movement."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        }
+      ],
+      "practice": "Measure head circumference, front-to-nape, ear-to-ear over crown, and hairline landmarks. Pad and label your wig head or block, then photograph it front, side, and back.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Where would a rigid shell rub, squeeze, slide, or trap heat on your head?",
+      "readiness": "Your block is close enough to your measurements that a rigid base built on it would be wearable after a test fit."
+    },
+    {
+      "day": 3,
+      "title": "Choosing the Right Base Wig",
+      "objective": "Match cap construction and fiber type to the cosplay problem instead of choosing only by color or length.",
+      "concept": "A lace front is not automatically best. Open-weft caps are often better for modification and ventilation; lace fronts help visible hairlines; mono and hand-tied caps improve realism but may be too delicate or costly for aggressive cosplay engineering.",
+      "glossary": [
+        {
+          "term": "open-weft cap",
+          "definition": "A cap made with rows of wefts and open spaces for airflow and modification."
+        },
+        {
+          "term": "monofilament",
+          "definition": "A fine mesh cap area that can mimic scalp and allow more natural parting."
+        },
+        {
+          "term": "hand-tied",
+          "definition": "Cap construction where hairs are individually tied for natural movement and parting."
+        },
+        {
+          "term": "skin top",
+          "definition": "A cap area with a fake scalp surface, often used for natural-looking parts."
+        },
+        {
+          "term": "hybrid base",
+          "definition": "A base combining methods, such as lace front plus wefts, shell plus wig, or soft plus hard zones."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Wigs.com: Cap Construction Guide",
+          "url": "https://www.wigs.com/pages/cap-construction-guide"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "practice": "For five characters, choose a base strategy: basic wig, lace front, bangless skin-top, ponytail base, hard-shell base, or hybrid. Justify each in one sentence.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What cap type would you sacrifice for realism, and what cap type would you sacrifice for durability?",
+      "readiness": "You can choose a base by hairline visibility, weight, ventilation, modification difficulty, and budget."
+    },
+    {
+      "day": 4,
+      "title": "Fiber Behavior and Heat Safety",
+      "objective": "Learn how synthetic fiber responds to heat and why every wig needs brand-specific testing.",
+      "concept": "Heat-resistant does not mean heat-proof. Synthetic fiber reshapes when heated and locks when cooled, but too much heat can frizz, kink, melt, or permanently change texture. Start low, test hidden strands, and let fiber cool before evaluating.",
+      "glossary": [
+        {
+          "term": "heat-resistant",
+          "definition": "Able to tolerate controlled heat better than standard synthetic fiber, but still meltable."
+        },
+        {
+          "term": "heat-friendly",
+          "definition": "A synthetic fiber label meaning it can tolerate some heat, within brand limits."
+        },
+        {
+          "term": "strand test",
+          "definition": "A hidden test on a small fiber section before using heat, dye, or product broadly."
+        },
+        {
+          "term": "cool-down",
+          "definition": "The period after heat shaping when synthetic fiber locks into its new shape."
+        },
+        {
+          "term": "fiber memory",
+          "definition": "Synthetic fiber's tendency to keep the shape it cooled or was stored in."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Using Heat Tools",
+          "url": "https://www.epiccosplay.com/pages/using-heat-tools"
+        },
+        {
+          "title": "Epic: Straightening a Wig with Heat",
+          "url": "https://www.epiccosplay.com/blogs/styling-guide/straightening-a-wig-with-heat"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "HairUWear / Raquel Welch: Colors and Care",
+          "url": "https://www.hairuwear.com/raquel-welch/colors-and-care/"
+        },
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        },
+        {
+          "title": "Kasou Wig Fiber Page",
+          "url": "https://www.kasouwig.com/pages/wig-fiber-page-37"
+        }
+      ],
+      "practice": "Make a heat-test card with brand, fiber claim, starting temperature, tool, test location, before/after photo, and result after cooling.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What is the difference between softening fiber, reshaping fiber, and damaging fiber?",
+      "readiness": "You can perform a hidden strand heat test and choose a conservative working temperature."
+    },
+    {
+      "day": 5,
+      "title": "Care, Detangling, Storage, and Lifespan",
+      "objective": "Build maintenance habits that keep practice wigs usable and styled wigs convention-ready.",
+      "concept": "Detangling and storage determine whether the wig survives repeated styling, travel, and wear. Work from ends upward, handle lace gently, and plan storage around the silhouette. Helmet wigs need crush protection and repair access.",
+      "glossary": [
+        {
+          "term": "ends-to-roots",
+          "definition": "Detangling from the tips upward so knots are not dragged tighter into the wig."
+        },
+        {
+          "term": "lace handling",
+          "definition": "Gentle pinning, cutting, combing, and cleaning so fragile lace does not tear."
+        },
+        {
+          "term": "friction frizz",
+          "definition": "Frizz caused by rubbing against clothes, bags, collars, hands, or storage surfaces."
+        },
+        {
+          "term": "crush zone",
+          "definition": "The area most likely to collapse or flatten during transport or storage."
+        },
+        {
+          "term": "repair kit",
+          "definition": "A small set of tools and materials for expected failures during wear or travel."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        },
+        {
+          "title": "Epic Cosplay Wigs: Tips and Tricks",
+          "url": "https://www.epiccosplay.com/pages/tips-and-tricks"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "HairUWear / Raquel Welch: Colors and Care",
+          "url": "https://www.hairuwear.com/raquel-welch/colors-and-care/"
+        },
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        }
+      ],
+      "practice": "Detangle one wig or fiber sample ends-to-roots. Design two storage plans: one for a loose long wig and one for a heavily styled or helmet wig.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What part of a styled wig is most likely to fail during storage?",
+      "readiness": "You can explain how you will detangle, clean, dry, store, and transport a wig before styling it."
+    },
+    {
+      "day": 6,
+      "title": "Heat Setting: Straightening, Curling, Steam, and Cool-Down",
+      "objective": "Use heat as a controlled setting method instead of a random styling shortcut.",
+      "concept": "Synthetic fiber remembers the shape it cools in. Straightening uses tension, moisture, and controlled heat; curling uses heat plus a roller, pin, clip, or held shape. The habit is: heat, hold, cool, then evaluate.",
+      "glossary": [
+        {
+          "term": "setting",
+          "definition": "Shaping synthetic fiber with heat, steam, tension, clips, or rollers until it cools."
+        },
+        {
+          "term": "tension",
+          "definition": "Controlled pulling force used while cutting, straightening, setting, or anchoring hair."
+        },
+        {
+          "term": "steam",
+          "definition": "Moist heat used to relax, reshape, or set synthetic fiber with controlled handling."
+        },
+        {
+          "term": "roller set",
+          "definition": "Curling fiber around rollers, heating or steaming, then cooling before release."
+        },
+        {
+          "term": "thermal reset",
+          "definition": "Using heat or steam to relax old shape memory and set a new one."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Using Heat Tools",
+          "url": "https://www.epiccosplay.com/pages/using-heat-tools"
+        },
+        {
+          "title": "Epic: Straightening a Wig with Heat",
+          "url": "https://www.epiccosplay.com/blogs/styling-guide/straightening-a-wig-with-heat"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        },
+        {
+          "title": "HairUWear / Raquel Welch: Colors and Care",
+          "url": "https://www.hairuwear.com/raquel-welch/colors-and-care/"
+        }
+      ],
+      "practice": "On a test section, create one straightened section and one curled section. Photograph immediately after heat and after full cooling.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which gave more control: direct flat iron, water-assisted flat iron, steam, or roller setting?",
+      "readiness": "You can intentionally set a straight or curled section without repeated overheating."
+    },
+    {
+      "day": 7,
+      "title": "Cutting Basics: Sectioning, Bangs, and Face Shape",
+      "objective": "Cut conservatively using sectioning, test fitting, and gradual refinement.",
+      "concept": "Synthetic wig cutting is unforgiving. Start longer than needed, cut in small passes, test on your head or correct block, and avoid blunt horizontal chopping unless the character needs it. Bangs define character recognition.",
+      "glossary": [
+        {
+          "term": "sectioning",
+          "definition": "Dividing hair into controlled areas before cutting, heating, teasing, or styling."
+        },
+        {
+          "term": "fringe",
+          "definition": "Bangs or front hair pieces that frame the forehead and face."
+        },
+        {
+          "term": "face frame",
+          "definition": "Pieces cut around the face to shape the character silhouette and flatter the wearer."
+        },
+        {
+          "term": "rough cut",
+          "definition": "The first conservative cut that removes length while leaving room to refine."
+        },
+        {
+          "term": "refinement pass",
+          "definition": "A later, smaller cutting or styling pass after the rough shape is established."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: How to Cut Any Bangs",
+          "url": "https://www.epiccosplay.com/pages/how-to-cut-any-bangs"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "practice": "On a cheap wig or practice section, mark desired bang length with clips, then cut in three passes: rough length, shape, refinement.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Where did the hair move differently on the block versus on your head?",
+      "readiness": "You can cut bangs without overcutting the final visible edge in the first pass."
+    },
+    {
+      "day": 8,
+      "title": "Layering, Thinning, and Razor Texture",
+      "objective": "Remove bulk and create movement while avoiding visible cap gaps.",
+      "concept": "Cosplay wigs often arrive too dense or blunt. Thin ends before roots, lift sections, work gradually, and check the silhouette from multiple angles. Razor cutting helps anime texture, feathered ends, and face-framing pieces.",
+      "glossary": [
+        {
+          "term": "layering",
+          "definition": "Cutting hair at different lengths to remove bulk, create shape, or add movement."
+        },
+        {
+          "term": "thinning",
+          "definition": "Removing bulk without shortening the whole section, usually with thinning shears or careful cuts."
+        },
+        {
+          "term": "razor texture",
+          "definition": "Texture made with a razor to create feathered, piecey, or anime-styled ends."
+        },
+        {
+          "term": "point cut",
+          "definition": "Cutting into the ends with scissor tips to soften a blunt edge."
+        },
+        {
+          "term": "cap exposure",
+          "definition": "Visible wig cap or weft tracks showing through the hair."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Epic Cosplay Wigs: Tips and Tricks",
+          "url": "https://www.epiccosplay.com/pages/tips-and-tricks"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Epic: How to Cut Any Bangs",
+          "url": "https://www.epiccosplay.com/pages/how-to-cut-any-bangs"
+        }
+      ],
+      "practice": "Create three sample cuts: blunt end, point-cut end, and razor-feathered end. Photograph each against a plain background.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which texture reads most natural, most anime, and most sculptural?",
+      "readiness": "You can thin or texture ends without exposing the cap or destroying the silhouette."
+    },
+    {
+      "day": 9,
+      "title": "Crimping, Teasing, and Hidden Volume",
+      "objective": "Build volume underneath the visible surface while keeping the outside clean.",
+      "concept": "Large cosplay hair is rarely held up by hairspray alone. It uses hidden texture: crimping, teasing, backcombing, added wefts, or internal support. Separate support layers from display layers.",
+      "glossary": [
+        {
+          "term": "crimping",
+          "definition": "Adding tiny waves with a crimping iron to create grip, volume, and hidden structure."
+        },
+        {
+          "term": "teasing",
+          "definition": "Backcombing fiber to create volume, texture, and internal grip."
+        },
+        {
+          "term": "backcombing",
+          "definition": "Teasing hair by pushing fibers toward the roots to create hidden volume and grip."
+        },
+        {
+          "term": "support layer",
+          "definition": "The hidden underlayer that creates volume, grip, lift, or structure."
+        },
+        {
+          "term": "display layer",
+          "definition": "The visible outer hair layer that hides support work underneath."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Crimp only the underlayer of one section, tease it, then smooth an untouched outer layer over it. Compare with an uncrimped teased section.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What minimum internal texture gives the maximum visible lift?",
+      "readiness": "You can create volume that does not look frizzy from the outside."
+    },
+    {
+      "day": 10,
+      "title": "Product Control: Spray, Glue, Paste, and Smoothing",
+      "objective": "Use styling products strategically without turning the wig brittle.",
+      "concept": "Product should support shape after the structure is correct. Freeze spray, texturizing spray, tacky glue, silicone glue, and paste do different jobs. Weight-bearing pieces need sewn, clipped, wired, or mechanical support underneath.",
+      "glossary": [
+        {
+          "term": "freeze spray",
+          "definition": "A very strong hairspray used for stiff hold, spikes, and surface control."
+        },
+        {
+          "term": "texturizing spray",
+          "definition": "A styling product that adds grip and roughness instead of only shine or stiff hold."
+        },
+        {
+          "term": "cosmetic hold",
+          "definition": "Hold that keeps surface hair neat but is not responsible for carrying weight."
+        },
+        {
+          "term": "load-bearing",
+          "definition": "Responsible for carrying weight or tension; should use structure, stitching, clips, or hardware."
+        },
+        {
+          "term": "surface finish",
+          "definition": "The final visible texture and cleanliness of the outside hair surface."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Aphrodite Spiking Guide",
+          "url": "https://www.epiccosplay.com/pages/aphrodite-spiking-guide"
+        },
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Build two small spikes: one using only spray and one using texture or teasing plus spray. Compare stiffness, surface finish, and failure mode.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Where did product help, and where was it covering up bad structure?",
+      "readiness": "You can choose product based on hold, flexibility, cleanup, and whether the piece is cosmetic or load-bearing."
+    },
+    {
+      "day": 11,
+      "title": "Anime Shape Language: Bang Chunks, Silhouette, and Readability",
+      "objective": "Translate drawn hair into a wearable style using silhouette and piece hierarchy.",
+      "concept": "Anime and game hair is graphic design, not literal hair. Start by drawing the style as 5 to 9 major forms. Decide which pieces are soft, supported, removable, or only need to read from the front.",
+      "glossary": [
+        {
+          "term": "silhouette",
+          "definition": "The outer shape of the hairstyle, usually the first thing viewers recognize."
+        },
+        {
+          "term": "chunk hierarchy",
+          "definition": "The ranking of hair chunks by visual importance, size, and structural role."
+        },
+        {
+          "term": "negative space",
+          "definition": "The empty shapes around hair chunks that help the silhouette read clearly."
+        },
+        {
+          "term": "turnaround",
+          "definition": "Front, side, back, and sometimes top reference views of the character or build."
+        },
+        {
+          "term": "readability",
+          "definition": "How quickly the hairstyle reads as the intended character or shape from normal viewing distance."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Epic: How to Cut Any Bangs",
+          "url": "https://www.epiccosplay.com/pages/how-to-cut-any-bangs"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Malindachan: Xiao Wig Tutorial",
+          "url": "https://www.youtube.com/watch?v=uCcCCSIY4oI"
+        }
+      ],
+      "practice": "Choose one character. Draw front, side, and back silhouettes. Label each major chunk as soft, teased, wire-supported, foam-supported, hard-shell, or separate attachment.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which chunks are decorative, and which are structural anchors?",
+      "readiness": "You can reduce complicated character hair into major masses and support decisions before touching the wig."
+    },
+    {
+      "day": 12,
+      "title": "Spikes and Gravity-Defying Shapes",
+      "objective": "Build upright or outward shapes using texture, direction, support, and cooling.",
+      "concept": "Gravity-defying hair succeeds when the load path makes sense. Short spikes may need texture, heat, and product. Long spikes may need wire, foam, glued fiber sheets, or a hard base.",
+      "glossary": [
+        {
+          "term": "load path",
+          "definition": "The route weight and force take through the wig into anchors and the wearer's head."
+        },
+        {
+          "term": "wire core",
+          "definition": "A hidden wire support inside a hair shape or attachment."
+        },
+        {
+          "term": "foam core",
+          "definition": "A lightweight foam support used inside oversized spikes, buns, curls, or shapes."
+        },
+        {
+          "term": "directional heat",
+          "definition": "Heating fiber while holding it in the direction you want it to cool and remember."
+        },
+        {
+          "term": "shake test",
+          "definition": "A movement test that checks whether a style or attachment survives motion."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Aphrodite Spiking Guide",
+          "url": "https://www.epiccosplay.com/pages/aphrodite-spiking-guide"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Make three spike samples: short soft spike, medium textured spike, and a mock long spike with wire or paper/foam core. Test shake resistance.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "At what length did hair stop behaving like hair and start needing a prop core?",
+      "readiness": "You can identify when a shape needs internal support instead of more hairspray."
+    },
+    {
+      "day": 13,
+      "title": "Wefts: Density, Repairs, Color Blocks, and Structure",
+      "objective": "Harvest, place, and sew wefts to add hair where the design needs it.",
+      "concept": "Wefts add density, hide gaps, create color effects, provide material for hairlines, repair cutting mistakes, and cover foam or shell structures. Placement changes both appearance and weight.",
+      "glossary": [
+        {
+          "term": "weft",
+          "definition": "A sewn strip of wig hair that can be added, removed, moved, or harvested."
+        },
+        {
+          "term": "donor wig",
+          "definition": "A second wig used for extra fiber, wefts, color sections, or repairs."
+        },
+        {
+          "term": "seam ripper",
+          "definition": "A small cutting tool used to remove wefts or stitches cleanly."
+        },
+        {
+          "term": "stitch direction",
+          "definition": "The direction stitches travel, which affects strength, hair direction, and clean blending."
+        },
+        {
+          "term": "blend line",
+          "definition": "The transition where added hair, wefts, color, or fiber must visually merge with the base."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Add Wefting to a Wig",
+          "url": "https://www.epiccosplay.com/pages/add-wefting-to-a-wig"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Harvest one row of wefts or use premade wefts. Sew a short section into a hidden part of a practice wig or onto scrap netting.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Did the added weft change density, direction, weight, or all three?",
+      "readiness": "You can add a small weft section securely and blend it with surrounding hair direction."
+    },
+    {
+      "day": 14,
+      "title": "Ponytails, Pigtails, Braids, and Updos",
+      "objective": "Control visible wefts, weight, and attachment points for lifted or pulled-back styles.",
+      "concept": "Updos expose construction. Ponytails and pigtails create weight and backward pull. Solutions include reverse-weft bases, clip-ons, added wefts, braid volume hacks, hidden supports, and toupee clips.",
+      "glossary": [
+        {
+          "term": "reverse weft",
+          "definition": "Wefting placed so hair can be pulled up or back without exposing tracks."
+        },
+        {
+          "term": "clip-on ponytail",
+          "definition": "A separate ponytail piece attached with clips or combs instead of built into the base wig."
+        },
+        {
+          "term": "anchor point",
+          "definition": "The exact location where weight, clips, straps, ponytails, or supports attach."
+        },
+        {
+          "term": "weight balance",
+          "definition": "How weight is distributed so the wig does not pull, tip, or strain the wearer."
+        },
+        {
+          "term": "toupee clip",
+          "definition": "A small comb-like pressure clip sewn into a wig for extra grip."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Ponytail Wig Restyling Guide",
+          "url": "https://www.epiccosplay.com/blogs/styling-guide/ponytail-wig-restyling-guide"
+        },
+        {
+          "title": "Epic: How to Use Ponytail Clip-Ons",
+          "url": "https://www.epiccosplay.com/pages/how-to-use-ponytail-clip-ons"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Epic: Securing Wigs with Toupee Clips",
+          "url": "https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "practice": "Create a low ponytail or pigtail mockup. Identify each exposed gap and plan a fix: extra weft, clip-on piece, hair wrap, or changed placement.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Where did the weight pull the cap, and how would you anchor it for a convention day?",
+      "readiness": "You can plan an updo or ponytail without exposing the cap or relying only on bobby pins."
+    },
+    {
+      "day": 15,
+      "title": "Lace Fronts, Hairlines, and Visible Edges",
+      "objective": "Understand when a wig needs a realistic edge and how lace-front work differs from false hairlines.",
+      "concept": "The edge is where wigs fail visually. Exposed foreheads, widow's peaks, sideburns, and pulled-back styles need hairline planning. Options include lace fronts, ventilating, plucking, baby hairs, false glued hairlines, or hiding the edge.",
+      "glossary": [
+        {
+          "term": "lace front",
+          "definition": "A wig with sheer lace at the front where individual hairs create a realistic hairline."
+        },
+        {
+          "term": "widow's peak",
+          "definition": "A V-shaped point in the front hairline, often needing lace or custom hairline work."
+        },
+        {
+          "term": "ventilating",
+          "definition": "Tying individual hairs into lace or mesh to create hairlines, parts, or repairs."
+        },
+        {
+          "term": "density gradient",
+          "definition": "A planned change from sparse to dense hair, especially near realistic hairlines."
+        },
+        {
+          "term": "false hairline",
+          "definition": "A fake edge made with glued fibers, lace, or styling instead of a natural wig hairline."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Add a Lace Front to Your Wig",
+          "url": "https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig"
+        },
+        {
+          "title": "Wigs.com: Cap Construction Guide",
+          "url": "https://www.wigs.com/pages/cap-construction-guide"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        },
+        {
+          "title": "Malindachan: Xiao Wig Tutorial",
+          "url": "https://www.youtube.com/watch?v=uCcCCSIY4oI"
+        }
+      ],
+      "practice": "Map the visible hairline of one character and choose bangs, lace front, added lace, ventilated peak, glued false hairline, or hidden edge.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Does this character need realism, stylization, or simply a clean edge from 3 feet away?",
+      "readiness": "You can choose a hairline method based on visibility, time, realism needs, and skill level."
+    },
+    {
+      "day": 16,
+      "title": "Ventilating Basics Lab",
+      "objective": "Practice the hand skill behind custom lace fronts and repairs without committing to a full wig.",
+      "concept": "Ventilating is slow, but it unlocks custom hairlines, sideburns, widow's peaks, lace repairs, and natural density transitions. Today is about hook control, hair count, knot direction, and patience.",
+      "glossary": [
+        {
+          "term": "ventilating needle",
+          "definition": "A tiny hook tool used to knot hair into lace."
+        },
+        {
+          "term": "knot direction",
+          "definition": "The angle and placement of ventilating knots, which controls how hair exits the lace."
+        },
+        {
+          "term": "single hair knot",
+          "definition": "A ventilating knot tied with one hair or a very small amount of fiber."
+        },
+        {
+          "term": "density zone",
+          "definition": "An area of lace or wig construction assigned a specific fullness level."
+        },
+        {
+          "term": "practice lace",
+          "definition": "Scrap lace or tulle used to practice ventilating before touching the final wig."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: Add a Lace Front to Your Wig",
+          "url": "https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "practice": "On scrap tulle or lace, tie a small test patch with dense, medium, and sparse zones. Label hook size and hair amount if known.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What density looks natural near the edge, and what density looks like a hair plug?",
+      "readiness": "You can tie repeatable knots into lace or tulle and intentionally vary density."
+    },
+    {
+      "day": 17,
+      "title": "Coloring Synthetic Wigs",
+      "objective": "Choose the safest coloring method for synthetic fiber and swatch-test before modifying a full wig.",
+      "concept": "Synthetic coloring is not human hair dyeing. You usually cannot lighten a synthetic wig with bleach or standard dye. Choose from buying a better base, adding wefts, stovetop synthetic dye, inks, sprays, or surface effects.",
+      "glossary": [
+        {
+          "term": "swatch test",
+          "definition": "A small color or product test on scrap fiber before changing the whole wig."
+        },
+        {
+          "term": "DyeMore",
+          "definition": "A Rit dye line made for synthetic fabrics and some synthetic wig fibers; always swatch first."
+        },
+        {
+          "term": "root shadow",
+          "definition": "Darker color near the roots to add depth, realism, or match a character design."
+        },
+        {
+          "term": "rub-off",
+          "definition": "Color transfer from dye, spray, marker, or product onto skin, clothing, or props."
+        },
+        {
+          "term": "dark-to-light limit",
+          "definition": "The practical rule that synthetic wigs usually cannot be lightened like human hair."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Rit: How to Use DyeMore for Synthetic Fibers",
+          "url": "https://www.ritdye.com/instructions/how-to-use-dyemore-for-synthetic-fibers/"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Kryolan: Color Spray",
+          "url": "https://uk.kryolan.com/product/color-spray"
+        },
+        {
+          "title": "Kasou Wig Fiber Page",
+          "url": "https://www.kasouwig.com/pages/wig-fiber-page-37"
+        }
+      ],
+      "practice": "Create a color decision chart for one character: buy base color, add wefts, dye bath, ombre, marker roots, spray, chalk, or repaint accessory.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Is the color change worth the risk compared with buying a closer base wig?",
+      "readiness": "You can explain why synthetic dyeing requires swatches and why dark-to-light changes usually require a different wig."
+    },
+    {
+      "day": 18,
+      "title": "Adhesives, Skin Safety, and Removal",
+      "objective": "Separate styling fixatives from skin adhesives and plan safe removal.",
+      "concept": "Cosplayers often use 'glue' too broadly. Freeze spray shapes fibers. Craft glues may attach fibers to a base. Spirit gum, Pros-Aide, and wig tapes bond lace, facial hair, or prosthetics to skin and require patch tests and proper removers.",
+      "glossary": [
+        {
+          "term": "patch test",
+          "definition": "A small skin test for adhesives, removers, or products before full use."
+        },
+        {
+          "term": "spirit gum",
+          "definition": "A classic skin adhesive for lace, facial hair, and small prosthetics; use proper remover."
+        },
+        {
+          "term": "Pros-Aide",
+          "definition": "A strong skin-safe prosthetic adhesive used with the correct remover and patch testing."
+        },
+        {
+          "term": "lace tape",
+          "definition": "Double-sided tape made to secure lace fronts or wig edges to skin."
+        },
+        {
+          "term": "remover",
+          "definition": "The correct solvent or product for safely releasing a specific adhesive."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Mehron: Spirit Gum Remover",
+          "url": "https://www.mehron.com/spirit-gum-remover/"
+        },
+        {
+          "title": "Walker Tape: Lace Front Tape",
+          "url": "https://www.walkertapeco.com/walker-tape/tapes/lace-front"
+        },
+        {
+          "title": "Pros-Aide Original Adhesive",
+          "url": "https://frendsbeauty.com/products/pros-aide-adhesive-the-original"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        }
+      ],
+      "practice": "Write a safety card: adhesive type, use case, patch test location, remover, cleanup steps, and what not to use it for.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which parts of your future wig should bond to skin, and which should be mechanically supported?",
+      "readiness": "You can choose an adhesive category and matching remover without confusing styling hold with skin bonding."
+    },
+    {
+      "day": 19,
+      "title": "Convention Maintenance, Packing, and Emergency Repair",
+      "objective": "Design a wig survival plan before the wig is worn in public.",
+      "concept": "A cosplay wig is not finished until it can be worn, transported, repaired, and removed. Long wigs need detangling plans. Spikes need touch-up product. Helmet wigs need crush protection and repair tools.",
+      "glossary": [
+        {
+          "term": "failure mode",
+          "definition": "The specific way something is likely to fail, such as slipping, cracking, frizzing, or detaching."
+        },
+        {
+          "term": "touch-up kit",
+          "definition": "Products and tools packed for quick fixes during wear."
+        },
+        {
+          "term": "transport container",
+          "definition": "A box, bag, stand, or custom carrier that protects the wig in transit."
+        },
+        {
+          "term": "removable section",
+          "definition": "A component designed to detach for packing, repair, comfort, or access."
+        },
+        {
+          "term": "crush protection",
+          "definition": "Packing or storage support that prevents styled shapes from being flattened."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        },
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        }
+      ],
+      "practice": "Build a con-day repair list for three wigs: loose long wig, spiked wig, and helmet/hard-shell wig.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What failure would end the day immediately, and what failure is only cosmetic?",
+      "readiness": "You can pack a wig in a way that protects the silhouette and includes realistic repair tools."
+    },
+    {
+      "day": 20,
+      "title": "Milestone Project 1: Short Character Wig",
+      "objective": "Complete a wearable short or medium character wig using cutting, texture, heat, and product control.",
+      "concept": "Choose a manageable style: bangs, face framing, mild spikes, or stylized chunks. Avoid adding every technique at once. The goal is a clean wearable result with documented choices and fixes.",
+      "glossary": [
+        {
+          "term": "milestone build",
+          "definition": "A focused project used to prove several skills before moving to harder work."
+        },
+        {
+          "term": "front view",
+          "definition": "The straight-on view, often the most important angle for character recognition."
+        },
+        {
+          "term": "three-quarter view",
+          "definition": "An angled view between front and side that often reveals silhouette and depth problems."
+        },
+        {
+          "term": "tool log",
+          "definition": "A record of tools, temperatures, products, timing, and results for repeatable work."
+        },
+        {
+          "term": "fix list",
+          "definition": "A short list of known problems and the next specific repair or improvement for each."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Epic: How to Cut Any Bangs",
+          "url": "https://www.epiccosplay.com/pages/how-to-cut-any-bangs"
+        },
+        {
+          "title": "Epic: Aphrodite Spiking Guide",
+          "url": "https://www.epiccosplay.com/pages/aphrodite-spiking-guide"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        }
+      ],
+      "practice": "Style a short or medium practice wig. Save front, side, and back photos, tool list, heat settings, cutting notes, and three improvements.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What looked bad in progress but resolved later, and what problem needed an actual technique change?",
+      "readiness": "Your wig reads as an intentional character style from front, side, and three-quarter angles."
+    },
+    {
+      "day": 21,
+      "title": "Structural Wig Engineering: Load Paths and Support Choices",
+      "objective": "Move from styling hair to engineering cosplay hair safely and intentionally.",
+      "concept": "Structural wigs ask: what carries the weight? Possible answers include teased fiber, added wefts, wire, foam, mesh, hard shell, clip-ons, hardware, or a helmet. Decide what flexes, what stays rigid, and where the wearer feels the load.",
+      "glossary": [
+        {
+          "term": "load path",
+          "definition": "The route weight and force take through the wig into anchors and the wearer's head."
+        },
+        {
+          "term": "anchor",
+          "definition": "The part of the wig, cap, shell, strap, clip, or hardware that carries pull or weight."
+        },
+        {
+          "term": "rigid zone",
+          "definition": "A section intended to stay firm and carry shape or load."
+        },
+        {
+          "term": "flex zone",
+          "definition": "A part of the build meant to bend or move without cracking or pulling painfully."
+        },
+        {
+          "term": "hardware",
+          "definition": "Physical fasteners or parts such as screws, snaps, clips, magnets, straps, and buckles."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        },
+        {
+          "title": "Arda: How to Make a Hard Shell Wig Cap",
+          "url": "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "For one impossible hairstyle, draw a load-path map showing gravity, supports, attachments, and pressure points.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which part of the wig is hair, which part is sculpture, and which part is hardware?",
+      "readiness": "You can choose between soft styling, wire, foam, hard shell, or mechanical attachment based on the problem."
+    },
+    {
+      "day": 22,
+      "title": "Foam Cores, Wire Supports, and Removable Sections",
+      "objective": "Prototype supports for shapes that hair alone cannot hold.",
+      "concept": "Foam and wire add volume without massive hair weight. Good supports are lightweight, balanced, hidden, and repairable. Bad supports are heavy, sharp, glued only at the surface, or impossible to pack.",
+      "glossary": [
+        {
+          "term": "foam core",
+          "definition": "A lightweight foam support used inside oversized spikes, buns, curls, or shapes."
+        },
+        {
+          "term": "wire support",
+          "definition": "Wire used to hold shape, spread load, or connect a piece to anchors."
+        },
+        {
+          "term": "detachable section",
+          "definition": "A piece designed to come off for packing, wear, repair, or safety."
+        },
+        {
+          "term": "coverage",
+          "definition": "How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction."
+        },
+        {
+          "term": "repairability",
+          "definition": "How easy it is to access, fix, replace, or reinforce a part after damage."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Build a palm-sized mock support from wire, foam, paper, or cardboard. Cover part of it with scrap fiber or yarn to test visibility.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What made the prototype stable: stiffness, attachment width, shape, or hair coverage?",
+      "readiness": "You can explain how a support will attach before decorating it with hair."
+    },
+    {
+      "day": 23,
+      "title": "Helmet Wigs I: Hard-Shell / Hard-Cap Base",
+      "objective": "Learn the hard-shell cap workflow and decide when a helmet wig is appropriate.",
+      "concept": "A helmet wig is hair over a rigid or semi-rigid base. The base must be blocked to the wearer's size, lined for comfort, safe at the edges, and tested before final styling.",
+      "glossary": [
+        {
+          "term": "hard shell",
+          "definition": "A rigid helmet-like base that carries structure under the visible hair surface."
+        },
+        {
+          "term": "liner",
+          "definition": "A comfort layer inside a shell or cap that protects the head and improves fit."
+        },
+        {
+          "term": "edge safety",
+          "definition": "Smoothing, padding, and shaping rigid edges so they do not cut, rub, or jab."
+        },
+        {
+          "term": "ventilation gap",
+          "definition": "A planned opening that reduces heat buildup under a cap or shell."
+        },
+        {
+          "term": "shell mockup",
+          "definition": "A temporary test version of a rigid base, often paper, tape, foam, or scrap material."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda: How to Make a Hard Shell Wig Cap",
+          "url": "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Emilia Couture: Making Hard Cap Wigs - Part 1",
+          "url": "https://www.youtube.com/watch?v=Cjfshb2mwxY"
+        },
+        {
+          "title": "Nymesia Cosplay: Helmet Wig Base Short",
+          "url": "https://www.youtube.com/shorts/rHlvBXMGVjE"
+        }
+      ],
+      "practice": "Make a mini shell sample or paper/tape mockup on your block. Mark hairline, ears, expansion gap, ventilation gaps, and attachment zones.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Would this style be better as a full shell, partial shell, foam core, or soft wig with supports?",
+      "readiness": "You can describe each helmet-wig layer: wearer, cap/liner, rigid base, anchor zones, hair skin, and finish layer."
+    },
+    {
+      "day": 24,
+      "title": "Helmet Wigs II: Covering the Shell and Finishing Visible Edges",
+      "objective": "Plan how fiber, wefts, lace, and parting hide the rigid base while preserving the character shape.",
+      "concept": "A helmet wig fails visually when the edge, part, or seam reads as prop. Covering strategy can use a base wig, sewn wefts, glued fiber sheets, ventilated lace, or panels. Hair direction must match the design.",
+      "glossary": [
+        {
+          "term": "hair skin",
+          "definition": "A layer of hair, wefts, or fiber sheets used like a skin over a hard base."
+        },
+        {
+          "term": "part line",
+          "definition": "The visible line where hair separates; on wigs it often needs extra planning to look clean."
+        },
+        {
+          "term": "fiber sheet",
+          "definition": "A flat sheet of glued or fused wig fiber used to cover shapes or make stylized pieces."
+        },
+        {
+          "term": "ear tab",
+          "definition": "The side tab area of a wig near the ear, important for fit and edge blending."
+        },
+        {
+          "term": "seam camouflage",
+          "definition": "Techniques that hide joins using hair direction, texture, color, lace, or accessories."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda: How to Make a Hard Shell Wig Cap",
+          "url": "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"
+        },
+        {
+          "title": "Epic: Add a Lace Front to Your Wig",
+          "url": "https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Emilia Couture: Making Hard Cap Wigs - Part 3",
+          "url": "https://www.youtube.com/watch?v=rm8apoqCD6E"
+        },
+        {
+          "title": "Epic: Add Wefting to a Wig",
+          "url": "https://www.epiccosplay.com/pages/add-wefting-to-a-wig"
+        }
+      ],
+      "practice": "On your shell mockup, draw hair direction arrows and label base wig, added wefts, glued fiber, lace, false hairline, or exposed accessory edge.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Where will the viewer's eye catch a seam first, and how can hair direction hide it?",
+      "readiness": "You can plan a shell covering strategy before applying glue or cutting wefts."
+    },
+    {
+      "day": 25,
+      "title": "Helmet Wigs III: Headpieces, Horns, Masks, Magnets, and Mechanical Attachment",
+      "objective": "Integrate wig structures with armor or accessories without depending on fragile surface glue.",
+      "concept": "Large headpieces need planning for weight, removability, transport, comfort, and repair. Buckles, snaps, Chicago screws, magnets, foam cores, and sewn straps can beat hiding everything on a headband.",
+      "glossary": [
+        {
+          "term": "mechanical attachment",
+          "definition": "A physical attachment method like clips, screws, snaps, straps, buckles, or magnets."
+        },
+        {
+          "term": "Chicago screw",
+          "definition": "A two-part screw fastener useful for removable or serviceable costume attachments."
+        },
+        {
+          "term": "magnet",
+          "definition": "A magnetic fastener; useful only when strong, aligned, backed up, and safe for the use case."
+        },
+        {
+          "term": "access point",
+          "definition": "A planned opening or reachable spot for tightening, removing, or repairing hidden hardware."
+        },
+        {
+          "term": "backup repair",
+          "definition": "A prepared fallback fix for a likely failure, packed before the wig is worn."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Epic: Securing Wigs with Toupee Clips",
+          "url": "https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips"
+        },
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Design one attachment plan for horns, a mask, a crown, or detachable hair mass. Include anchor material, hardware, removal method, and backup repair.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Does the attachment need to be permanent, removable, adjustable, or replaceable?",
+      "readiness": "You can choose a mechanical attachment method and explain why it is safer or more reliable than glue alone."
+    },
+    {
+      "day": 26,
+      "title": "Comfort, Ventilation, Wear Testing, and Safety",
+      "objective": "Test whether an engineered wig is actually wearable.",
+      "concept": "A beautiful helmet wig fails if it causes pain, traps too much heat, slides backward, blocks hearing or vision, or cannot be removed safely. Wear testing belongs before final finishing.",
+      "glossary": [
+        {
+          "term": "wear test",
+          "definition": "A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points."
+        },
+        {
+          "term": "pressure point",
+          "definition": "A spot where weight, edge, clip, strap, or shell presses uncomfortably."
+        },
+        {
+          "term": "neck strain",
+          "definition": "Discomfort from weight, leverage, or poor balance pulling on the head and neck."
+        },
+        {
+          "term": "airflow channel",
+          "definition": "A deliberate gap or path that lets heat escape from under a wig or rigid base."
+        },
+        {
+          "term": "removal method",
+          "definition": "The planned safe way to take off adhesive, hardware, clips, or a shell."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Wigs.com: Cap Construction Guide",
+          "url": "https://www.wigs.com/pages/cap-construction-guide"
+        },
+        {
+          "title": "Jon Renau: Synthetic Guide",
+          "url": "https://jonrenau.com/blog/synthetic-guide/"
+        },
+        {
+          "title": "HairUWear / Raquel Welch: Colors and Care",
+          "url": "https://www.hairuwear.com/raquel-welch/colors-and-care/"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Arda: How to Make a Hard Shell Wig Cap",
+          "url": "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"
+        },
+        {
+          "title": "Epic: Securing Wigs with Toupee Clips",
+          "url": "https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips"
+        }
+      ],
+      "practice": "Run a 20-minute wear test with a mockup or heavy wig. Log heat, pressure, sliding, visibility, neck strain, and failure points.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What did your body tell you that the mirror did not?",
+      "readiness": "Your plan includes comfort padding, ventilation allowance, anchor points, and a removal method."
+    },
+    {
+      "day": 27,
+      "title": "Milestone Project 2: Engineered Ponytail, Spike, or Gravity-Defying Section",
+      "objective": "Build one structural element that can survive movement and be documented clearly.",
+      "concept": "Before a full helmet wig, prove one engineered element: ponytail, drill curl, large spike, foam-supported bun, floating ahoge, or detachable hair mass. Test support, coverage, anchor, and finish together.",
+      "glossary": [
+        {
+          "term": "structural test piece",
+          "definition": "A small prototype proving support, coverage, attachment, finish, and repair before the final build."
+        },
+        {
+          "term": "tilt test",
+          "definition": "A movement test where the head or piece is tilted to check balance and attachment."
+        },
+        {
+          "term": "shake test",
+          "definition": "A movement test that checks whether a style or attachment survives motion."
+        },
+        {
+          "term": "coverage failure",
+          "definition": "When hidden structure, foam, shell, seams, or cap show through the finished surface."
+        },
+        {
+          "term": "anchor failure",
+          "definition": "A support breaks loose because the attachment point was too weak, small, or poorly placed."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        },
+        {
+          "title": "Epic: Add Wefting to a Wig",
+          "url": "https://www.epiccosplay.com/pages/add-wefting-to-a-wig"
+        },
+        {
+          "title": "Epic: Aphrodite Spiking Guide",
+          "url": "https://www.epiccosplay.com/pages/aphrodite-spiking-guide"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Build one structural test piece. Do a shake test, tilt test, attachment/removal test, three-angle photos, and written failure analysis.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which part failed first: support, attachment, coverage, finish, or comfort?",
+      "readiness": "Your test piece has a defined support method, clean enough surface finish, and a repair plan."
+    },
+    {
+      "day": 28,
+      "title": "Capstone Planning: Competition-Quality Helmet Wig Blueprint",
+      "objective": "Create a build-ready plan for a competition-level helmet or hard-shell cosplay wig.",
+      "concept": "A competition-quality plan documents decisions: references, turnarounds, materials, measurements, support strategy, fiber colors, hairline, shell method, hardware, ventilation, comfort, transport, repair kit, and photo checklist.",
+      "glossary": [
+        {
+          "term": "blueprint",
+          "definition": "A build-ready plan with references, measurements, materials, order, risks, and checkpoints."
+        },
+        {
+          "term": "turnaround",
+          "definition": "Front, side, back, and sometimes top reference views of the character or build."
+        },
+        {
+          "term": "risk list",
+          "definition": "Known build risks paired with tests, backups, or mitigation plans."
+        },
+        {
+          "term": "build order",
+          "definition": "The sequence of construction steps, chosen so later work does not damage earlier work."
+        },
+        {
+          "term": "photo checklist",
+          "definition": "The required angles and detail shots needed to judge or document the build."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda: How to Make a Hard Shell Wig Cap",
+          "url": "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"
+        },
+        {
+          "title": "Popverse: Attaching Masks and Headpieces",
+          "url": "https://www.thepopverse.com/cosplay-wig-tips-masks-headpiece"
+        },
+        {
+          "title": "Epic: Add a Lace Front to Your Wig",
+          "url": "https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Emilia Couture: Making Hard Cap Wigs - Part 1",
+          "url": "https://www.youtube.com/watch?v=Cjfshb2mwxY"
+        },
+        {
+          "title": "Emilia Couture: Making Hard Cap Wigs - Part 3",
+          "url": "https://www.youtube.com/watch?v=rm8apoqCD6E"
+        },
+        {
+          "title": "Nymesia Cosplay: Helmet Wig Base Short",
+          "url": "https://www.youtube.com/shorts/rHlvBXMGVjE"
+        }
+      ],
+      "practice": "Create a 2-4 page helmet wig blueprint with front/side/back sketches, measurements, materials, build order, risk list, and readiness checkpoints.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What part of the build needs a test sample before the final wig?",
+      "readiness": "Your blueprint identifies base, support, hair coverage, hairline, attachment, comfort, and transport."
+    },
+    {
+      "day": 29,
+      "title": "Critique, Photography, and Documentation",
+      "objective": "Assess wig work using consistent visual and engineering criteria.",
+      "concept": "Good documentation helps learning and judging. Photograph front, side, back, three-quarter, top if relevant, hairline close-up, interior construction, and transport setup. Score exact causes, not vague impressions.",
+      "glossary": [
+        {
+          "term": "rubric",
+          "definition": "A scoring guide for judging silhouette, fit, finish, durability, comfort, and documentation."
+        },
+        {
+          "term": "three-quarter view",
+          "definition": "An angled view between front and side that often reveals silhouette and depth problems."
+        },
+        {
+          "term": "interior construction",
+          "definition": "The inside support system: cap, shell, clips, padding, straps, anchors, and seams."
+        },
+        {
+          "term": "accuracy",
+          "definition": "How closely the wig matches the character reference while still working on a real head."
+        },
+        {
+          "term": "repairability",
+          "definition": "How easy it is to access, fix, replace, or reinforce a part after damage."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Popverse: Cosplay Wig Guide",
+          "url": "https://www.thepopverse.com/cosplay-wig-wigs-cheap-tips-tricks"
+        },
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        }
+      ],
+      "practice": "Photograph Milestone Project 1, Milestone Project 2, or your helmet mockup. Score silhouette, fit, finish, edge, durability, comfort, and documentation.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "Which flaw is most visible to a camera, and which flaw matters most to wearability?",
+      "readiness": "You can critique a wig by identifying exact technical causes instead of saying only that it looks bad."
+    },
+    {
+      "day": 30,
+      "title": "Final Review and Next Project Roadmap",
+      "objective": "Convert 30 days of study into a personal wig-styling workflow and next-build plan.",
+      "concept": "The course ends with a repeatable workflow: analyze character, choose base, test fiber, block correctly, build support, style surface, finish edges, wear-test, document, pack, and repair. Pick the next project to target one weak skill.",
+      "glossary": [
+        {
+          "term": "workflow",
+          "definition": "The repeatable order you use to analyze, build, test, finish, pack, and repair."
+        },
+        {
+          "term": "weak-skill target",
+          "definition": "The specific technique chosen for extra practice in the next project."
+        },
+        {
+          "term": "soft styled wig",
+          "definition": "A wig shaped mainly with cutting, heat, teasing, and product rather than hard support."
+        },
+        {
+          "term": "supported wig",
+          "definition": "A wig with hidden support such as teasing, wire, foam, extra wefts, clips, or anchors."
+        },
+        {
+          "term": "helmet wig",
+          "definition": "A wig built over a rigid or semi-rigid shell, usually for large sculptural hair."
+        }
+      ],
+      "requiredResources": [
+        {
+          "title": "Arda Wigs Tutorial Master List",
+          "url": "https://arda-wigs.com/pages/tutorial"
+        },
+        {
+          "title": "Epic Cosplay Wigs: Tips and Tricks",
+          "url": "https://www.epiccosplay.com/pages/tips-and-tricks"
+        },
+        {
+          "title": "Arda: How to Make a Hard Shell Wig Cap",
+          "url": "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"
+        }
+      ],
+      "optionalResources": [
+        {
+          "title": "Cowbutt Crunchies: Mastering Extreme Wig Styling",
+          "url": "https://www.youtube.com/watch?v=zS6apqPudAE"
+        },
+        {
+          "title": "Emilia Couture: Making Hard Cap Wigs - Part 1",
+          "url": "https://www.youtube.com/watch?v=Cjfshb2mwxY"
+        },
+        {
+          "title": "Malindachan: Xiao Wig Tutorial",
+          "url": "https://www.youtube.com/watch?v=uCcCCSIY4oI"
+        }
+      ],
+      "practice": "Write your personal wig workflow checklist and choose three future projects: one soft styled wig, one supported wig, and one helmet/hard-shell wig.",
+      "safety": "Work on scraps or hidden sections first; for heat, dyes, adhesives, blades, foam, dust, or hard-shell materials, use the relevant protective gear and ventilation before touching the final wig.",
+      "reflection": "What technique should you practice on scraps before using it on an expensive wig?",
+      "readiness": "You can give another AI a character reference and ask for a build plan using the vocabulary and workflow from this course."
+    }
+  ]
+}
