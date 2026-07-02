@@ -13,7 +13,10 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
 
   await expect(page.getByRole("heading", { name: "Cosplay Wig Styling" })).toBeVisible();
   await page.getByLabel("Read lesson").check();
-  await expect(page.getByText("1/5 done").first()).toBeVisible();
+  await expect(page.getByText("1/5 core done").first()).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Lesson flags" })).toBeVisible();
+  await page.getByLabel("Stuck on this").check();
+  await expect(page.getByText("1/5 core done").first()).toBeVisible();
 
   const hasHorizontalOverflow = await page.evaluate(
     () => document.documentElement.scrollWidth > document.documentElement.clientWidth,

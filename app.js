@@ -142,12 +142,12 @@ function renderLessonList() {
     node.classList.toggle("is-active", lesson.day === state.selectedDay && state.view !== "glossary");
     node.classList.toggle("is-complete", completion.complete);
     node.classList.toggle("has-progress", completion.done > 0);
-    node.setAttribute("aria-label", `Day ${lesson.day}: ${lesson.title}, ${completion.done} of ${completion.total} complete`);
+    node.setAttribute("aria-label", `Day ${lesson.day}: ${lesson.title}, ${completion.done} of ${completion.total} core items complete`);
     node.querySelector(".lesson-day").textContent = lesson.day;
     node.querySelector(".lesson-title").textContent = lesson.title;
     node.querySelector(".lesson-state").textContent = completion.complete
       ? "Complete"
-      : `${completion.done}/${completion.total} done`;
+      : `${completion.done}/${completion.total} core done`;
     node.addEventListener("click", () => {
       state.selectedDay = lesson.day;
       state.view = "lessons";
@@ -193,15 +193,29 @@ function renderLesson(lesson) {
           <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>Next lesson</button>
         </div>
       </div>
-      <span class="status-pill">${completion.complete ? "Complete" : `${completion.done}/${completion.total} done`}</span>
+      <span class="status-pill">${completion.complete ? "Complete" : `${completion.done}/${completion.total} core done`}</span>
     </div>
     <div class="section-grid">
       <section class="section is-wide">
-        <h3>Checklist</h3>
-        <div class="checklist">
+        <div class="checklist-header">
+          <div>
+            <h3>Completion checklist</h3>
+            <p class="muted">These five items count toward lesson progress.</p>
+          </div>
+          <span class="mini-status">${completion.done}/${completion.total} core done</span>
+        </div>
+        <div class="checklist" aria-label="Completion checklist">
           ${CHECKS.map(([key, label]) => checkRow(lesson.day, key, label, progress.checks?.[key])).join("")}
-          ${checkRow(lesson.day, "stuck", "Stuck on this", progress.stuck, "flag")}
-          ${checkRow(lesson.day, "needsMaterials", "Needs materials", progress.needsMaterials, "flag")}
+        </div>
+        <div class="flag-group" aria-label="Lesson flags">
+          <div>
+            <h3>Lesson flags</h3>
+            <p class="muted">These are notes for planning and do not change completion.</p>
+          </div>
+          <div class="flag-list">
+            ${checkRow(lesson.day, "stuck", "Stuck on this", progress.stuck, "flag")}
+            ${checkRow(lesson.day, "needsMaterials", "Needs materials", progress.needsMaterials, "flag")}
+          </div>
         </div>
       </section>
       <section class="section is-wide">
@@ -290,7 +304,7 @@ function renderLesson(lesson) {
 function checkRow(day, key, label, checked, kind = "check") {
   const id = `lesson-${day}-${key}`;
   return `
-    <label class="check-item" for="${id}">
+    <label class="check-item ${kind === "flag" ? "is-flag" : ""}" for="${id}">
       <input id="${id}" data-check="${key}" data-kind="${kind}" type="checkbox" ${checked ? "checked" : ""}>
       <span>${escapeHtml(label)}</span>
     </label>
@@ -388,7 +402,7 @@ function renderProgress() {
             return `
               <li>
                 <strong>Day ${lesson.day}: ${escapeHtml(lesson.title)}</strong>
-                <div class="muted">${completion.done}/${completion.total} complete${flags.length ? ` - ${flags.join(", ")}` : ""}</div>
+                <div class="muted">${completion.done}/${completion.total} core complete${flags.length ? ` - ${flags.join(", ")}` : ""}</div>
               </li>
             `;
           }).join("")}

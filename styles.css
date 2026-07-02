@@ -509,6 +509,40 @@ textarea {
   gap: 10px;
 }
 
+.checklist-header,
+.flag-group {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: start;
+  margin-bottom: 12px;
+}
+
+.checklist-header h3,
+.flag-group h3 {
+  margin-bottom: 4px;
+}
+
+.checklist-header p,
+.flag-group p {
+  margin: 0;
+}
+
+.mini-status {
+  display: inline-flex;
+  min-height: 36px;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  border: 2px solid #bfe7a8;
+  border-radius: 999px;
+  padding: 6px 12px;
+  background: #efffe8;
+  color: #1f6700;
+  font-size: 0.8rem;
+  font-weight: 1000;
+}
+
 .check-item {
   display: grid;
   grid-template-columns: 26px minmax(0, 1fr);
@@ -534,6 +568,34 @@ textarea {
 .check-item:has(input:checked) {
   border-color: #65c934;
   background: #efffe8;
+}
+
+.flag-group {
+  margin: 16px 0 0;
+  padding-top: 16px;
+  border-top: 2px dashed #d7e1ef;
+}
+
+.flag-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.check-item.is-flag {
+  border-color: #ead7a3;
+  background: #fffaf0;
+  color: #6f4e00;
+  box-shadow: none;
+}
+
+.check-item.is-flag input {
+  accent-color: var(--orange);
+}
+
+.check-item.is-flag:has(input:checked) {
+  border-color: #ffb23d;
+  background: #fff0ce;
 }
 
 .definition-list,
@@ -618,6 +680,11 @@ textarea {
   .definition-list {
     grid-template-columns: 1fr;
   }
+
+  .checklist-header,
+  .flag-group {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 560px) {
@@ -648,7 +715,8 @@ textarea {
     width: 100%;
   }
 
-  .checklist {
+  .checklist,
+  .flag-list {
     grid-template-columns: 1fr;
   }
 
