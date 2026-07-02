@@ -335,10 +335,14 @@ function renderGlossary() {
         <p class="muted">${terms.size} terms across the course.</p>
       </div>
     </div>
-    <div class="glossary-toolbar">
-      <input id="glossarySearch" type="search" placeholder="Search terms">
+    <div class="section-grid">
+      <section class="section is-wide">
+        <div class="glossary-toolbar">
+          <input id="glossarySearch" type="search" placeholder="Search terms">
+        </div>
+        <ul class="definition-list" id="glossaryList"></ul>
+      </section>
     </div>
-    <ul class="definition-list" id="glossaryList"></ul>
   `;
 
   const input = els.detail.querySelector("#glossarySearch");

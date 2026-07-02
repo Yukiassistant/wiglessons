@@ -625,6 +625,10 @@ textarea {
     width: min(100% - 14px, 500px);
   }
 
+  .topbar {
+    grid-template-columns: 1fr;
+  }
+
   .brand-mark {
     width: 46px;
     height: 46px;
