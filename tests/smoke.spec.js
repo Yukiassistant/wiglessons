@@ -1,6 +1,7 @@
 const { test, expect } = require("@playwright/test");
 
 test("wig lesson tracker renders, persists progress, and searches glossary", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
   const errors = [];
   page.on("pageerror", (error) => errors.push(error.message));
   page.on("console", (message) => {
@@ -8,7 +9,7 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   });
 
   await page.setViewportSize({ width: 390, height: 900 });
-  await page.goto("http://127.0.0.1:4177", { waitUntil: "networkidle" });
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
 
   await expect(page.getByRole("heading", { name: "Cosplay Wig Styling" })).toBeVisible();
   await page.getByLabel("Read lesson").check();
