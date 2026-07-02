@@ -10,9 +10,12 @@
   <body>
     <div class="app-shell">
       <header class="topbar">
-        <div>
-          <p class="eyebrow">30-day tracker</p>
-          <h1>Cosplay Wig Styling</h1>
+        <div class="brand-lockup">
+          <div class="brand-mark" aria-hidden="true">W</div>
+          <div>
+            <p class="eyebrow">30-day tracker</p>
+            <h1>Cosplay Wig Styling</h1>
+          </div>
         </div>
         <div class="top-actions" aria-label="Progress tools">
           <button class="ghost-button" type="button" id="exportButton" title="Export progress">Export</button>
@@ -61,8 +64,10 @@
     <template id="lessonButtonTemplate">
       <button class="lesson-button" type="button">
         <span class="lesson-day"></span>
-        <span class="lesson-title"></span>
-        <span class="lesson-state"></span>
+        <span class="lesson-card">
+          <span class="lesson-title"></span>
+          <span class="lesson-state"></span>
+        </span>
       </button>
     </template>
 

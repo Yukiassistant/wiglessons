@@ -140,6 +140,9 @@ function renderLessonList() {
     const node = template.content.firstElementChild.cloneNode(true);
     const completion = completionFor(lesson.day);
     node.classList.toggle("is-active", lesson.day === state.selectedDay && state.view !== "glossary");
+    node.classList.toggle("is-complete", completion.complete);
+    node.classList.toggle("has-progress", completion.done > 0);
+    node.setAttribute("aria-label", `Day ${lesson.day}: ${lesson.title}, ${completion.done} of ${completion.total} complete`);
     node.querySelector(".lesson-day").textContent = lesson.day;
     node.querySelector(".lesson-title").textContent = lesson.title;
     node.querySelector(".lesson-state").textContent = completion.complete
@@ -176,6 +179,8 @@ function renderDetail() {
 function renderLesson(lesson) {
   const progress = lessonProgress(lesson.day);
   const completion = completionFor(lesson.day);
+  const previousDay = Math.max(1, lesson.day - 1);
+  const nextDay = Math.min(state.data.lessons.length, lesson.day + 1);
 
   els.detail.innerHTML = `
     <div class="detail-header">
@@ -183,11 +188,15 @@ function renderLesson(lesson) {
         <p class="eyebrow">Day ${lesson.day}</p>
         <h2>${escapeHtml(lesson.title)}</h2>
         <p class="muted">${escapeHtml(lesson.objective)}</p>
+        <div class="lesson-actions" aria-label="Lesson navigation">
+          <button class="ghost-button" type="button" id="previousLesson" ${lesson.day === 1 ? "disabled" : ""}>Previous</button>
+          <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>Next lesson</button>
+        </div>
       </div>
       <span class="status-pill">${completion.complete ? "Complete" : `${completion.done}/${completion.total} done`}</span>
     </div>
     <div class="section-grid">
-      <section class="section">
+      <section class="section is-wide">
         <h3>Checklist</h3>
         <div class="checklist">
           ${CHECKS.map(([key, label]) => checkRow(lesson.day, key, label, progress.checks?.[key])).join("")}
@@ -195,11 +204,11 @@ function renderLesson(lesson) {
           ${checkRow(lesson.day, "needsMaterials", "Needs materials", progress.needsMaterials, "flag")}
         </div>
       </section>
-      <section class="section">
+      <section class="section is-wide">
         <h3>Concept</h3>
         <p>${escapeHtml(lesson.concept)}</p>
       </section>
-      <section class="section">
+      <section class="section is-wide">
         <h3>Mini glossary</h3>
         <ul class="definition-list">
           ${lesson.glossary.map((item) => definitionItem(item)).join("")}
@@ -229,7 +238,7 @@ function renderLesson(lesson) {
         <h3>Readiness</h3>
         <p>${escapeHtml(lesson.readiness)}</p>
       </section>
-      <section class="section">
+      <section class="section is-wide">
         <h3>Notes</h3>
         <textarea id="lessonNotes" aria-label="Lesson notes">${escapeHtml(progress.notes || "")}</textarea>
         <div class="notes-actions">
@@ -239,6 +248,18 @@ function renderLesson(lesson) {
       </section>
     </div>
   `;
+
+  els.detail.querySelector("#previousLesson").addEventListener("click", () => {
+    state.selectedDay = previousDay;
+    state.view = "lessons";
+    render();
+  });
+
+  els.detail.querySelector("#nextLesson").addEventListener("click", () => {
+    state.selectedDay = nextDay;
+    state.view = "lessons";
+    render();
+  });
 
   els.detail.querySelectorAll("[data-check]").forEach((checkbox) => {
     checkbox.addEventListener("change", () => {
