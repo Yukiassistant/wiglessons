@@ -26,6 +26,7 @@ const els = {
   progressText: document.querySelector("#progressText"),
   tabs: Array.from(document.querySelectorAll(".tab")),
   todaySummary: document.querySelector("#todaySummary"),
+  workspace: document.querySelector("#workspace"),
 };
 
 init();
@@ -108,6 +109,8 @@ function courseStats() {
 }
 
 function render() {
+  document.body.dataset.view = state.view;
+  els.workspace.classList.toggle("has-lesson-map", state.view === "lessons");
   els.tabs.forEach((button) => {
     button.classList.toggle("is-active", button.dataset.view === state.view);
   });
@@ -152,6 +155,9 @@ function renderLessonList() {
       state.selectedDay = lesson.day;
       state.view = "lessons";
       render();
+      if (window.matchMedia("(max-width: 940px)").matches) {
+        els.detail.scrollIntoView({ block: "start" });
+      }
     });
     els.lessonList.append(node);
   }
@@ -181,13 +187,29 @@ function renderLesson(lesson) {
   const completion = completionFor(lesson.day);
   const previousDay = Math.max(1, lesson.day - 1);
   const nextDay = Math.min(state.data.lessons.length, lesson.day + 1);
+  const lessonModeLabel = state.view === "today" ? "Today" : "Selected lesson";
+  const lessonPicker = state.view === "lessons"
+    ? `
+        <label class="lesson-picker" for="lessonPicker">
+          <span>Jump to lesson</span>
+          <select id="lessonPicker">
+            ${state.data.lessons.map((item) => `
+              <option value="${item.day}" ${item.day === lesson.day ? "selected" : ""}>
+                Day ${item.day}: ${escapeHtml(item.title)}
+              </option>
+            `).join("")}
+          </select>
+        </label>
+      `
+    : "";
 
   els.detail.innerHTML = `
     <div class="detail-header">
       <div>
-        <p class="eyebrow">Day ${lesson.day}</p>
+        <p class="eyebrow">${lessonModeLabel} - Day ${lesson.day}</p>
         <h2>${escapeHtml(lesson.title)}</h2>
         <p class="muted">${escapeHtml(lesson.objective)}</p>
+        ${lessonPicker}
         <div class="lesson-actions" aria-label="Lesson navigation">
           <button class="ghost-button" type="button" id="previousLesson" ${lesson.day === 1 ? "disabled" : ""}>Previous</button>
           <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>Next lesson</button>
@@ -271,6 +293,12 @@ function renderLesson(lesson) {
 
   els.detail.querySelector("#nextLesson").addEventListener("click", () => {
     state.selectedDay = nextDay;
+    state.view = "lessons";
+    render();
+  });
+
+  els.detail.querySelector("#lessonPicker")?.addEventListener("change", (event) => {
+    state.selectedDay = Number(event.target.value);
     state.view = "lessons";
     render();
   });

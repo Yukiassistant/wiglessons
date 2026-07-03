@@ -36,6 +36,7 @@ body {
 
 button,
 input,
+select,
 textarea {
   font: inherit;
 }
@@ -53,6 +54,7 @@ a {
 a:focus-visible,
 button:focus-visible,
 input:focus-visible,
+select:focus-visible,
 textarea:focus-visible {
   outline: 3px solid rgba(28, 176, 246, 0.45);
   outline-offset: 3px;
@@ -137,7 +139,10 @@ h3 {
 .primary-button,
 .danger-button,
 .tab {
+  display: inline-flex;
   min-height: 46px;
+  align-items: center;
+  justify-content: center;
   border: 2px solid var(--line);
   border-radius: 16px;
   padding: 10px 16px;
@@ -176,7 +181,6 @@ h3 {
 }
 
 .file-button {
-  display: inline-flex;
   align-items: center;
 }
 
@@ -277,9 +281,13 @@ h3 {
 
 .workspace {
   display: grid;
-  grid-template-columns: minmax(300px, 370px) minmax(0, 1fr);
+  grid-template-columns: minmax(0, 1fr);
   gap: 22px;
   align-items: start;
+}
+
+.workspace.has-lesson-map {
+  grid-template-columns: minmax(300px, 370px) minmax(0, 1fr);
 }
 
 .lesson-list,
@@ -291,11 +299,16 @@ h3 {
 }
 
 .lesson-list {
+  display: none;
   position: sticky;
   top: 16px;
   max-height: calc(100vh - 32px);
   overflow: auto;
   padding: 16px 14px 22px;
+}
+
+.workspace.has-lesson-map .lesson-list {
+  display: block;
 }
 
 .search-wrap {
@@ -316,6 +329,7 @@ h3 {
 }
 
 input,
+select,
 textarea {
   width: 100%;
   min-width: 0;
@@ -329,6 +343,12 @@ input {
   min-height: 46px;
   padding: 10px 13px;
   font-weight: 700;
+}
+
+select {
+  min-height: 46px;
+  padding: 10px 42px 10px 13px;
+  font-weight: 850;
 }
 
 textarea {
@@ -472,6 +492,19 @@ textarea {
   flex-wrap: wrap;
   gap: 10px;
   margin-top: 18px;
+}
+
+.lesson-picker {
+  display: grid;
+  max-width: 520px;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.lesson-picker span {
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 1000;
 }
 
 .section-grid {
@@ -670,7 +703,7 @@ textarea {
 
   .topbar,
   .overview,
-  .workspace,
+  .workspace.has-lesson-map,
   .detail-header {
     grid-template-columns: 1fr;
   }
