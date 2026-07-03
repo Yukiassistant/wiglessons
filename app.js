@@ -2,7 +2,7 @@ const STORAGE_KEY = "wiglessons.progress.v1";
 const CHECKS = [
   ["read", "Read lesson"],
   ["definitions", "Reviewed definitions"],
-  ["resource", "Opened required resource"],
+  ["resource", "Checked resource note"],
   ["practice", "Finished practice"],
   ["ready", "Readiness criteria met"],
 ];
@@ -188,6 +188,7 @@ function renderLesson(lesson) {
   const previousDay = Math.max(1, lesson.day - 1);
   const nextDay = Math.min(state.data.lessons.length, lesson.day + 1);
   const lessonModeLabel = state.view === "today" ? "Today" : "Selected lesson";
+  const estimatedMinutes = lesson.estimatedMinutes || state.data.course.estimatedMinutes || 5;
   const lessonPicker = state.view === "lessons"
     ? `
         <label class="lesson-picker" for="lessonPicker">
@@ -209,6 +210,7 @@ function renderLesson(lesson) {
         <p class="eyebrow">${lessonModeLabel} - Day ${lesson.day}</p>
         <h2>${escapeHtml(lesson.title)}</h2>
         <p class="muted">${escapeHtml(lesson.objective)}</p>
+        <p class="time-pill">${estimatedMinutes} min max</p>
         ${lessonPicker}
         <div class="lesson-actions" aria-label="Lesson navigation">
           <button class="ghost-button" type="button" id="previousLesson" ${lesson.day === 1 ? "disabled" : ""}>Previous</button>
@@ -222,7 +224,7 @@ function renderLesson(lesson) {
         <div class="checklist-header">
           <div>
             <h3>Completion checklist</h3>
-            <p class="muted">These five items count toward lesson progress.</p>
+            <p class="muted">These five tiny items count toward lesson progress.</p>
           </div>
           <span class="mini-status">${completion.done}/${completion.total} core done</span>
         </div>
@@ -251,7 +253,7 @@ function renderLesson(lesson) {
         </ul>
       </section>
       <section class="section">
-        <h3>Required resources</h3>
+        <h3>Resource note</h3>
         ${resourceList(lesson.requiredResources)}
       </section>
       <section class="section">
@@ -349,6 +351,10 @@ function definitionItem(item) {
 }
 
 function resourceList(resources) {
+  if (!resources.length) {
+    return `<p class="muted">No outside reading required for this micro-lesson.</p>`;
+  }
+
   return `
     <ul class="resource-list">
       ${resources.map((resource) => `

@@ -487,6 +487,21 @@ textarea {
   font-weight: 1000;
 }
 
+.time-pill {
+  display: inline-flex;
+  min-height: 34px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border: 2px solid #ffbf47;
+  border-radius: 999px;
+  padding: 5px 12px;
+  background: #fff4c7;
+  color: #7a3900;
+  font-size: 0.82rem;
+  font-weight: 1000;
+}
+
 .lesson-actions {
   display: flex;
   flex-wrap: wrap;

@@ -1,11 +1,11 @@
 # Wig Lessons
 
-A simple static tracker for the 30-day cosplay wig styling curriculum.
+A simple static tracker for the 90-day cosplay wig styling micro-curriculum.
 
 ## Features
 
-- 30 lesson checklist with per-lesson progress
-- Lesson detail view with objective, concept, glossary, resources, practice, safety, reflection, and readiness
+- 90 five-minute micro-lessons with per-lesson progress
+- Lesson detail view with objective, concept, glossary, resource note, practice, safety, reflection, and readiness
 - Searchable glossary
 - Browser-local progress and notes
 - JSON export/import backup

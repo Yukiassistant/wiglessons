@@ -12,6 +12,9 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await page.goto(baseUrl, { waitUntil: "networkidle" });
 
   await expect(page.getByRole("heading", { name: "Cosplay Wig Styling" })).toBeVisible();
+  await expect(page.getByText("0 of 90 lessons complete")).toBeVisible();
+  await expect(page.getByText("5 min max").first()).toBeVisible();
+  await expect(page.getByText("No outside reading required for this micro-lesson.").first()).toBeVisible();
 
   const exportBox = await page.locator("#exportButton").boundingBox();
   const importBox = await page.locator("label[for='importFile']").boundingBox();
@@ -35,6 +38,7 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await page.getByRole("button", { name: "All lessons" }).click();
   await expect(page.locator(".lesson-list")).toBeVisible();
   await expect(page.getByLabel("Jump to lesson")).toBeVisible();
+  await expect(page.getByLabel("Jump to lesson").locator("option")).toHaveCount(90);
   const detailTop = await page.locator("#detail").evaluate((node) => node.getBoundingClientRect().top);
   const mapTop = await page.locator(".lesson-list").evaluate((node) => node.getBoundingClientRect().top);
   expect(detailTop).toBeLessThan(mapTop);

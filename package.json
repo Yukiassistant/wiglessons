@@ -2,7 +2,7 @@
   "name": "wiglessons",
   "version": "1.0.0",
   "private": true,
-  "description": "Static tracker for a 30-day cosplay wig styling curriculum.",
+  "description": "Static tracker for a 90-day cosplay wig styling micro-curriculum.",
   "scripts": {
     "serve": "python3 -m http.server 4177 --bind 127.0.0.1",
     "smoke": "playwright test tests/smoke.spec.js --reporter=line"
