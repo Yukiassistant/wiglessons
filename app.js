@@ -352,6 +352,7 @@ function renderGlossary() {
     <div class="section-grid">
       <section class="section is-wide">
         <div class="glossary-toolbar">
+          <label for="glossarySearch">Search glossary</label>
           <input id="glossarySearch" type="search" placeholder="Search terms">
         </div>
         <ul class="definition-list" id="glossaryList"></ul>
@@ -392,7 +393,7 @@ function renderProgress() {
       <button class="danger-button" type="button" id="resetAll">Reset all</button>
     </div>
     <div class="section-grid">
-      <section class="section">
+      <section class="section is-wide">
         <h3>Lesson status</h3>
         <ul class="progress-list">
           ${state.data.lessons.map((lesson) => {

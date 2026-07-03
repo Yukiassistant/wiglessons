@@ -13,7 +13,7 @@ A simple static tracker for the 30-day cosplay wig styling curriculum.
 ## Local Preview
 
 ```bash
-python3 -m http.server 4177
+npm run serve
 ```
 
 Then open <http://127.0.0.1:4177>.
