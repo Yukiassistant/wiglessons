@@ -2,9 +2,9 @@ const STORAGE_KEY = "wiglessons.progress.v1";
 const CHECKS = [
   ["read", "Read lesson"],
   ["definitions", "Reviewed definitions"],
-  ["resource", "Checked resource note"],
+  ["resource", "Opened one reference"],
   ["practice", "Finished practice"],
-  ["ready", "Readiness criteria met"],
+  ["ready", "Ready to move on"],
 ];
 
 const state = {
@@ -189,6 +189,22 @@ function renderLesson(lesson) {
   const nextDay = Math.min(state.data.lessons.length, lesson.day + 1);
   const lessonModeLabel = state.view === "today" ? "Today" : "Selected lesson";
   const estimatedMinutes = lesson.estimatedMinutes || state.data.course.estimatedMinutes || 5;
+  const requiredResourceSection = lesson.requiredResources?.length
+    ? `
+      <section class="section">
+        <h3>References</h3>
+        ${resourceList(lesson.requiredResources)}
+      </section>
+    `
+    : "";
+  const optionalResourceSection = lesson.optionalResources?.length
+    ? `
+      <section class="section">
+        <h3>Extra references</h3>
+        ${resourceList(lesson.optionalResources)}
+      </section>
+    `
+    : "";
   const lessonPicker = state.view === "lessons"
     ? `
         <label class="lesson-picker" for="lessonPicker">
@@ -224,7 +240,7 @@ function renderLesson(lesson) {
         <div class="checklist-header">
           <div>
             <h3>Completion checklist</h3>
-            <p class="muted">These five tiny items count toward lesson progress.</p>
+            <p class="muted">These core items count toward lesson progress.</p>
           </div>
           <span class="mini-status">${completion.done}/${completion.total} core done</span>
         </div>
@@ -234,7 +250,7 @@ function renderLesson(lesson) {
         <div class="flag-group" aria-label="Lesson flags">
           <div>
             <h3>Lesson flags</h3>
-            <p class="muted">These are notes for planning and do not change completion.</p>
+            <p class="muted">Use these reminders without changing core progress.</p>
           </div>
           <div class="flag-list">
             ${checkRow(lesson.day, "stuck", "Stuck on this", progress.stuck, "flag")}
@@ -247,19 +263,13 @@ function renderLesson(lesson) {
         <p>${escapeHtml(lesson.concept)}</p>
       </section>
       <section class="section is-wide">
-        <h3>Mini glossary</h3>
+        <h3>Key terms</h3>
         <ul class="definition-list">
           ${lesson.glossary.map((item) => definitionItem(item)).join("")}
         </ul>
       </section>
-      <section class="section">
-        <h3>Resource note</h3>
-        ${resourceList(lesson.requiredResources)}
-      </section>
-      <section class="section">
-        <h3>Optional resources</h3>
-        ${resourceList(lesson.optionalResources)}
-      </section>
+      ${requiredResourceSection}
+      ${optionalResourceSection}
       <section class="section">
         <h3>Practice</h3>
         <p>${escapeHtml(lesson.practice)}</p>
@@ -273,7 +283,7 @@ function renderLesson(lesson) {
         <p>${escapeHtml(lesson.reflection)}</p>
       </section>
       <section class="section">
-        <h3>Readiness</h3>
+        <h3>Ready when</h3>
         <p>${escapeHtml(lesson.readiness)}</p>
       </section>
       <section class="section is-wide">
@@ -352,7 +362,7 @@ function definitionItem(item) {
 
 function resourceList(resources) {
   if (!resources.length) {
-    return `<p class="muted">No outside reading required for this micro-lesson.</p>`;
+    return "";
   }
 
   return `

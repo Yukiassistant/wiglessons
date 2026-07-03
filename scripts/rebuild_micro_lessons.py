@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
+from urllib.parse import quote_plus
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -29,7 +30,7 @@ DEFINITIONS = {
     "clip-on": "A separate hair piece attached with clips or combs instead of built into the base wig.",
     "cool-down": "The period after heat shaping when synthetic fiber locks into its new shape.",
     "coverage": "How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.",
-    "crimping": "Adding tiny waves with a crimping iron to create grip, volume, and hidden structure.",
+    "crimping": "Adding fine waves with a crimping iron to create grip, volume, and hidden structure.",
     "density": "How much hair is present in an area; higher density looks fuller but adds weight.",
     "detangling": "Removing knots gently, usually from ends upward, to avoid tightening tangles.",
     "donor wig": "A second wig used for extra fiber, wefts, color sections, or repairs.",
@@ -41,7 +42,6 @@ DEFINITIONS = {
     "fit": "How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.",
     "foam core": "A lightweight foam support used inside oversized spikes, buns, curls, or shapes.",
     "friction frizz": "Frizz caused by rubbing against clothes, hands, collars, bags, or storage surfaces.",
-    "glossary": "A small vocabulary list that makes later planning and troubleshooting easier.",
     "hair direction": "The direction fibers travel so the style, seams, and coverage look intentional.",
     "hairline": "The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.",
     "hard cap": "A rigid or semi-rigid wig base built to hold sculptural shapes.",
@@ -59,9 +59,6 @@ DEFINITIONS = {
     "part line": "The visible line where hair separates; on wigs it often needs extra planning to look clean.",
     "patch test": "A small skin test for adhesives, removers, or products before full use.",
     "pressure point": "A spot where weight, edge, clip, strap, or shell presses uncomfortably.",
-    "readiness": "The specific proof that today's tiny lesson is understood enough to move on.",
-    "reflection": "A quick prompt that turns a task into a usable decision or lesson.",
-    "resource note": "A short note replacing outside reading unless a lesson explicitly says otherwise.",
     "reverse weft": "Wefting placed so hair can be pulled up or back without exposing tracks.",
     "rough cut": "The first conservative cut that removes length while leaving room to refine.",
     "sectioning": "Dividing hair into controlled areas before cutting, heating, teasing, or styling.",
@@ -87,74 +84,74 @@ DEFINITIONS = {
 }
 
 SPECS = [
-    ("What This Course Is", "Set the five-minute lesson rule.", "This course is now built from micro-lessons. Each day teaches one small decision, word, or action instead of sending you into large tutorial sites.", ["resource note", "readiness"], "Read the lesson card and say what today's one tiny job is.", "The lesson feels like a five-minute task, not homework.", "You can tell whether a future lesson is asking too much."),
-    ("Wig Vocabulary Starts Small", "Learn the base words without memorizing a whole field.", "A few shared words make later lessons less confusing. Today only separates the wig base from the hair sewn onto it.", ["cap", "weft"], "Point to where the cap is and where a weft would sit on any wig photo or wig you own.", "Which word describes the base, and which describes a strip of hair?", "You can use cap and weft correctly in one sentence."),
-    ("Fiber And Density", "Understand what the hair is and how full it is.", "Synthetic wig hair is fiber. Density is how much fiber is packed into an area, which changes fullness, weight, and cap coverage.", ["fiber", "density"], "Look at one wig image and label it low, medium, or high density by guess only.", "Would more density help this wig, or make it heavier than needed?", "You can explain density without touching styling tools."),
-    ("Hairline And Lace Front", "Separate visible edge needs from the rest of the wig.", "A visible forehead or pulled-back style often needs better edge planning. Lace fronts are one solution, not the default answer for every wig.", ["hairline", "lace front"], "Pick one character and decide whether the front hairline is visible or hidden by bangs.", "Does this character need realism at the edge, or just clean coverage?", "You can say whether lace is useful for one character."),
+    ("Wig Anatomy First Look", "Identify the wig's main parts.", "Before styling, separate the base wig from the hair surface. The cap creates fit and structure; the hairline is the visible front edge that needs clean coverage.", ["base wig", "hairline"], "Look at one wig or photo and point out the cap area and front hairline.", "Which part affects fit, and which part affects what people see first?", "You can identify the base wig and hairline in one example."),
+    ("Cap And Weft Basics", "Know what holds the hair in place.", "A cap is the foundation that sits on the head. Wefts are sewn strips of hair attached to that foundation, and their direction affects coverage.", ["cap", "weft"], "Point to where the cap is and where a weft would sit on any wig photo or wig you own.", "Which word describes the base, and which describes a strip of hair?", "You can use cap and weft correctly in one sentence."),
+    ("Fiber And Density", "Understand what the hair is and how full it is.", "Synthetic wig hair is fiber. Density is how much fiber is packed into an area, which changes fullness, weight, and cap coverage.", ["fiber", "density"], "Look at one wig image and label it low, medium, or high density from visible fullness.", "Would more density help this wig, or make it heavier than needed?", "You can explain density without touching styling tools."),
+    ("Hairline And Lace Front", "Separate visible edge needs from the rest of the wig.", "A visible forehead or pulled-back style needs a planned edge. Lace fronts place individual-looking hairs into sheer lace so the front hairline can show.", ["hairline", "lace front"], "Pick one character and decide whether the front hairline is visible or hidden by bangs.", "Does this character need realism at the edge, or just clean coverage?", "You can choose lace or a hidden hairline for one character."),
     ("Soft, Supported, Or Helmet", "Sort hairstyles by structure before styling.", "Some wigs are mostly hair. Some need hidden support. Some are closer to a helmet covered in hair.", ["hidden support", "helmet wig"], "Sort three character hairstyles into soft, supported, or helmet candidates.", "Which one stops behaving like hair?", "You can choose a broad build category."),
-    ("Make A Wig Map", "Turn a scary style into labeled zones.", "A wig map labels the visible hair, hidden support, hairline, attachments, and problem areas. It is a planning sketch, not art.", ["wig map", "coverage"], "Draw a messy outline of one hairstyle and label three zones.", "What part must be hidden for the style to work?", "You have a labeled map with at least three zones."),
-    ("Choose One Reference Angle", "Avoid drowning in references.", "A five-minute lesson can only use one decision. Start with the front view because it usually controls character recognition.", ["character read", "silhouette"], "Find or imagine one front-view reference and name the biggest shape.", "What makes the character recognizable first?", "You can name the main silhouette in one phrase."),
+    ("Make A Wig Map", "Label the build zones.", "A wig map labels visible hair, hidden support, hairline, attachments, and problem areas. Each zone gets one job: show, hide, hold, or move.", ["wig map", "coverage"], "Draw a rough outline of one hairstyle and label three zones.", "What part must be hidden for the style to work?", "You have a labeled map with at least three zones."),
+    ("Choose One Reference Angle", "Identify the main silhouette.", "The front view usually controls character recognition. Use it to name the largest outside shape before choosing tools or products.", ["character read", "silhouette"], "Find or imagine one front-view reference and name the biggest shape.", "What makes the character recognizable first?", "You can name the main silhouette in one phrase."),
     ("Side View Check", "Notice depth and gravity.", "The side view reveals whether hair falls naturally, sticks out, or needs support. This prevents flat front-only planning.", ["negative space", "load path"], "Look at a side view and mark one part that sticks out or floats.", "Where would gravity pull this shape?", "You can name one likely support problem."),
-    ("Back View Check", "Account for the view people forget.", "The back can expose wefts, gaps, ponytail anchors, and unfinished structure. A simple back-view note prevents surprise problems.", ["cap exposure", "hair direction"], "Write one sentence about what the back of the wig must show or hide.", "What would look unfinished from behind?", "You can state one back-view requirement."),
-    ("Tiny Materials List", "List only what the next task needs.", "A materials list should prevent friction, not become a shopping spiral. For today, only list the next three useful things.", ["resource note", "touch-up kit"], "Write three items you would want nearby for a basic wig practice session.", "What item would stop you from starting?", "You have a three-item list."),
-    ("Fit Comes First", "Understand why fit precedes styling.", "A styled wig that slips, pinches, or sits wrong will not be saved by better surface work. Fit is the foundation.", ["fit", "pressure point"], "Put on or imagine a wig and name one place it might squeeze, slide, or rub.", "Where would you notice discomfort first?", "You can name one fit risk."),
-    ("Block Basics", "Understand the work head.", "The block is the head form used for styling and building. If it is the wrong size, the finished wig can inherit that mistake.", ["block", "fit"], "Write whether your work head is smaller, larger, or unknown compared with your head.", "What error could that create?", "You know whether your block needs checking."),
-    ("Mark The Front", "Prevent crooked work.", "A front mark, center line, and ear landmarks make later styling less guessy. This is especially useful before cutting.", ["hairline", "ear tab"], "On paper or a photo, mark front center and both ear areas.", "What would look wrong if the wig rotated slightly?", "You can identify front center and ear zones."),
+    ("Back View Check", "Account for the rear view.", "The back can expose wefts, gaps, ponytail anchors, and unfinished support. Mark one rear-view requirement before cutting, sewing, or attaching pieces.", ["cap exposure", "hair direction"], "Write one sentence about what the back of the wig must show or hide.", "What would look unfinished from behind?", "You can state one back-view requirement."),
+    ("Task Materials List", "Match tools to the wig task.", "A materials list belongs to a specific wig task: cutting, heat setting, sewing, gluing, transport, or touch-up. Leave unrelated tools out.", ["base wig", "touch-up kit"], "Write three items needed for one basic wig practice session.", "Which item is required before the task can start?", "You have a three-item task list."),
+    ("Fit Comes First", "Check fit before surface styling.", "A styled wig that slips, pinches, or sits crooked will still fail in wear. Fit controls placement, comfort, and whether the hairline lands correctly.", ["fit", "pressure point"], "Put on or imagine a wig and name one place it might squeeze, slide, or rub.", "Where would you notice discomfort first?", "You can name one fit risk."),
+    ("Block Basics", "Compare the work head to the wearer.", "The block is the head form used for styling and building. A too-small or too-large block can distort the final fit, height, and hairline placement.", ["block", "fit"], "Write whether your work head is smaller, larger, or unknown compared with your head.", "What error could that create?", "You know whether your block needs checking."),
+    ("Mark The Front", "Prevent crooked work.", "A front mark, center line, and ear landmarks keep cuts, parts, and attachments aligned to the wearer instead of the stand.", ["hairline", "ear tab"], "On paper or a photo, mark front center and both ear areas.", "What would look wrong if the wig rotated slightly?", "You can identify front center and ear zones."),
     ("Comfort Gap", "Leave room for real wear.", "Rigid or bulky builds need room for hair, pins, padding, and movement. No style is done if it only fits a foam head.", ["pressure point", "helmet wig"], "Name one place a shell or heavy wig needs extra room.", "What would hurt after ten minutes?", "You can name one comfort allowance."),
-    ("Quick Wear Test Idea", "Plan a short fit test.", "A wear test can be short. The point is to catch heat, slipping, pressure, or blocked vision before the wig is final.", ["wear test", "fit"], "Write a 5-minute wear-test checklist with three things to notice.", "What would make you stop wearing it?", "You have a tiny wear-test checklist."),
+    ("Quick Wear Test Idea", "Plan a short fit test.", "A wear test checks heat, slipping, pressure, blocked vision, and edge lift before the wig is final.", ["wear test", "fit"], "Write a five-minute wear-test checklist with three things to notice.", "What would make you stop wearing it?", "You have a wear-test checklist."),
     ("Synthetic Fiber Rule", "Learn the heat warning before heat work.", "Heat-resistant fiber can still melt. Always test a hidden strand or scrap before trusting a temperature.", ["heat-resistant", "strand test"], "Write the sentence: test hidden fiber before visible heat.", "What happens if the label is wrong?", "You know the test comes before the tool."),
     ("Cool-Down Rule", "Understand how synthetic fiber sets.", "Synthetic fiber often holds the shape it cools in. Moving it too soon can weaken the set.", ["cool-down", "fiber memory"], "Name one shape that would need to cool while held in place.", "Why is waiting part of the technique?", "You can explain heat, hold, cool."),
     ("Tension Rule", "Use controlled pull, not force.", "Tension helps straightening, setting, and smoothing, but too much pull can stretch, frizz, or deform fiber.", ["tension", "setting"], "Mime or imagine holding a small section straight while it cools.", "Where is the line between controlled and rough?", "You can describe gentle tension."),
-    ("Steam As Moist Heat", "Know what steam is for.", "Steam can relax or reshape synthetic fiber with less direct contact than a hot iron, but it is still heat.", ["setting", "fiber memory"], "Write one job steam might do: relax, smooth, reshape, or reset.", "Why is steam not automatically safe?", "You can name one steam use and one caution."),
-    ("Heat Log", "Make heat repeatable.", "A heat log records tool, temperature, time, and result. This keeps successful tests from becoming guesses.", ["strand test", "readiness"], "Create a four-field heat log template.", "What detail would you forget later?", "You have a reusable heat-test note."),
-    ("Detangle Ends First", "Avoid making knots worse.", "Detangling from the ends upward keeps knots from tightening into the wig. Long wigs especially need patience here.", ["detangling", "friction frizz"], "Write the order: ends, middle, roots.", "What causes frizz besides tangles?", "You know the detangling direction."),
+    ("Steam As Moist Heat", "Know what steam is for.", "Steam can relax or reshape synthetic fiber with less direct contact than a hot iron, but steam still heats the fiber.", ["setting", "fiber memory"], "Write one job steam might do: relax, smooth, reshape, or reset.", "Which steam job changes the fiber shape?", "You can name one steam use and one caution."),
+    ("Heat Log", "Make heat repeatable.", "A heat log records tool, temperature, time, and result so a successful strand test can be repeated on the visible wig.", ["strand test", "heat-resistant"], "Create a four-field heat log template.", "Which field records the exact temperature?", "You have a reusable heat-test note."),
+    ("Detangle Ends First", "Avoid making knots worse.", "Detangle from the ends upward. Starting at the roots pushes knots tighter and increases friction frizz.", ["detangling", "friction frizz"], "Write the order: ends, middle, roots.", "What causes frizz besides tangles?", "You know the detangling direction."),
     ("Storage Shape", "Store for the silhouette.", "Storage should protect the shape you built. A loose wig and a spiked wig should not be packed the same way.", ["silhouette", "coverage"], "Name one storage risk for a long wig and one for a styled wig.", "What would get crushed first?", "You can choose storage based on shape."),
-    ("Repair Kit Tiny Version", "Pack for likely failures.", "A repair kit should match the wig. Do not pack everything; pack for the most likely failure.", ["touch-up kit", "wear test"], "List three repair items for a simple styled wig.", "Which failure is most likely?", "You have a tiny repair-kit draft."),
-    ("Cleaning Caution", "Know when not to wash aggressively.", "Lace, product, glued pieces, and structured shapes can be damaged by rough cleaning. Cleaning is a plan, not a panic move.", ["edge", "coverage"], "Name one part of a styled wig you would clean gently.", "What could loosen or frizz?", "You can name one cleaning risk."),
-    ("Maintenance Habit", "End sessions with a reset.", "A five-minute end-of-session habit saves future work: remove loose pins, note damage, protect shape, and store cleanly.", ["reflection", "readiness"], "Write a two-step shutdown routine for wig practice.", "What small cleanup prevents a bigger problem?", "You have a simple shutdown routine."),
-    ("Cutting Is Permanent", "Start conservative.", "Synthetic wig cutting is unforgiving. Leave extra length, test the fall, then refine.", ["rough cut", "readiness"], "Choose a pretend bang length, then write a safer longer first cut.", "Where would overcutting hurt most?", "You know the first cut should leave room."),
-    ("Section Before Cutting", "Control what you cut.", "Sectioning keeps you from accidentally cutting too much or mixing display hair with support hair.", ["sectioning", "surface layer"], "Describe one section you would clip away before trimming bangs.", "What hair should not be cut yet?", "You can name one protected section."),
-    ("Face Frame", "Understand front pieces.", "Face-framing pieces shape the character and the wearer. They often matter more than back details in photos.", ["hairline", "silhouette"], "Look at one character and name the left and right face-frame shapes.", "Are they symmetrical?", "You can identify the face-frame pieces."),
-    ("Point Cutting Idea", "Soften blunt edges.", "Point cutting removes tiny notches from the end so a cut line looks less blocky. It still needs restraint.", ["rough cut", "thinning"], "Write when you might want a soft edge instead of a blunt edge.", "Which characters need graphic bluntness?", "You know point cutting changes the edge feel."),
-    ("Check On The Head", "Do not trust only the stand.", "Hair falls differently on a block than on a real head. Fit, height, and face shape can change the cut.", ["block", "fit"], "Write one thing you would check while wearing the wig before final cutting.", "What changes between block and head?", "You can name one on-head check."),
+    ("Basic Repair Kit", "Pack for likely wig failures.", "A repair kit should match the wig's failure points: loose clips, lifted edges, flyaways, broken supports, or rubbed color.", ["touch-up kit", "wear test"], "List three repair items for a styled wig.", "Which failure is most likely?", "You have a repair-kit draft."),
+    ("Cleaning Caution", "Know when not to wash aggressively.", "Lace, product, glued pieces, and structured shapes can be damaged by rough cleaning. Match cleaning pressure to the most delicate part of the wig.", ["edge", "coverage"], "Name one part of a styled wig you would clean gently.", "What could loosen or frizz?", "You can name one cleaning risk."),
+    ("Maintenance Habit", "End sessions with a reset.", "An end-of-session reset removes loose pins, records damage, protects the silhouette, and stores the wig away from friction.", ["touch-up kit", "wear test"], "Write a two-step shutdown routine for wig practice.", "Which step protects the finished shape?", "You have a shutdown routine."),
+    ("Cutting Is Permanent", "Start conservative.", "Synthetic wig cutting is unforgiving. Leave extra length, test the fall, then refine.", ["rough cut", "sectioning"], "Choose a pretend bang length, then write a safer longer first cut.", "Where would overcutting hurt most?", "You know the first cut should leave room."),
+    ("Section Before Cutting", "Control what you cut.", "Sectioning isolates the hair being cut from display layers, support layers, and hair that still needs length for blending.", ["sectioning", "surface layer"], "Describe one section you would clip away before trimming bangs.", "What hair should not be cut yet?", "You can name one protected section."),
+    ("Face Frame", "Identify front pieces.", "Face-framing pieces define the visible outline beside the cheeks, jaw, and forehead. Their length and angle change the character read.", ["hairline", "silhouette"], "Look at one character and name the left and right face-frame shapes.", "Are they symmetrical?", "You can identify the face-frame pieces."),
+    ("Point Cutting Idea", "Soften blunt edges.", "Point cutting removes small notches from the end so a cut line looks less blocky. It still needs restraint.", ["rough cut", "thinning"], "Write when you might want a soft edge instead of a blunt edge.", "Which characters need graphic bluntness?", "You know point cutting changes the edge feel."),
+    ("Check On The Head", "Compare stand fit to worn fit.", "Hair falls differently on a block than on a real head. Fit, height, and face shape can change the cut.", ["block", "fit"], "Write one thing you would check while wearing the wig before final cutting.", "What changes between block and head?", "You can name one on-head check."),
     ("Layering Purpose", "Use layers for shape, not random thinning.", "Layering can remove bulk, create movement, or shape anime chunks. Each cut should have a job.", ["layering", "silhouette"], "Choose one reason to layer a wig: movement, volume control, or shape.", "What happens if you layer without a goal?", "You can state the purpose before cutting."),
     ("Thinning Risk", "Avoid exposing the cap.", "Thinning removes bulk, but too much near the roots can reveal tracks or cap. Work gradually.", ["thinning", "cap exposure"], "Name one area where thinning would be risky.", "Where is the cap easiest to expose?", "You can identify a thinning danger zone."),
-    ("Razor Texture Concept", "Understand piecey texture.", "Razor texture can make ends feathered or anime-like, but it is not a fix for every wig.", ["surface layer", "silhouette"], "Name one style that wants piecey texture.", "Would this texture help realism or stylization?", "You can say why texture is useful."),
-    ("Before And After Photos", "Document cutting choices.", "Photos help you see changes that feel invisible while working. They also make mistakes easier to diagnose.", ["reflection", "readiness"], "Plan two photo angles before a cut: front and side.", "Which angle will reveal the problem fastest?", "You have a tiny photo plan."),
-    ("Stop Point", "Know when not to keep cutting.", "Many wig problems get worse when you chase perfection while tired. Define a stop point first.", ["readiness", "reflection"], "Write one sentence that tells you when to stop cutting for the day.", "What is the sign you are overworking it?", "You have a stop rule."),
-    ("Crimping Creates Grip", "Learn hidden texture.", "Crimping adds small waves that help hair hold shape and volume underneath a smoother surface.", ["crimping", "support layer"], "Point to where crimping would hide under a visible layer.", "Why not crimp the whole outside?", "You can place crimping in a hidden layer."),
+    ("Razor Texture Concept", "Identify piecey texture.", "Razor texture creates feathered or separated ends. Use it for piecey shapes; avoid it when the reference needs a blunt graphic edge.", ["surface layer", "silhouette"], "Name one style that wants piecey texture.", "Would this texture match realism or stylization?", "You can identify one use for razor texture."),
+    ("Before And After Photos", "Document cutting choices.", "Before-and-after photos reveal changes in length, silhouette, symmetry, and density that are hard to judge while the wig is on the stand.", ["accuracy", "silhouette"], "Plan two photo angles before a cut: front and side.", "Which angle shows the cut line most clearly?", "You have a two-angle photo plan."),
+    ("Stop Point", "Know when not to keep cutting.", "Many wig problems get worse when you chase perfection while tired. Define a stop point first.", ["rough cut", "accuracy"], "Write one sentence that tells you when to stop cutting for the day.", "What is the sign you are overworking it?", "You have a stop rule."),
+    ("Crimping Creates Grip", "Use hidden texture for lift.", "Crimping adds fine waves that create grip and volume underneath a smoother surface layer.", ["crimping", "support layer"], "Point to where crimping would hide under a visible layer.", "Why not crimp the whole outside?", "You can place crimping in a hidden layer."),
     ("Teasing Vs Backcombing", "Connect two common words.", "Teasing and backcombing are closely related: both push fibers toward roots to create grip and volume.", ["teasing", "backcombing"], "Write one place you would tease and one place you would keep smooth.", "What should stay visible and clean?", "You can separate support texture from surface finish."),
     ("Surface Layer", "Keep the outside intentional.", "The surface layer hides support work. It should look like the chosen character style, not the construction underneath.", ["surface layer", "coverage"], "Name one visible section that should stay smoother than the underlayer.", "What construction might show through?", "You can identify a display layer."),
-    ("Small Volume Test", "Compare lift methods.", "Volume can come from crimping, teasing, added wefts, or support. Start with the lightest method that works.", ["hidden support", "density"], "Rank crimping, teasing, and extra wefts from least to most material-heavy.", "Which method would you try first?", "You can choose a low-commitment lift method."),
-    ("Frizz Boundary", "Volume is not the same as mess.", "Support texture should not automatically make the surface frizzy. Clean outer layers matter.", ["friction frizz", "surface layer"], "Write one way to protect the visible layer while building volume below.", "Where does useful texture become visual mess?", "You can name one anti-frizz habit."),
-    ("Product Is Not Structure", "Do not solve weight with spray.", "Spray and paste can finish a shape, but weight-bearing pieces need support, anchors, stitches, clips, or hardware.", ["adhesive", "load path"], "Name one job for hairspray and one job it should not do.", "What needs actual structure?", "You can separate finish from support."),
-    ("Freeze Hold Concept", "Understand stiff surface hold.", "Strong spray can lock small spikes and flyaways, but it can become brittle if asked to do too much.", ["spike", "surface layer"], "Choose one small surface detail that spray could control.", "What would break if it flexed?", "You can name a cosmetic hold job."),
-    ("Glue Categories", "Do not use one glue for everything.", "Craft glue, skin adhesive, and styling product solve different problems. Confusing them can damage skin or fail structurally.", ["adhesive", "skin adhesive"], "Sort these into skin or not-skin: spirit gum, hot glue, hairspray.", "Which one needs a remover?", "You can separate skin adhesives from craft products."),
+    ("Small Volume Test", "Compare lift methods.", "Volume can come from crimping, teasing, added wefts, or support. Material-heavy methods add weight and can change the cap fit.", ["hidden support", "density"], "Rank crimping, teasing, and extra wefts from least to most material-heavy.", "Which method changes weight the most?", "You can choose a low-commitment lift method."),
+    ("Frizz Boundary", "Separate volume from surface mess.", "Support texture belongs under the surface layer. Visible outer fibers need cleaner direction, lower friction, and controlled product.", ["friction frizz", "surface layer"], "Write one way to protect the visible layer while building volume below.", "Where does support texture become visible mess?", "You can name one anti-frizz habit."),
+    ("Product Is Not Structure", "Separate surface hold from weight support.", "Spray and paste can finish a shape, but weight-bearing pieces need support, anchors, stitches, clips, or hardware.", ["adhesive", "load path"], "Name one job for hairspray and one job it should not do.", "Which part carries weight?", "You can separate finish from support."),
+    ("Freeze Hold Concept", "Identify stiff surface hold.", "Strong spray locks small spikes, flyaways, and surface direction. It becomes brittle when used as structural support.", ["spike", "surface layer"], "Choose one small surface detail that spray could control.", "What would break if it flexed?", "You can name a cosmetic hold job."),
+    ("Glue Categories", "Match adhesive type to the surface.", "Craft glue, skin adhesive, and styling product solve different problems. The wrong adhesive can damage skin or fail structurally.", ["adhesive", "skin adhesive"], "Sort these into skin or not-skin: spirit gum, hot glue, hairspray.", "Which one needs a remover?", "You can separate skin adhesives from craft products."),
     ("Patch Test", "Protect skin before adhesives.", "Anything that touches skin for wear should be patch tested when possible, especially adhesives and removers.", ["patch test", "skin adhesive"], "Write where and when you would patch test an adhesive.", "What would make you avoid using it?", "You can explain the patch-test purpose."),
-    ("Cleanup Plan", "Plan removal before application.", "Adhesive work is not planned until removal is planned. The correct remover is part of the tool list.", ["skin adhesive", "resource note"], "Write one adhesive and the matching remover you would verify before use.", "What happens if removal is improvised?", "You know remover planning is mandatory."),
-    ("Anime Hair Is Graphic", "Translate drawings into forms.", "Drawn hair is graphic design. Reduce it into major chunks before deciding tools.", ["silhouette", "character read"], "Name the three biggest chunks in one character hairstyle.", "Which chunk matters most for recognition?", "You can reduce a style to major forms."),
-    ("Chunk Hierarchy", "Rank pieces by importance.", "Not every piece deserves equal effort. The biggest readable pieces should get the most planning.", ["character read", "negative space"], "Rank three hair chunks as primary, secondary, or detail.", "Which piece could be simplified?", "You can prioritize chunks."),
+    ("Cleanup Plan", "Plan removal before application.", "Adhesive work is not planned until removal is planned. The correct remover is part of the tool list.", ["skin adhesive", "patch test"], "Write one adhesive and the matching remover you would verify before use.", "What happens if removal is improvised?", "You know remover planning is mandatory."),
+    ("Anime Hair Forms", "Translate drawings into buildable shapes.", "Drawn hair can be reduced into major chunks: bangs, side pieces, crown volume, spikes, ponytails, buns, and loose ends.", ["silhouette", "character read"], "Name the three biggest chunks in one character hairstyle.", "Which chunk matters most for recognition?", "You can reduce a style to major forms."),
+    ("Chunk Hierarchy", "Rank pieces by visual importance.", "Primary chunks control the silhouette. Secondary chunks support the style, and detail chunks can be simplified if they do not change the character read.", ["character read", "negative space"], "Rank three hair chunks as primary, secondary, or detail.", "Which piece could be simplified?", "You can prioritize chunks."),
     ("Negative Space", "Use empty shapes as reference.", "The spaces between hair chunks are often as recognizable as the chunks themselves.", ["negative space", "silhouette"], "Find one empty shape around a character's hair and describe it.", "Would filling that gap ruin the read?", "You can notice negative space."),
-    ("Soft Spike", "Know the smallest spike category.", "Short spikes may only need cutting, heat direction, texture, and product. They are still tested, not guessed.", ["spike", "setting"], "Choose whether one spike is short enough to stay soft.", "What would make it need support?", "You can classify a short spike."),
+    ("Soft Spike", "Identify spikes that can stay flexible.", "Short spikes may only need cutting, heat direction, texture, and product. Longer spikes usually need hidden support.", ["spike", "setting"], "Choose whether one spike is short enough to stay soft.", "What would make it need support?", "You can classify a short spike."),
     ("Supported Spike", "Know when hair needs help.", "Longer or heavier spikes need a support plan before surface styling. More spray is not the plan.", ["wire support", "foam core"], "Pick wire or foam for a pretend long spike and say why.", "Which support is lighter or safer here?", "You can choose a support type."),
     ("Shake Test", "Test movement early.", "A shake test reveals whether a spike, ponytail, or attachment is actually secure before final finishing.", ["shake test", "anchor"], "Write what you would watch during a gentle shake test.", "What failure would be acceptable in a mockup?", "You can define a movement test."),
     ("Wefts Add More Than Hair", "Understand weft jobs.", "Wefts can add density, color, coverage, repair material, and direction control. They also add weight.", ["weft", "density"], "Name one reason to add a weft besides making hair fuller.", "What problem could added weight create?", "You can name two weft jobs."),
     ("Donor Wig Concept", "Use extra hair deliberately.", "A donor wig provides matching or contrasting fiber for wefts, repairs, hairlines, or covering supports.", ["donor wig", "coverage"], "Name one part of a build that could use donor wig fiber.", "Does the fiber need to match exactly?", "You can name one donor-wig use."),
     ("Weft Direction", "Think before sewing.", "The direction a weft points affects how hair falls and what it covers. Placement is a design decision.", ["hair direction", "coverage"], "Draw one arrow showing how an added weft should fall.", "What would look wrong if it pointed the other way?", "You can plan weft direction."),
     ("Reverse Weft Idea", "Understand lifted hair bases.", "Reverse wefts help hair pull up or back without exposing tracks, especially for ponytails and updos.", ["reverse weft", "cap exposure"], "Name one style that might need reverse wefting.", "Where would tracks show?", "You can identify a reverse-weft use case."),
-    ("Tiny Sew Plan", "Make sewing less vague.", "Even a small weft addition needs a start point, end point, direction, and knot/security plan.", ["anchor", "weft"], "Write a one-line sew plan for a short hidden weft.", "Where should the thread start and stop?", "You can describe a tiny sew plan."),
+    ("Short Weft Sew Plan", "Define a small weft attachment.", "Even a short weft addition needs a start point, end point, direction, and knot/security plan.", ["anchor", "weft"], "Write a one-line sew plan for a short hidden weft.", "Where should the thread start and stop?", "You can describe a short sew plan."),
     ("Ponytail Weight", "Account for pull.", "Ponytails and pigtails pull on the cap. The higher or heavier they are, the more anchoring matters.", ["anchor", "load path"], "Name where a ponytail's weight pulls on the wig.", "What would stop it sliding back?", "You can identify the pull direction."),
     ("Clip-On Choice", "Know when separate pieces help.", "Clip-ons can reduce base-wig complexity, but they still need blending, balance, and secure placement.", ["clip-on", "coverage"], "Pick one style where a clip-on would be easier than building in the ponytail.", "What edge must be hidden?", "You can decide if clip-on helps."),
     ("Braid Bulk", "Plan for volume.", "Braids need more fiber than loose hair to look full. A thin braid can make a dense wig look strangely small.", ["density", "weft"], "Estimate whether one character braid needs extra fiber.", "Would a donor wig help?", "You can spot braid-density needs."),
     ("Updo Exposure", "Pulled-back styles reveal construction.", "Any updo can reveal cap edges, tracks, lace, or sparse zones. Plan coverage before pulling hair back.", ["cap exposure", "hairline"], "Name one area an updo might expose.", "How could you hide it?", "You can name an updo exposure risk."),
-    ("Anchor Backup", "Do not trust one point.", "Heavy attachments are safer when weight is spread or backed up. Single points fail more easily.", ["anchor", "mechanical attachment"], "Name one backup for a heavy ponytail or bun.", "What happens if the main anchor fails?", "You can name a backup anchor idea."),
-    ("Visible Edge Decision", "Choose realism or stylization.", "Not every visible edge needs high realism. Decide whether the hairline needs natural lace, stylized points, or simple hiding.", ["edge", "hairline"], "Choose one character edge and label it realistic, stylized, or hidden.", "What does the viewer actually see?", "You can classify an edge."),
-    ("Ventilating Is Slow", "Know what ventilating is for.", "Ventilating ties individual hairs into lace or mesh. It is powerful but slow, so reserve it for visible edges and repairs.", ["ventilating", "lace front"], "Name one place ventilating would be worth the time.", "Where would it be overkill?", "You can name one high-value ventilating use."),
+    ("Anchor Backup", "Spread load across more than one anchor.", "Heavy attachments are safer when weight is spread or backed up. Single points fail more easily.", ["anchor", "mechanical attachment"], "Name one backup for a heavy ponytail or bun.", "Which backup keeps the attachment from rotating?", "You can name a backup anchor idea."),
+    ("Visible Edge Decision", "Choose realism or stylization.", "A visible edge can be natural lace, stylized points, or hidden under hair depending on the character reference.", ["edge", "hairline"], "Choose one character edge and label it realistic, stylized, or hidden.", "What does the viewer actually see?", "You can classify an edge."),
+    ("Ventilating Use Case", "Know what ventilating is for.", "Ventilating ties individual hairs into lace or mesh. It is best used for visible edges, part lines, sideburns, napes, and small repairs.", ["ventilating", "lace front"], "Name one place ventilating would be worth the time.", "Which visible edge would benefit most?", "You can name one high-value ventilating use."),
     ("Density Gradient", "Make edges less pluggy.", "A natural-looking hairline usually gets denser gradually. A sudden wall of hair can look fake.", ["density", "hairline"], "Describe sparse-to-dense in one sentence.", "Where should the edge be lighter?", "You can explain hairline density gradient."),
     ("False Hairline Idea", "Know a stylized shortcut.", "A false hairline can use glued fibers, lace pieces, or styling to fake an edge without a full lace-front build.", ["edge", "adhesive"], "Name one style where a false hairline might be enough.", "What makes it acceptable from viewing distance?", "You can describe a false-edge option."),
     ("Sideburns And Nape", "Edges are not only the forehead.", "Temples, sideburns, and nape can expose wig construction when hair is short or pulled up.", ["ear tab", "edge"], "Pick one non-forehead edge to check on a character.", "Would movement reveal it?", "You can name one side or back edge risk."),
-    ("Hairline Decision Card", "Make one edge plan.", "A hairline decision card keeps the method simple: hide it, lace it, ventilate it, glue fibers, or stylize it.", ["wig map", "hairline"], "Write one hairline method for one character.", "Why that method instead of lace front by default?", "You can choose a hairline method."),
-    ("Color Reality Check", "Synthetic color has limits.", "Synthetic wigs usually cannot be lightened like human hair. Buying closer color is often safer than forcing dye.", ["swatch test", "fiber"], "Write whether one color change is darker, lighter, or same-level.", "Would buying a better base be easier?", "You can identify risky color changes."),
+    ("Hairline Decision Card", "Make one edge plan.", "A hairline decision card names the method: hide it, lace it, ventilate it, glue fibers, or stylize it.", ["wig map", "hairline"], "Write one hairline method for one character.", "Which reference detail supports that method?", "You can choose a hairline method."),
+    ("Color Reality Check", "Synthetic color has limits.", "Synthetic wigs usually cannot be lightened like human hair. Darkening, tinting, adding wefts, or buying a closer base are different risk levels.", ["swatch test", "fiber"], "Write whether one color change is darker, lighter, or same-level.", "Which option changes the original wig the least?", "You can identify risky color changes."),
     ("Swatch First", "Test color before the whole wig.", "A swatch test catches dye results, rub-off, texture change, and heat damage before the final wig is involved.", ["swatch test", "strand test"], "List three things a color swatch should check.", "What would make the swatch fail?", "You can design a color swatch test."),
     ("Root Shadow", "Use color for depth.", "A darker root can add depth or match a character without recoloring the entire wig.", ["hair direction", "coverage"], "Name one character or style where darker roots would help.", "Would it improve realism or accuracy?", "You can identify a root-shadow use."),
     ("Rub-Off Risk", "Consider skin and costume transfer.", "Sprays, markers, and dyes can transfer to skin, collars, props, or hands. Test contact, not just color.", ["swatch test", "friction frizz"], "Name one surface the wig might rub against.", "What would be ruined by color transfer?", "You can name one rub-off risk."),
@@ -165,19 +162,115 @@ SPECS = [
     ("Foam Core Coverage", "Hide lightweight bulk.", "Foam can make large shapes lighter than solid hair, but it must be covered convincingly.", ["foam core", "coverage"], "Name how you would cover one foam shape: wefts, fiber sheet, or surface hair.", "Where might foam show?", "You can pair foam with a coverage method."),
     ("Wire Safety", "Use wire carefully.", "Wire can support shapes, but ends and pressure points must be protected from the wearer and the wig fiber.", ["wire support", "pressure point"], "Write one safety rule for wire inside a wig.", "Where could wire poke or bend badly?", "You can name one wire safety risk."),
     ("Mechanical Attachments", "Use hardware when glue is not enough.", "Large headpieces often need clips, screws, snaps, straps, magnets, or other mechanical support.", ["mechanical attachment", "anchor"], "Pick one attachment method for horns, crown, or detachable hair mass.", "Why is glue alone weak here?", "You can choose one mechanical method."),
-    ("Detachable Sections", "Plan removal and packing.", "A detachable section can make transport, repair, and wearing easier if the connection is planned from the start.", ["mechanical attachment", "coverage"], "Name one hair piece that should detach for packing.", "How would you hide the join?", "You can name one detachable build option."),
+    ("Detachable Sections", "Plan removable hair pieces.", "A detachable section needs a secure connection, hidden join, repeatable placement mark, and packing plan.", ["mechanical attachment", "coverage"], "Name one hair piece that should detach for packing.", "How would you hide the join?", "You can name one detachable build option."),
     ("Ventilation Gap", "Do not trap heat blindly.", "Rigid or dense builds need some comfort planning. Airflow and heat buildup matter before final finish.", ["wear test", "helmet wig"], "Name one place airflow could exist without ruining the look.", "What would make the wig too hot?", "You can name one ventilation idea."),
-    ("Removal Method", "Plan how the wig comes off.", "If a wig uses adhesive, hardware, or a shell, removal must be safe and reachable.", ["skin adhesive", "mechanical attachment"], "Write one removal step for a complex wig.", "What should not require panic or force?", "You can name a safe removal step."),
+    ("Removal Method", "Plan how the wig comes off.", "If a wig uses adhesive, hardware, or a shell, the wearer needs a safe release order and reachable release points.", ["skin adhesive", "mechanical attachment"], "Write one removal step for a complex wig.", "Which release point must be reachable first?", "You can name a safe removal step."),
     ("Transport Shape", "Pack for the build type.", "A helmet wig, spike wig, and loose wig need different protection. Packing is part of the design.", ["helmet wig", "touch-up kit"], "Choose box, stand, bag, or custom support for one style.", "What would break in transit?", "You can choose transport based on shape."),
-    ("Milestone: Soft Wig Plan", "Plan a simple wearable wig.", "A soft wig project should use a base wig, small cut, simple shaping, and a clear stop point.", ["base wig", "rough cut"], "Write a three-step plan for a short or medium soft wig.", "What makes it manageable?", "You have a tiny soft-wig plan."),
+    ("Milestone: Soft Wig Plan", "Plan a wearable soft wig.", "A soft wig project can use a base wig, conservative cut, light shaping, and a clear stop point.", ["base wig", "rough cut"], "Write a three-step plan for a short or medium soft wig.", "Which step changes the wig permanently?", "You have a soft-wig plan."),
     ("Milestone: Support Sample", "Plan one structural test.", "Before a huge build, prove one support idea in miniature: spike, bun, ahoge, ponytail, or horn integration.", ["mockup", "shake test"], "Pick one support sample and write what it must prove.", "What failure would teach you the most?", "You have one structural sample idea."),
     ("Milestone: Edge Sample", "Plan one visible edge test.", "A hairline or sideburn test is smaller than a full wig and reveals whether the method looks acceptable.", ["edge", "ventilating"], "Choose one edge sample: lace, false hairline, sideburn, or nape.", "What viewing distance matters?", "You have one edge sample idea."),
-    ("Photo Checklist", "Capture useful proof.", "Good photos show front, side, back, three-quarter, edge, and any interior support. They make critique specific.", ["accuracy", "coverage"], "Write three photos you would take of a finished wig.", "Which photo would reveal the biggest lie?", "You have a three-shot checklist."),
-    ("Critique With Causes", "Name the technical reason.", "Useful critique says why something looks wrong: fit, density, edge, silhouette, color, coverage, or support.", ["reflection", "accuracy"], "Pick one possible flaw and name its likely cause.", "Is the problem visual, structural, or comfort-related?", "You can critique by cause."),
-    ("Next Skill Target", "Choose one weak skill.", "A course should end with a next practice target, not a vague feeling of being done.", ["readiness", "reflection"], "Choose one skill to practice on scraps before using an expensive wig.", "Why that skill first?", "You have one next practice target."),
-    ("Personal Workflow", "Turn lessons into a repeatable order.", "A simple workflow prevents starting with the fun step and skipping fit, tests, and support planning.", ["wig map", "readiness"], "Write a five-step personal wig workflow from reference to storage.", "Which step are you tempted to skip?", "You have a short repeatable workflow."),
-    ("Course Review", "Confirm the five-minute system works.", "The useful version of this course is one tiny lesson per day, self-contained unless you choose to deep dive.", ["resource note", "reflection"], "Write what lesson type was most useful: word, decision, sketch, test, or checklist.", "What should future lessons avoid?", "You can describe how you want to keep learning."),
+    ("Photo Checklist", "Capture useful proof.", "Good photos show front, side, back, three-quarter, edge, and any interior support so fit, silhouette, and coverage can be checked separately.", ["accuracy", "coverage"], "Write three photos you would take of a finished wig.", "Which photo checks coverage?", "You have a three-shot checklist."),
+    ("Critique With Causes", "Name the technical reason.", "Useful critique says why something looks wrong: fit, density, edge, silhouette, color, coverage, or support.", ["fit", "accuracy"], "Pick one possible flaw and name its likely cause.", "Is the problem visual, structural, or comfort-related?", "You can critique by cause."),
+    ("Next Skill Target", "Choose one weak skill.", "The best next practice target is specific: cutting, heat tests, edge work, wefting, coverage, or support building.", ["strand test", "swatch test"], "Choose one skill to practice on scraps before using an expensive wig.", "Why that skill first?", "You have one next practice target."),
+    ("Personal Workflow", "Turn wig work into a repeatable order.", "A repeatable workflow orders reference, fit, tests, structure, surface styling, wear test, touch-up kit, and storage.", ["wig map", "wear test"], "Write a five-step personal wig workflow from reference to storage.", "Which step checks fit before styling?", "You have a short repeatable workflow."),
+    ("Build Review", "Review the wig by technical category.", "A useful review checks fit, comfort, accuracy, coverage, color, edges, support, and transport as separate categories.", ["accuracy", "wear test"], "Pick one finished or planned wig and name the next technical improvement.", "Which category would improve the build most?", "You have one practical next target."),
 ]
+
+
+BANNED_LESSON_PHRASES = (
+    "this course is now",
+    "micro-lesson",
+    "micro lesson",
+    "a few shared words",
+    "later lessons",
+    "today only",
+    "less confusing",
+    "large tutorial",
+    "outside reading",
+    "resource note",
+    "web app",
+    "tracker",
+    "avoid drowning",
+    "people forget",
+    "shopping spiral",
+    "prevent friction",
+    "less guessy",
+    "not automatically",
+    "forget later",
+    "tiny",
+    "staring at the wig",
+    "do not solve",
+    "do not use one glue",
+    "graphic design",
+    "not every piece deserves",
+    "not guessed",
+    "do not trust",
+    "overkill",
+    "simple hiding",
+    "lace front by default",
+    "make transport",
+    "panic or force",
+    "manageable",
+    "biggest lie",
+    "fun step",
+    "tempted to skip",
+    "vague feeling",
+)
+
+BANNED_GLOSSARY_TERMS = {
+    "glossary",
+    "readiness",
+    "reflection",
+    "resource note",
+}
+
+
+TUTORIAL_HUBS = {
+    "arda_master": {
+        "title": "Tutorial hub: Arda Wigs master list",
+        "url": "https://arda-wigs.com/blogs/tutorials/tutorial-master-list",
+    },
+    "arda_structural": {
+        "title": "Tutorial hub: Arda Wigs structural builds",
+        "url": "https://arda-wigs.com/blogs/tutorials/tagged/iron-wig",
+    },
+    "epic_beginner": {
+        "title": "Beginner guide: Epic Cosplay Wigs",
+        "url": "https://www.epiccosplay.com/pages/wigs",
+    },
+    "epic_tips": {
+        "title": "Tutorial hub: Epic Cosplay tips and tricks",
+        "url": "https://www.epiccosplay.com/pages/tips-and-tricks",
+    },
+}
+
+
+def tutorial_hub_for(title: str, terms: list[str]) -> dict[str, str]:
+    text = " ".join([title, *terms]).lower()
+    if any(word in text for word in ("hard cap", "shell", "helmet", "armature", "foam", "wire", "mechanical", "detachable")):
+        return TUTORIAL_HUBS["arda_structural"]
+    if any(word in text for word in ("heat", "cool", "steam", "strand", "swatch", "color", "cut", "layer", "thin", "razor", "crimp", "teas", "frizz", "dye")):
+        return TUTORIAL_HUBS["epic_tips"]
+    if any(word in text for word in ("hairline", "lace", "ventilat", "edge", "weft", "pony", "braid", "updo", "bun", "clip", "donor")):
+        return TUTORIAL_HUBS["arda_master"]
+    return TUTORIAL_HUBS["epic_beginner"]
+
+
+def reference_resources(title: str, terms: list[str]) -> list[dict[str, str]]:
+    search_text = " ".join(["cosplay wig", title, *terms])
+    image_query = quote_plus(f"{search_text} reference images")
+    website_query = quote_plus(f"{search_text} tutorial guide")
+    return [
+        {
+            "title": f"Reference images: {title}",
+            "url": f"https://duckduckgo.com/?q={image_query}&iax=images&ia=images",
+        },
+        tutorial_hub_for(title, terms),
+        {
+            "title": f"Website search: {title}",
+            "url": f"https://duckduckgo.com/?q={website_query}",
+        },
+    ]
 
 
 def lesson(day: int, spec: tuple[str, str, str, list[str], str, str, str]) -> dict:
@@ -189,13 +282,61 @@ def lesson(day: int, spec: tuple[str, str, str, list[str], str, str, str]) -> di
         "objective": objective,
         "concept": concept,
         "glossary": [{"term": term, "definition": DEFINITIONS[term]} for term in terms],
-        "requiredResources": [],
+        "requiredResources": reference_resources(title, terms),
         "optionalResources": [],
         "practice": practice,
         "safety": SAFETY,
         "reflection": reflection,
         "readiness": readiness,
     }
+
+
+def collect_strings(value) -> list[str]:
+    if isinstance(value, str):
+        return [value]
+    if isinstance(value, list):
+        strings = []
+        for item in value:
+            strings.extend(collect_strings(item))
+        return strings
+    if isinstance(value, dict):
+        strings = []
+        for item in value.values():
+            strings.extend(collect_strings(item))
+        return strings
+    return []
+
+
+def validate_lessons(data: dict) -> None:
+    problems: list[str] = []
+    for item in data["lessons"]:
+        day = item["day"]
+        if item.get("estimatedMinutes") != 5:
+            problems.append(f"Day {day}: expected estimatedMinutes=5")
+        if len(item.get("requiredResources", [])) < 3:
+            problems.append(f"Day {day}: missing required references")
+        for entry in item.get("glossary", []):
+            term = entry["term"].lower()
+            if term in BANNED_GLOSSARY_TERMS:
+                problems.append(f"Day {day}: meta glossary term {entry['term']!r}")
+        lesson_text = " ".join(
+            collect_strings(
+                {
+                    "title": item["title"],
+                    "objective": item["objective"],
+                    "concept": item["concept"],
+                    "glossary": item["glossary"],
+                    "practice": item["practice"],
+                    "reflection": item["reflection"],
+                    "readiness": item["readiness"],
+                }
+            )
+        ).lower()
+        for phrase in BANNED_LESSON_PHRASES:
+            if phrase in lesson_text:
+                problems.append(f"Day {day}: banned lesson phrase {phrase!r}")
+    if problems:
+        raise ValueError("\n".join(problems))
 
 
 def main() -> int:
@@ -205,10 +346,11 @@ def main() -> int:
             "startDate": "2026-07-02",
             "timezone": "America/Los_Angeles",
             "estimatedMinutes": 5,
-            "description": "A self-contained 90-day tracker for five-minute cosplay wig styling micro-lessons.",
+            "description": "A self-contained 90-day cosplay wig styling course with short daily lessons.",
         },
         "lessons": [lesson(index, spec) for index, spec in enumerate(SPECS, start=1)],
     }
+    validate_lessons(data)
     OUT.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"Wrote {len(SPECS)} lessons to {OUT}")
     return 0
