@@ -40,32 +40,36 @@ function denseProgress() {
 }
 
 for (const [viewportName, viewport] of Object.entries(viewports)) {
-  for (const colorScheme of ["light", "dark"]) {
-    for (const [slug, tabName] of views) {
-      test(`${viewportName} ${colorScheme} ${slug}`, async ({ page }) => {
-        const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
-        await page.setViewportSize(viewport);
-        await page.emulateMedia({ colorScheme });
-        await page.addInitScript((progress) => {
-          localStorage.setItem("wiglessons.progress.v1", JSON.stringify(progress));
-        }, denseProgress());
-        await page.goto(baseUrl, { waitUntil: "networkidle" });
-        await page.getByRole("tab", { name: tabName, exact: true }).click();
+  for (const interfaceName of ["atelier", "classic"]) {
+    const colorSchemes = interfaceName === "atelier" ? ["light", "dark"] : ["light"];
+    for (const colorScheme of colorSchemes) {
+      for (const [slug, tabName] of views) {
+        test(`${viewportName} ${interfaceName} ${colorScheme} ${slug}`, async ({ page }) => {
+          const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+          await page.setViewportSize(viewport);
+          await page.emulateMedia({ colorScheme });
+          await page.addInitScript(({ progress, interfaceName: initialInterface }) => {
+            localStorage.setItem("wiglessons.progress.v1", JSON.stringify(progress));
+            localStorage.setItem("wiglessons.interface.v1", initialInterface);
+          }, { progress: denseProgress(), interfaceName });
+          await page.goto(baseUrl, { waitUntil: "networkidle" });
+          await page.getByRole("tab", { name: tabName, exact: true }).click();
 
-        if (slug === "all-lessons-dense") {
-          await page.getByLabel("Jump to lesson").selectOption("30");
-        }
+          if (slug === "all-lessons-dense") {
+            await page.getByLabel("Jump to lesson").selectOption("30");
+          }
 
-        await expect(page.locator("#detail")).toBeVisible();
-        await expect.poll(async () => page.evaluate(
-          () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
-        )).toBe(true);
+          await expect(page.locator("#detail")).toBeVisible();
+          await expect.poll(async () => page.evaluate(
+            () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
+          )).toBe(true);
 
-        await page.screenshot({
-          path: path.join(OUTPUT_DIR, `${viewportName}__${colorScheme}__${slug}.png`),
-          fullPage: true,
+          await page.screenshot({
+            path: path.join(OUTPUT_DIR, `${viewportName}__${interfaceName}__${colorScheme}__${slug}.png`),
+            fullPage: true,
+          });
         });
-      });
+      }
     }
   }
 }

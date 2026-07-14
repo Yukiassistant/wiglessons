@@ -175,6 +175,26 @@ h3 {
   gap: 8px;
 }
 
+.interface-picker {
+  display: grid;
+  min-width: 150px;
+  gap: 3px;
+}
+
+.interface-picker span {
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 750;
+  letter-spacing: 0.08em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.interface-picker select {
+  min-height: 44px;
+  padding: 8px 34px 8px 11px;
+}
+
 .ghost-button,
 .primary-button,
 .danger-button,
@@ -882,6 +902,10 @@ textarea {
 
   .top-actions > * {
     width: 100%;
+  }
+
+  .interface-picker {
+    grid-column: 1 / -1;
   }
 
   .tabs {

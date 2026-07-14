@@ -1,4 +1,5 @@
 const STORAGE_KEY = "wiglessons.progress.v1";
+const INTERFACE_STORAGE_KEY = "wiglessons.interface.v1";
 const CHECKS = [
   ["read", "Read lesson"],
   ["definitions", "Reviewed definitions"],
@@ -13,25 +14,33 @@ const state = {
   selectedDay: 1,
   view: "today",
   search: "",
+  interface: loadInterfacePreference(),
 };
 
 const els = {
   detail: document.querySelector("#detail"),
+  atelierStyles: document.querySelector("#atelierStyles"),
+  brandEyebrow: document.querySelector("#brandEyebrow"),
+  classicStyles: document.querySelector("#classicStyles"),
   exportButton: document.querySelector("#exportButton"),
   importFile: document.querySelector("#importFile"),
+  interfaceStyle: document.querySelector("#interfaceStyle"),
   lessonList: document.querySelector("#lessonList"),
   lessonSearch: document.querySelector("#lessonSearch"),
   progressFill: document.querySelector("#progressFill"),
   progressNumber: document.querySelector("#progressNumber"),
   progressText: document.querySelector("#progressText"),
+  overviewEyebrow: document.querySelector("#overviewEyebrow"),
   tabs: Array.from(document.querySelectorAll(".tab")),
   todaySummary: document.querySelector("#todaySummary"),
+  themeColor: document.querySelector("#themeColor"),
   workspace: document.querySelector("#workspace"),
 };
 
 init();
 
 async function init() {
+  applyInterface();
   state.progress = loadProgress();
   const response = await fetch("lessons.json");
   state.data = await response.json();
@@ -66,8 +75,45 @@ function bindEvents() {
     renderLessonList();
   });
 
+  els.interfaceStyle.addEventListener("change", (event) => {
+    state.interface = event.target.value === "classic" ? "classic" : "atelier";
+    localStorage.setItem(INTERFACE_STORAGE_KEY, state.interface);
+    applyInterface();
+    renderDetail();
+  });
+
+  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", updateThemeColor);
+
   els.exportButton.addEventListener("click", exportProgress);
   els.importFile.addEventListener("change", importProgress);
+}
+
+function loadInterfacePreference() {
+  try {
+    return localStorage.getItem(INTERFACE_STORAGE_KEY) === "classic" ? "classic" : "atelier";
+  } catch {
+    return "atelier";
+  }
+}
+
+function applyInterface() {
+  const isClassic = state.interface === "classic";
+  document.documentElement.dataset.interface = state.interface;
+  document.body.dataset.interface = state.interface;
+  els.atelierStyles.disabled = isClassic;
+  els.classicStyles.disabled = !isClassic;
+  els.interfaceStyle.value = state.interface;
+  els.brandEyebrow.textContent = isClassic ? "90 days - 5 minutes each" : "90-day styling atelier";
+  els.overviewEyebrow.textContent = isClassic ? "Current pace" : "Your course notebook";
+  updateThemeColor();
+}
+
+function updateThemeColor() {
+  if (state.interface === "classic") {
+    els.themeColor.content = "#f47b38";
+    return;
+  }
+  els.themeColor.content = window.matchMedia("(prefers-color-scheme: dark)").matches ? "#19151a" : "#f7f1e8";
 }
 
 function loadProgress() {
@@ -247,7 +293,7 @@ function renderLesson(lesson) {
         ${lessonPicker}
         <div class="lesson-actions" aria-label="Lesson navigation">
           <button class="ghost-button" type="button" id="previousLesson" ${lesson.day === 1 ? "disabled" : ""}>Previous</button>
-          <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>Continue to next lesson</button>
+          <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>${state.interface === "classic" ? "Next lesson" : "Continue to next lesson"}</button>
         </div>
       </div>
       <span class="status-pill">${completion.complete ? "Complete" : `${completion.done}/${completion.total} core done`}</span>
@@ -259,6 +305,7 @@ function renderLesson(lesson) {
             <h3>Completion checklist</h3>
             <p class="muted">These core items count toward lesson progress.</p>
           </div>
+          ${state.interface === "classic" ? `<span class="mini-status">${completion.done}/${completion.total} core done</span>` : ""}
         </div>
         <div class="checklist" aria-label="Completion checklist">
           ${CHECKS.map(([key, label]) => checkRow(lesson.day, key, label, progress.checks?.[key])).join("")}
@@ -446,7 +493,7 @@ function renderProgress() {
   els.detail.innerHTML = `
     <header class="detail-header">
       <div>
-        <p class="eyebrow">Course record</p>
+        <p class="eyebrow">${state.interface === "classic" ? "Progress" : "Course record"}</p>
         <h2>${stats.percent}% complete</h2>
         <p class="muted">${stats.completed} of ${stats.total} lessons fully checked off.</p>
       </div>

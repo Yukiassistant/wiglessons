@@ -8,6 +8,7 @@ A simple static tracker for the 90-day cosplay wig styling course.
 - Lesson detail view with objective, concept, glossary, references, practice, safety, reflection, and readiness
 - Searchable glossary
 - Browser-local progress and notes
+- Selectable Atelier and Classic interfaces, with the choice saved in the browser
 - JSON export/import backup
 
 ## Local Preview

@@ -121,6 +121,78 @@ test("mobile controls keep usable targets and reduced motion is honored", async 
   expect(Number.parseFloat(transitionDuration)).toBeLessThanOrEqual(0.00001);
 });
 
+test("interface choice persists without changing lesson progress", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.setViewportSize({ width: 1440, height: 1000 });
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+  await page.evaluate(() => localStorage.clear());
+  await page.reload({ waitUntil: "networkidle" });
+
+  const interfaceStyle = page.getByLabel("Interface style");
+  await expect(interfaceStyle).toHaveValue("atelier");
+  await expect(page.locator("#atelierStyles")).not.toHaveJSProperty("disabled", true);
+  await expect(page.locator("#classicStyles")).toHaveJSProperty("disabled", true);
+  await expect(page.getByText("90-day styling atelier")).toBeVisible();
+
+  await page.getByLabel("Read lesson").check();
+  await page.getByLabel("Lesson notes").fill("Shared between interface styles.");
+  await page.getByRole("button", { name: "Save notes" }).click();
+  const progressBeforeSwitch = await page.evaluate(() => localStorage.getItem("wiglessons.progress.v1"));
+
+  await interfaceStyle.selectOption("classic");
+  await expect(page.locator("#atelierStyles")).toHaveJSProperty("disabled", true);
+  await expect(page.locator("#classicStyles")).not.toHaveJSProperty("disabled", true);
+  await expect(page.getByText("90 days - 5 minutes each")).toBeVisible();
+  await expect(page.getByText("Current pace")).toBeVisible();
+  await expect(page.locator("#detail .status-pill")).toHaveText("1/5 core done");
+  await expect(page.locator("#detail .mini-status")).toHaveText("1/5 core done");
+  await expect(page.getByLabel("Lesson notes")).toHaveValue("Shared between interface styles.");
+  await expect.poll(() => page.evaluate(
+    () => localStorage.getItem("wiglessons.interface.v1"),
+  )).toBe("classic");
+  expect(await page.evaluate(() => localStorage.getItem("wiglessons.progress.v1"))).toBe(progressBeforeSwitch);
+
+  const classicMark = await page.locator(".brand-mark").evaluate((node) => {
+    const style = getComputedStyle(node);
+    return { width: style.width, borderRadius: style.borderRadius };
+  });
+  expect(classicMark).toEqual({ width: "58px", borderRadius: "18px" });
+
+  await page.reload({ waitUntil: "networkidle" });
+  await expect(interfaceStyle).toHaveValue("classic");
+  await expect(page.locator("#classicStyles")).not.toHaveJSProperty("disabled", true);
+  await expect(page.getByLabel("Read lesson")).toBeChecked();
+  await expect(page.getByLabel("Lesson notes")).toHaveValue("Shared between interface styles.");
+
+  await interfaceStyle.selectOption("atelier");
+  await expect(page.getByText("90-day styling atelier")).toBeVisible();
+  await expect(page.locator("#detail .status-pill")).toHaveText("1/5 core done");
+  await expect(page.locator("#detail .mini-status")).toHaveCount(0);
+  const atelierMark = await page.locator(".brand-mark").evaluate((node) => {
+    const style = getComputedStyle(node);
+    return { width: style.width, borderRadius: style.borderRadius };
+  });
+  expect(atelierMark).toEqual({ width: "46px", borderRadius: "50%" });
+});
+
+for (const width of [320, 1440]) {
+  test(`classic interface has no horizontal overflow at ${width}px`, async ({ page }) => {
+    const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+    await page.setViewportSize({ width, height: width < 800 ? 900 : 1000 });
+    await page.addInitScript(() => {
+      localStorage.setItem("wiglessons.interface.v1", "classic");
+    });
+    await page.goto(baseUrl, { waitUntil: "networkidle" });
+
+    for (const view of ["Today", "All lessons", "Glossary", "Progress"]) {
+      await page.getByRole("tab", { name: view, exact: true }).click();
+      await expect.poll(async () => page.evaluate(
+        () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
+      )).toBe(true);
+    }
+  });
+}
+
 test("lesson navigation, notes, backup, import, and reset remain intact", async ({ page }) => {
   const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
   await page.goto(baseUrl, { waitUntil: "networkidle" });
