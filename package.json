@@ -5,7 +5,8 @@
   "description": "Static tracker for a 90-day cosplay wig styling course.",
   "scripts": {
     "serve": "python3 -m http.server 4177 --bind 127.0.0.1",
-    "smoke": "playwright test tests/smoke.spec.js --reporter=line"
+    "smoke": "playwright test tests/smoke.spec.js --reporter=line",
+    "audit:ui": "playwright test tests/visual-audit.spec.js --reporter=line"
   },
   "devDependencies": {
     "@playwright/test": "^1.61.1"

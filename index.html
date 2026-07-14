@@ -3,17 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#f47b38">
+    <meta name="theme-color" content="#f7f1e8" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#19151a" media="(prefers-color-scheme: dark)">
     <title>Cosplay Wig Styling Lessons</title>
-    <link rel="stylesheet" href="styles.css?v=20260703-lesson-content-guard">
+    <link rel="stylesheet" href="styles.css?v=20260713-atelier-remodel">
   </head>
   <body>
     <div class="app-shell">
       <header class="topbar">
         <div class="brand-lockup">
-          <div class="brand-mark" aria-hidden="true">W</div>
+          <div class="brand-mark" aria-hidden="true"><span>W</span></div>
           <div>
-            <p class="eyebrow">90 days - 5 minutes each</p>
+            <p class="eyebrow">90-day styling atelier</p>
             <h1>Cosplay Wig Styling</h1>
           </div>
         </div>
@@ -27,7 +28,7 @@
       <main>
         <section class="overview" aria-labelledby="overviewTitle">
           <div class="overview-copy">
-            <p class="eyebrow">Current pace</p>
+            <p class="eyebrow">Your course notebook</p>
             <h2 id="overviewTitle">Today's lesson</h2>
             <p id="todaySummary">Loading lesson data...</p>
           </div>
@@ -40,11 +41,11 @@
           </div>
         </section>
 
-        <nav class="tabs" aria-label="Views">
-          <button class="tab is-active" type="button" data-view="today">Today</button>
-          <button class="tab" type="button" data-view="lessons">All lessons</button>
-          <button class="tab" type="button" data-view="glossary">Glossary</button>
-          <button class="tab" type="button" data-view="progress">Progress</button>
+        <nav class="tabs" aria-label="Course views" role="tablist">
+          <button class="tab is-active" id="todayTab" type="button" role="tab" aria-selected="true" aria-controls="detail" data-view="today">Today</button>
+          <button class="tab" id="lessonsTab" type="button" role="tab" aria-selected="false" aria-controls="detail" data-view="lessons" tabindex="-1">All lessons</button>
+          <button class="tab" id="glossaryTab" type="button" role="tab" aria-selected="false" aria-controls="detail" data-view="glossary" tabindex="-1">Glossary</button>
+          <button class="tab" id="progressTab" type="button" role="tab" aria-selected="false" aria-controls="detail" data-view="progress" tabindex="-1">Progress</button>
         </nav>
 
         <div class="workspace" id="workspace">
@@ -56,7 +57,7 @@
             <div id="lessonList"></div>
           </aside>
 
-          <section class="detail" id="detail" aria-live="polite"></section>
+          <section class="detail" id="detail" role="tabpanel" aria-labelledby="todayTab" aria-live="polite"></section>
         </div>
       </main>
     </div>
@@ -71,6 +72,6 @@
       </button>
     </template>
 
-    <script src="app.js?v=20260703-lesson-content-guard" type="module"></script>
+    <script src="app.js?v=20260713-atelier-remodel" type="module"></script>
   </body>
 </html>

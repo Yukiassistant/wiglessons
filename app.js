@@ -47,6 +47,18 @@ function bindEvents() {
       if (state.view === "today") state.selectedDay = todayDay();
       render();
     });
+    button.addEventListener("keydown", (event) => {
+      const currentIndex = els.tabs.indexOf(button);
+      let nextIndex = null;
+      if (event.key === "ArrowRight") nextIndex = (currentIndex + 1) % els.tabs.length;
+      if (event.key === "ArrowLeft") nextIndex = (currentIndex - 1 + els.tabs.length) % els.tabs.length;
+      if (event.key === "Home") nextIndex = 0;
+      if (event.key === "End") nextIndex = els.tabs.length - 1;
+      if (nextIndex === null) return;
+      event.preventDefault();
+      els.tabs[nextIndex].focus();
+      els.tabs[nextIndex].click();
+    });
   });
 
   els.lessonSearch.addEventListener("input", (event) => {
@@ -112,8 +124,13 @@ function render() {
   document.body.dataset.view = state.view;
   els.workspace.classList.toggle("has-lesson-map", state.view === "lessons");
   els.tabs.forEach((button) => {
-    button.classList.toggle("is-active", button.dataset.view === state.view);
+    const isActive = button.dataset.view === state.view;
+    button.classList.toggle("is-active", isActive);
+    button.setAttribute("aria-selected", String(isActive));
+    button.tabIndex = isActive ? 0 : -1;
   });
+  const selectedTab = els.tabs.find((button) => button.dataset.view === state.view);
+  els.detail.setAttribute("aria-labelledby", selectedTab.id);
   renderOverview();
   renderLessonList();
   renderDetail();
@@ -221,20 +238,20 @@ function renderLesson(lesson) {
     : "";
 
   els.detail.innerHTML = `
-    <div class="detail-header">
+    <header class="detail-header">
       <div>
         <p class="eyebrow">${lessonModeLabel} - Day ${lesson.day}</p>
-        <h2>${escapeHtml(lesson.title)}</h2>
+        <h2 id="lessonTitle">${escapeHtml(lesson.title)}</h2>
         <p class="muted">${escapeHtml(lesson.objective)}</p>
         <p class="time-pill">${estimatedMinutes} min max</p>
         ${lessonPicker}
         <div class="lesson-actions" aria-label="Lesson navigation">
           <button class="ghost-button" type="button" id="previousLesson" ${lesson.day === 1 ? "disabled" : ""}>Previous</button>
-          <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>Next lesson</button>
+          <button class="primary-button" type="button" id="nextLesson" ${lesson.day === state.data.lessons.length ? "disabled" : ""}>Continue to next lesson</button>
         </div>
       </div>
       <span class="status-pill">${completion.complete ? "Complete" : `${completion.done}/${completion.total} core done`}</span>
-    </div>
+    </header>
     <div class="section-grid">
       <section class="section is-wide">
         <div class="checklist-header">
@@ -242,7 +259,6 @@ function renderLesson(lesson) {
             <h3>Completion checklist</h3>
             <p class="muted">These core items count toward lesson progress.</p>
           </div>
-          <span class="mini-status">${completion.done}/${completion.total} core done</span>
         </div>
         <div class="checklist" aria-label="Completion checklist">
           ${CHECKS.map(([key, label]) => checkRow(lesson.day, key, label, progress.checks?.[key])).join("")}
@@ -386,13 +402,13 @@ function renderGlossary() {
   });
 
   els.detail.innerHTML = `
-    <div class="detail-header">
+    <header class="detail-header">
       <div>
         <p class="eyebrow">Reference</p>
         <h2>Glossary</h2>
         <p class="muted">${terms.size} terms across the course.</p>
       </div>
-    </div>
+    </header>
     <div class="section-grid">
       <section class="section is-wide">
         <div class="glossary-toolbar">
@@ -428,14 +444,14 @@ function renderGlossary() {
 function renderProgress() {
   const stats = courseStats();
   els.detail.innerHTML = `
-    <div class="detail-header">
+    <header class="detail-header">
       <div>
-        <p class="eyebrow">Progress</p>
+        <p class="eyebrow">Course record</p>
         <h2>${stats.percent}% complete</h2>
         <p class="muted">${stats.completed} of ${stats.total} lessons fully checked off.</p>
       </div>
       <button class="danger-button" type="button" id="resetAll">Reset all</button>
-    </div>
+    </header>
     <div class="section-grid">
       <section class="section is-wide">
         <h3>Lesson status</h3>

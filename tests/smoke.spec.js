@@ -12,6 +12,7 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await page.goto(baseUrl, { waitUntil: "networkidle" });
 
   await expect(page.getByRole("heading", { name: "Cosplay Wig Styling" })).toBeVisible();
+  await expect(page.getByRole("tab", { name: "Today" })).toHaveAttribute("aria-selected", "true");
   await expect(page.getByText("0 of 90 lessons complete")).toBeVisible();
   await expect(page.getByText("5 min max").first()).toBeVisible();
   await expect(page.getByRole("heading", { name: "References" })).toBeVisible();
@@ -43,7 +44,9 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   );
   expect(hasHorizontalOverflow).toBe(false);
 
-  await page.getByRole("button", { name: "All lessons" }).click();
+  await page.getByRole("tab", { name: "All lessons" }).click();
+  await expect(page.getByRole("tab", { name: "All lessons" })).toHaveAttribute("aria-selected", "true");
+  await expect(page.getByRole("tab", { name: "Today" })).toHaveAttribute("aria-selected", "false");
   await expect(page.locator(".lesson-list")).toBeVisible();
   await expect(page.getByLabel("Jump to lesson")).toBeVisible();
   await expect(page.getByLabel("Jump to lesson").locator("option")).toHaveCount(90);
@@ -55,7 +58,7 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   const mapTop = await page.locator(".lesson-list").evaluate((node) => node.getBoundingClientRect().top);
   expect(detailTop).toBeLessThan(mapTop);
 
-  await page.getByRole("button", { name: "Glossary" }).click();
+  await page.getByRole("tab", { name: "Glossary" }).click();
   await expect(page.locator(".lesson-list")).toBeHidden();
   await page.getByPlaceholder("Search terms").fill("lace");
   await expect(page.locator("#glossaryList").getByText("lace front").first()).toBeVisible();
@@ -63,4 +66,111 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   const stored = await page.evaluate(() => localStorage.getItem("wiglessons.progress.v1"));
   expect(stored).toContain('"read":true');
   expect(errors).toEqual([]);
+});
+
+for (const width of [320, 390, 768, 1440, 1728]) {
+  test(`layout has no horizontal overflow at ${width}px`, async ({ page }) => {
+    const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+    await page.setViewportSize({ width, height: width < 800 ? 900 : 1000 });
+    await page.goto(baseUrl, { waitUntil: "networkidle" });
+
+    for (const view of ["Today", "All lessons", "Glossary", "Progress"]) {
+      await page.getByRole("tab", { name: view, exact: true }).click();
+      await expect.poll(async () => page.evaluate(
+        () => document.documentElement.scrollWidth <= document.documentElement.clientWidth,
+      )).toBe(true);
+    }
+
+    await page.getByRole("tab", { name: "All lessons" }).click();
+    const detailBox = await page.locator("#detail").boundingBox();
+    const mapBox = await page.locator(".lesson-list").boundingBox();
+    expect(detailBox).not.toBeNull();
+    expect(mapBox).not.toBeNull();
+
+    if (width <= 940) {
+      expect(detailBox.y).toBeLessThan(mapBox.y);
+    } else {
+      expect(mapBox.x).toBeLessThan(detailBox.x);
+      expect(Math.abs(mapBox.y - detailBox.y)).toBeLessThanOrEqual(1);
+    }
+  });
+}
+
+test("mobile controls keep usable targets and reduced motion is honored", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.emulateMedia({ reducedMotion: "reduce" });
+  await page.setViewportSize({ width: 320, height: 900 });
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+
+  await page.getByRole("tab", { name: "Today" }).focus();
+  await page.keyboard.press("ArrowRight");
+  await expect(page.getByRole("tab", { name: "All lessons" })).toBeFocused();
+  await expect(page.getByRole("tab", { name: "All lessons" })).toHaveAttribute("aria-selected", "true");
+
+  for (const selector of ["#exportButton", "label[for='importFile']", ".tab", ".check-item"]) {
+    const boxes = await page.locator(selector).evaluateAll((nodes) => nodes.map((node) => {
+      const box = node.getBoundingClientRect();
+      return { width: box.width, height: box.height };
+    }));
+    expect(boxes.every((box) => box.width >= 44 && box.height >= 44)).toBe(true);
+  }
+
+  const transitionDuration = await page.locator(".progress-track span").evaluate(
+    (node) => getComputedStyle(node).transitionDuration,
+  );
+  expect(Number.parseFloat(transitionDuration)).toBeLessThanOrEqual(0.00001);
+});
+
+test("lesson navigation, notes, backup, import, and reset remain intact", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+  await page.evaluate(() => localStorage.clear());
+  await page.reload({ waitUntil: "networkidle" });
+
+  await page.getByRole("tab", { name: "All lessons" }).click();
+  await page.getByLabel("Jump to lesson").selectOption("30");
+  await expect(page.getByRole("heading", { name: "Check On The Head" })).toBeVisible();
+  await page.getByRole("button", { name: "Previous" }).click();
+  await expect(page.getByRole("heading", { name: "Point Cutting Idea" })).toBeVisible();
+  await page.getByRole("button", { name: "Continue to next lesson" }).click();
+  await expect(page.getByRole("heading", { name: "Check On The Head" })).toBeVisible();
+
+  await page.getByLabel("Lesson notes").fill("Check the silhouette before cutting.");
+  await page.getByRole("button", { name: "Save notes" }).click();
+  await expect.poll(() => page.evaluate(
+    () => localStorage.getItem("wiglessons.progress.v1"),
+  )).toContain("Check the silhouette before cutting.");
+
+  const downloadPromise = page.waitForEvent("download");
+  await page.getByRole("button", { name: "Export" }).click();
+  const download = await downloadPromise;
+  expect(download.suggestedFilename()).toBe("wiglessons-progress.json");
+
+  const completeChecks = {
+    read: true,
+    definitions: true,
+    resource: true,
+    practice: true,
+    ready: true,
+  };
+  await page.locator("#importFile").setInputFiles({
+    name: "progress.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify({
+      app: "wiglessons",
+      version: 1,
+      progress: {
+        1: { checks: completeChecks, notes: "Imported note", stuck: true, needsMaterials: false },
+      },
+    })),
+  });
+  await page.getByRole("tab", { name: "Progress" }).click();
+  await expect(page.getByRole("heading", { name: "1% complete" })).toBeVisible();
+  await expect(page.getByText("5/5 core complete - stuck")).toBeVisible();
+
+  await page.getByRole("button", { name: "Reset all" }).click();
+  await expect(page.getByRole("heading", { name: "0% complete" })).toBeVisible();
+  await expect.poll(() => page.evaluate(
+    () => localStorage.getItem("wiglessons.progress.v1"),
+  )).toBe("{}");
 });
