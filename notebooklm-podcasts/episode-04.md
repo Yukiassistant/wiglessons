@@ -38,9 +38,9 @@ Key terms:
 - silhouette: The outer shape of the hairstyle, usually the first thing viewers recognize.
 
 References:
-- Reference images: Face Frame: https://duckduckgo.com/?q=cosplay+wig+Face+Frame+hairline+silhouette+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Face Frame: https://duckduckgo.com/?q=cosplay+wig+Face+Frame+hairline+silhouette+tutorial+guide
+- Epic Cosplay: section and fit a Hime cut: https://www.epiccosplay.com/pages/creating-a-hime-cut
+- Epic Cosplay: cut different bang shapes: https://www.epiccosplay.com/pages/how-to-cut-any-bangs
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
 
 ## Lesson 29: Point Cutting Idea
 
@@ -62,9 +62,9 @@ Key terms:
 - thinning: Removing bulk without shortening the whole section, usually with thinning shears or careful cuts.
 
 References:
-- Reference images: Point Cutting Idea: https://duckduckgo.com/?q=cosplay+wig+Point+Cutting+Idea+rough+cut+thinning+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Point Cutting Idea: https://duckduckgo.com/?q=cosplay+wig+Point+Cutting+Idea+rough+cut+thinning+tutorial+guide
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: cut bangs with a hair razor: https://www.epiccosplay.com/pages/cutting-bangs-with-a-hair-razor
+- Epic Cosplay: section and fit a Hime cut: https://www.epiccosplay.com/pages/creating-a-hime-cut
 
 ## Lesson 30: Stand View Versus Worn View
 
@@ -84,9 +84,9 @@ Key terms:
 - fit: How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.
 
 References:
-- Reference images: Stand View Versus Worn View: https://duckduckgo.com/?q=cosplay+wig+Stand+View+Versus+Worn+View+block+fit+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Stand View Versus Worn View: https://duckduckgo.com/?q=cosplay+wig+Stand+View+Versus+Worn+View+block+fit+tutorial+guide
+- Epic Cosplay: section and fit a Hime cut: https://www.epiccosplay.com/pages/creating-a-hime-cut
+- Epic Cosplay: compare wig length on a head: https://www.epiccosplay.com/blogs/wig-tips/is-wig-length-important-to-you-this-is-a-must-read
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
 
 ## Lesson 31: Layering Purpose
 
@@ -108,9 +108,9 @@ Key terms:
 - silhouette: The outer shape of the hairstyle, usually the first thing viewers recognize.
 
 References:
-- Reference images: Layering Purpose: https://duckduckgo.com/?q=cosplay+wig+Layering+Purpose+layering+silhouette+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Layering Purpose: https://duckduckgo.com/?q=cosplay+wig+Layering+Purpose+layering+silhouette+tutorial+guide
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
+- Epic Cosplay: textured Prompto wig: https://www.epiccosplay.com/pages/prompto-argentum-wig-tutorial
 
 ## Lesson 32: Thinning Risk
 
@@ -132,9 +132,9 @@ Key terms:
 - cap exposure: Visible wig cap or weft tracks showing through the hair.
 
 References:
-- Reference images: Thinning Risk: https://duckduckgo.com/?q=cosplay+wig+Thinning+Risk+thinning+cap+exposure+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Thinning Risk: https://duckduckgo.com/?q=cosplay+wig+Thinning+Risk+thinning+cap+exposure+tutorial+guide
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: cut bangs with a hair razor: https://www.epiccosplay.com/pages/cutting-bangs-with-a-hair-razor
+- Epic Cosplay: remove fiber from a clip-on ponytail: https://www.epiccosplay.com/pages/how-to-remove-fibers-from-a-clip-on-ponytail
 
 ## Lesson 33: Razor Texture Concept
 
@@ -156,9 +156,9 @@ Key terms:
 - silhouette: The outer shape of the hairstyle, usually the first thing viewers recognize.
 
 References:
-- Reference images: Razor Texture Concept: https://duckduckgo.com/?q=cosplay+wig+Razor+Texture+Concept+surface+layer+silhouette+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Razor Texture Concept: https://duckduckgo.com/?q=cosplay+wig+Razor+Texture+Concept+surface+layer+silhouette+tutorial+guide
+- Epic Cosplay: cut bangs with a hair razor: https://www.epiccosplay.com/pages/cutting-bangs-with-a-hair-razor
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: shape a spiky Sasuke wig: https://www.epiccosplay.com/blogs/styling-guide/wig-styling-tutorial-spiky-stylingsasukes-hairstyle-tutorial-by-jin-behindinfinity
 
 ## Lesson 34: Before And After Photos
 
@@ -178,9 +178,9 @@ Key terms:
 - silhouette: The outer shape of the hairstyle, usually the first thing viewers recognize.
 
 References:
-- Reference images: Before And After Photos: https://duckduckgo.com/?q=cosplay+wig+Before+And+After+Photos+accuracy+silhouette+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Before And After Photos: https://duckduckgo.com/?q=cosplay+wig+Before+And+After+Photos+accuracy+silhouette+tutorial+guide
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
+- Epic Cosplay: textured Prompto wig: https://www.epiccosplay.com/pages/prompto-argentum-wig-tutorial
+- Epic Cosplay: section and fit a Hime cut: https://www.epiccosplay.com/pages/creating-a-hime-cut
 
 ## Lesson 35: Stop Point
 
@@ -202,9 +202,9 @@ Key terms:
 - accuracy: How closely the wig matches the character reference while still working on a real head.
 
 References:
-- Reference images: Stop Point: https://duckduckgo.com/?q=cosplay+wig+Stop+Point+rough+cut+accuracy+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Stop Point: https://duckduckgo.com/?q=cosplay+wig+Stop+Point+rough+cut+accuracy+tutorial+guide
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: section and fit a Hime cut: https://www.epiccosplay.com/pages/creating-a-hime-cut
+- Epic Cosplay: compare wig length on a head: https://www.epiccosplay.com/blogs/wig-tips/is-wig-length-important-to-you-this-is-a-must-read
 
 ## Lesson 36: Crimping Creates Grip
 
@@ -226,7 +226,7 @@ Key terms:
 - support layer: The hidden underlayer that creates volume, grip, lift, or structure.
 
 References:
-- Reference images: Crimping Creates Grip: https://duckduckgo.com/?q=cosplay+wig+Crimping+Creates+Grip+crimping+support+layer+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Crimping Creates Grip: https://duckduckgo.com/?q=cosplay+wig+Crimping+Creates+Grip+crimping+support+layer+tutorial+guide
+- Epic Cosplay: why stylists crimp wigs: https://www.epiccosplay.com/blogs/wig-tips/why-do-some-cosplayers-and-stylists-crimp-their-wigs
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
+- Epic Cosplay: add volume by fluffing a straight wig: https://www.epiccosplay.com/blogs/customer-gallery/show-us-how-you-style-fluff-a-straight-wig-by-vicious-cosplay
 

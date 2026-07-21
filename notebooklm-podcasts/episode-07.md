@@ -38,9 +38,9 @@ Key terms:
 - cap exposure: Visible wig cap or weft tracks showing through the hair.
 
 References:
-- Reference images: Reverse Weft Idea: https://duckduckgo.com/?q=cosplay+wig+Reverse+Weft+Idea+reverse+weft+cap+exposure+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Reverse Weft Idea: https://duckduckgo.com/?q=cosplay+wig+Reverse+Weft+Idea+reverse+weft+cap+exposure+tutorial+guide
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: restyle a ponytail wig: https://www.epiccosplay.com/pages/ponytail-wig-restyling-guide
+- Epic Cosplay: put a standard wig into a ponytail: https://www.epiccosplay.com/pages/how-to-put-a-wig-into-a-ponytail
 
 ## Lesson 56: Short Weft Sew Plan
 
@@ -62,9 +62,9 @@ Key terms:
 - weft: A sewn strip of wig hair that can be added, removed, moved, or harvested.
 
 References:
-- Reference images: Short Weft Sew Plan: https://duckduckgo.com/?q=cosplay+wig+Short+Weft+Sew+Plan+anchor+weft+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Short Weft Sew Plan: https://duckduckgo.com/?q=cosplay+wig+Short+Weft+Sew+Plan+anchor+weft+tutorial+guide
+- Epic Cosplay: sew wig wefts: https://www.epiccosplay.com/pages/how-to-sew-wefts
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
 
 ## Lesson 57: Ponytail Weight
 
@@ -86,9 +86,9 @@ Key terms:
 - load path: The route weight and force take through the wig into anchors and the wearer's head.
 
 References:
-- Reference images: Ponytail Weight: https://duckduckgo.com/?q=cosplay+wig+Ponytail+Weight+anchor+load+path+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Ponytail Weight: https://duckduckgo.com/?q=cosplay+wig+Ponytail+Weight+anchor+load+path+tutorial+guide
+- Arda Wigs: detachable high-volume ponytail: https://arda-wigs.com/blogs/tutorials/how-to-make-a-detachable-ponytail-wig-w-extra-volume
+- Epic Cosplay: restyle a ponytail wig: https://www.epiccosplay.com/pages/ponytail-wig-restyling-guide
+- Epic Cosplay: put a standard wig into a ponytail: https://www.epiccosplay.com/pages/how-to-put-a-wig-into-a-ponytail
 
 ## Lesson 58: Clip-On Choice
 
@@ -110,9 +110,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Clip-On Choice: https://duckduckgo.com/?q=cosplay+wig+Clip-On+Choice+clip-on+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Clip-On Choice: https://duckduckgo.com/?q=cosplay+wig+Clip-On+Choice+clip-on+coverage+tutorial+guide
+- Epic Cosplay: use a ponytail clip-on: https://www.epiccosplay.com/pages/how-to-use-ponytail-clip-ons
+- Arda Wigs: long clip versus long weft: https://arda-wigs.com/blogs/tutorials/long-clip-vs-long-weft
+- Epic Cosplay: make a smaller hair clip-on: https://www.epiccosplay.com/pages/mini-hair-clip-tutorial
 
 ## Lesson 59: Braid Bulk
 
@@ -132,9 +132,9 @@ Key terms:
 - weft: A sewn strip of wig hair that can be added, removed, moved, or harvested.
 
 References:
-- Reference images: Braid Bulk: https://duckduckgo.com/?q=cosplay+wig+Braid+Bulk+density+weft+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Braid Bulk: https://duckduckgo.com/?q=cosplay+wig+Braid+Bulk+density+weft+tutorial+guide
+- Epic Cosplay: romantic French-braid tutorial: https://www.epiccosplay.com/pages/romantic-french-braid-tutorial
+- Arda Wigs: wig and tail with jumbo braids: https://arda-wigs.com/blogs/tutorials/fox-wig-and-tail-using-jumbo-braids
+- Arda Wigs: structural Braids Galore build: https://arda-wigs.com/blogs/iron-wig/iron-wig-2024-final-round-braids-galore
 
 ## Lesson 60: Updo Exposure
 
@@ -154,9 +154,9 @@ Key terms:
 - hairline: The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.
 
 References:
-- Reference images: Updo Exposure: https://duckduckgo.com/?q=cosplay+wig+Updo+Exposure+cap+exposure+hairline+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Updo Exposure: https://duckduckgo.com/?q=cosplay+wig+Updo+Exposure+cap+exposure+hairline+tutorial+guide
+- Arda Wigs: Countess updo tutorial: https://arda-wigs.com/blogs/tutorials/the-countess-updo-tutorial-by-hee-hee
+- Epic Cosplay: put a standard wig into a ponytail: https://www.epiccosplay.com/pages/how-to-put-a-wig-into-a-ponytail
+- Arda Wigs: Sailor Moon ponytail and bun build: https://arda-wigs.com/blogs/tutorials/how-to-style-a-sailor-moon-wig-by-antiquitydreams
 
 ## Lesson 61: Anchor Backup
 
@@ -178,9 +178,9 @@ Key terms:
 - mechanical attachment: A physical attachment method like clips, screws, snaps, straps, buckles, or magnets.
 
 References:
-- Reference images: Anchor Backup: https://duckduckgo.com/?q=cosplay+wig+Anchor+Backup+anchor+mechanical+attachment+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Anchor Backup: https://duckduckgo.com/?q=cosplay+wig+Anchor+Backup+anchor+mechanical+attachment+tutorial+guide
+- Epic Cosplay: secure a wig with toupee clips: https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips
+- Arda Wigs: use a wig grip: https://arda-wigs.com/blogs/tutorials/how-to-use-our-wig-grips
+- Arda Wigs: detachable high-volume ponytail: https://arda-wigs.com/blogs/tutorials/how-to-make-a-detachable-ponytail-wig-w-extra-volume
 
 ## Lesson 62: Visible Edge Decision
 
@@ -200,9 +200,9 @@ Key terms:
 - hairline: The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.
 
 References:
-- Reference images: Visible Edge Decision: https://duckduckgo.com/?q=cosplay+wig+Visible+Edge+Decision+edge+hairline+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Visible Edge Decision: https://duckduckgo.com/?q=cosplay+wig+Visible+Edge+Decision+edge+hairline+tutorial+guide
+- Epic Cosplay: wig hairline types compared: https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences
+- Epic Cosplay: add a lace front: https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig
+- Epic Cosplay: restyle a skin-top part: https://www.epiccosplay.com/pages/restyle-a-skin-top-hair-part
 
 ## Lesson 63: Ventilating Use Case
 
@@ -224,7 +224,7 @@ Key terms:
 - lace front: A wig with sheer lace at the front where individual hairs create a realistic hairline.
 
 References:
-- Reference images: Ventilating Use Case: https://duckduckgo.com/?q=cosplay+wig+Ventilating+Use+Case+ventilating+lace+front+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Ventilating Use Case: https://duckduckgo.com/?q=cosplay+wig+Ventilating+Use+Case+ventilating+lace+front+tutorial+guide
+- Luvme Hair: close-up lace ventilation tutorial: https://shop.luvmehair.com/blogs/tutorial-video/how-to-ventilate-a-lace-front-tutorial-video
+- IAA Club: ventilate hair into a lace-front wig: https://iaanimeclub.weebly.com/tutorialshelp-archive/how-to-ventilate-or-add-hair-to-a-lacefront-wig
+- Epic Cosplay: add a lace front: https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig
 

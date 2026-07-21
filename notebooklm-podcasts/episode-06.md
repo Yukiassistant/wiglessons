@@ -38,9 +38,9 @@ Key terms:
 - character read: How quickly the hairstyle is recognizable as the intended character.
 
 References:
-- Reference images: Anime Hair Forms: https://duckduckgo.com/?q=cosplay+wig+Anime+Hair+Forms+silhouette+character+read+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Anime Hair Forms: https://duckduckgo.com/?q=cosplay+wig+Anime+Hair+Forms+silhouette+character+read+tutorial+guide
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
 
 ## Lesson 47: Chunk Hierarchy
 
@@ -60,9 +60,9 @@ Key terms:
 - negative space: The empty shapes around hair chunks that help the silhouette read clearly.
 
 References:
-- Reference images: Chunk Hierarchy: https://duckduckgo.com/?q=cosplay+wig+Chunk+Hierarchy+character+read+negative+space+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Chunk Hierarchy: https://duckduckgo.com/?q=cosplay+wig+Chunk+Hierarchy+character+read+negative+space+tutorial+guide
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Epic Cosplay: shape a spiky Sasuke wig: https://www.epiccosplay.com/blogs/styling-guide/wig-styling-tutorial-spiky-stylingsasukes-hairstyle-tutorial-by-jin-behindinfinity
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
 
 ## Lesson 48: Negative Space
 
@@ -82,9 +82,9 @@ Key terms:
 - silhouette: The outer shape of the hairstyle, usually the first thing viewers recognize.
 
 References:
-- Reference images: Negative Space: https://duckduckgo.com/?q=cosplay+wig+Negative+Space+negative+space+silhouette+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Negative Space: https://duckduckgo.com/?q=cosplay+wig+Negative+Space+negative+space+silhouette+tutorial+guide
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
+- Epic Cosplay: Aphrodite spiking guide: https://www.epiccosplay.com/pages/aphrodite-spiking-guide
 
 ## Lesson 49: Soft Spike
 
@@ -106,9 +106,9 @@ Key terms:
 - setting: Shaping synthetic fiber with heat, steam, tension, clips, or rollers until it cools.
 
 References:
-- Reference images: Soft Spike: https://duckduckgo.com/?q=cosplay+wig+Soft+Spike+spike+setting+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Soft Spike: https://duckduckgo.com/?q=cosplay+wig+Soft+Spike+spike+setting+tutorial+guide
+- Epic Cosplay: Aphrodite spiking guide: https://www.epiccosplay.com/pages/aphrodite-spiking-guide
+- Epic Cosplay: shape a spiky Sasuke wig: https://www.epiccosplay.com/blogs/styling-guide/wig-styling-tutorial-spiky-stylingsasukes-hairstyle-tutorial-by-jin-behindinfinity
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
 
 ## Lesson 50: Supported Spike
 
@@ -130,9 +130,9 @@ Key terms:
 - foam core: A lightweight foam support used inside oversized spikes, buns, curls, or shapes.
 
 References:
-- Reference images: Supported Spike: https://duckduckgo.com/?q=cosplay+wig+Supported+Spike+wire+support+foam+core+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Supported Spike: https://duckduckgo.com/?q=cosplay+wig+Supported+Spike+wire+support+foam+core+tutorial+guide
+- Epic Cosplay: Gon wig with inner support: https://www.epiccosplay.com/pages/gon-freecss-wig-tutorial
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
 
 ## Lesson 51: Shake Test
 
@@ -154,9 +154,9 @@ Key terms:
 - anchor: The point or structure that carries pull, weight, clips, straps, or supports.
 
 References:
-- Reference images: Shake Test: https://duckduckgo.com/?q=cosplay+wig+Shake+Test+shake+test+anchor+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Shake Test: https://duckduckgo.com/?q=cosplay+wig+Shake+Test+shake+test+anchor+tutorial+guide
+- Epic Cosplay: secure a wig with toupee clips: https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips
+- Arda Wigs: detachable high-volume ponytail: https://arda-wigs.com/blogs/tutorials/how-to-make-a-detachable-ponytail-wig-w-extra-volume
+- Arda Wigs: use a wig grip: https://arda-wigs.com/blogs/tutorials/how-to-use-our-wig-grips
 
 ## Lesson 52: Wefts Add More Than Hair
 
@@ -176,9 +176,9 @@ Key terms:
 - density: How much hair is present in an area; higher density looks fuller but adds weight.
 
 References:
-- Reference images: Wefts Add More Than Hair: https://duckduckgo.com/?q=cosplay+wig+Wefts+Add+More+Than+Hair+weft+density+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Wefts Add More Than Hair: https://duckduckgo.com/?q=cosplay+wig+Wefts+Add+More+Than+Hair+weft+density+tutorial+guide
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: sew wig wefts: https://www.epiccosplay.com/pages/how-to-sew-wefts
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
 
 ## Lesson 53: Extra Fiber Sources
 
@@ -198,9 +198,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Extra Fiber Sources: https://duckduckgo.com/?q=cosplay+wig+Extra+Fiber+Sources+donor+wig+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Extra Fiber Sources: https://duckduckgo.com/?q=cosplay+wig+Extra+Fiber+Sources+donor+wig+coverage+tutorial+guide
+- Epic Cosplay: remove fiber from a clip-on ponytail: https://www.epiccosplay.com/pages/how-to-remove-fibers-from-a-clip-on-ponytail
+- Arda Wigs: long clip versus long weft: https://arda-wigs.com/blogs/tutorials/long-clip-vs-long-weft
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
 
 ## Lesson 54: Weft Direction
 
@@ -220,7 +220,7 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Weft Direction: https://duckduckgo.com/?q=cosplay+wig+Weft+Direction+hair+direction+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Weft Direction: https://duckduckgo.com/?q=cosplay+wig+Weft+Direction+hair+direction+coverage+tutorial+guide
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: sew wig wefts: https://www.epiccosplay.com/pages/how-to-sew-wefts
+- Epic Cosplay: restyle a ponytail wig: https://www.epiccosplay.com/pages/ponytail-wig-restyling-guide
 

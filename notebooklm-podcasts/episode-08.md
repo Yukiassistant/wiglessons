@@ -38,9 +38,9 @@ Key terms:
 - hairline: The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.
 
 References:
-- Reference images: Density Gradient: https://duckduckgo.com/?q=cosplay+wig+Density+Gradient+density+hairline+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Density Gradient: https://duckduckgo.com/?q=cosplay+wig+Density+Gradient+density+hairline+tutorial+guide
+- Luvme Hair: close-up lace ventilation tutorial: https://shop.luvmehair.com/blogs/tutorial-video/how-to-ventilate-a-lace-front-tutorial-video
+- Epic Cosplay: wig hairline types compared: https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
 
 ## Lesson 65: False Hairline Idea
 
@@ -62,9 +62,9 @@ Key terms:
 - adhesive: A bonding product; keep skin-safe adhesives separate from craft glues and styling sprays.
 
 References:
-- Reference images: False Hairline Idea: https://duckduckgo.com/?q=cosplay+wig+False+Hairline+Idea+edge+adhesive+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: False Hairline Idea: https://duckduckgo.com/?q=cosplay+wig+False+Hairline+Idea+edge+adhesive+tutorial+guide
+- Epic Cosplay: add a lace front: https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig
+- Leafnin Cosplay: add sideburns to a pulled-back wig: https://leafnincosplay.com/2022/12/07/adding-sideburns-into-a-pulled-back-wig/
+- Cosplay Advice: fit and attach a lace-front wig: https://cosplayadvice.com/lace-front-wig/
 
 ## Lesson 66: Sideburns And Nape
 
@@ -84,9 +84,9 @@ Key terms:
 - edge: A visible boundary such as hairline, lace, sideburn, nape, shell rim, or seam.
 
 References:
-- Reference images: Sideburns And Nape: https://duckduckgo.com/?q=cosplay+wig+Sideburns+And+Nape+ear+tab+edge+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Sideburns And Nape: https://duckduckgo.com/?q=cosplay+wig+Sideburns+And+Nape+ear+tab+edge+tutorial+guide
+- Leafnin Cosplay: add sideburns to a pulled-back wig: https://leafnincosplay.com/2022/12/07/adding-sideburns-into-a-pulled-back-wig/
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Cosplay Advice: fit and attach a lace-front wig: https://cosplayadvice.com/lace-front-wig/
 
 ## Lesson 67: Hairline Decision Card
 
@@ -108,9 +108,9 @@ Key terms:
 - hairline: The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.
 
 References:
-- Reference images: Hairline Decision Card: https://duckduckgo.com/?q=cosplay+wig+Hairline+Decision+Card+wig+map+hairline+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Hairline Decision Card: https://duckduckgo.com/?q=cosplay+wig+Hairline+Decision+Card+wig+map+hairline+tutorial+guide
+- Epic Cosplay: wig hairline types compared: https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences
+- Epic Cosplay: add a lace front: https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig
+- Epic Cosplay: restyle a skin-top part: https://www.epiccosplay.com/pages/restyle-a-skin-top-hair-part
 
 ## Lesson 68: Color Reality Check
 
@@ -132,9 +132,9 @@ Key terms:
 - fiber: The synthetic hair material the wig is made from.
 
 References:
-- Reference images: Color Reality Check: https://duckduckgo.com/?q=cosplay+wig+Color+Reality+Check+swatch+test+fiber+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Color Reality Check: https://duckduckgo.com/?q=cosplay+wig+Color+Reality+Check+swatch+test+fiber+tutorial+guide
+- Epic Cosplay: compare wig colors and undertones: https://www.epiccosplay.com/blogs/wig-tips/wig-color-help
+- Epic Cosplay: dye synthetic wig fiber with Rit DyeMore: https://www.epiccosplay.com/pages/rit-dyemore-synthetic-wig-fiber-tutorial
+- Epic Cosplay: make a two-toned wig: https://www.epiccosplay.com/pages/how-to-make-a-two-toned-wig
 
 ## Lesson 69: Swatch First
 
@@ -156,9 +156,9 @@ Key terms:
 - strand test: A small-fiber trial professionals use before applying heat, dye, or product broadly.
 
 References:
-- Reference images: Swatch First: https://duckduckgo.com/?q=cosplay+wig+Swatch+First+swatch+test+strand+test+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Swatch First: https://duckduckgo.com/?q=cosplay+wig+Swatch+First+swatch+test+strand+test+tutorial+guide
+- Epic Cosplay: Rit DyeMore color swatch results: https://www.epiccosplay.com/blogs/news/rit-dyemore-color-swatches
+- Epic Cosplay: dye synthetic wig fiber with Rit DyeMore: https://www.epiccosplay.com/pages/rit-dyemore-synthetic-wig-fiber-tutorial
+- Epic Cosplay: Kanekalon and Futura fiber test: https://www.epiccosplay.com/pages/testing-kanekalon-and-futura-wig-fibers
 
 ## Lesson 70: Root Shadow
 
@@ -180,9 +180,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Root Shadow: https://duckduckgo.com/?q=cosplay+wig+Root+Shadow+hair+direction+coverage+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Root Shadow: https://duckduckgo.com/?q=cosplay+wig+Root+Shadow+hair+direction+coverage+tutorial+guide
+- Arda Wigs: Sombra root and color styling: https://arda-wigs.com/blogs/tutorials/sombra-wig-tutorial
+- Epic Cosplay: Sharpie dye method: https://www.epiccosplay.com/pages/how-to-sharpie-dye-an-epiccosplay-wig
+- Epic Cosplay: dip-dye a synthetic wig: https://www.epiccosplay.com/pages/dip-dye-tutorial
 
 ## Lesson 71: Rub-Off Risk
 
@@ -204,9 +204,9 @@ Key terms:
 - friction frizz: Frizz caused by rubbing against clothes, hands, collars, bags, or storage surfaces.
 
 References:
-- Reference images: Rub-Off Risk: https://duckduckgo.com/?q=cosplay+wig+Rub-Off+Risk+swatch+test+friction+frizz+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Rub-Off Risk: https://duckduckgo.com/?q=cosplay+wig+Rub-Off+Risk+swatch+test+friction+frizz+tutorial+guide
+- Epic Cosplay: Rit DyeMore color swatch results: https://www.epiccosplay.com/blogs/news/rit-dyemore-color-swatches
+- Epic Cosplay: dye synthetic wig fiber with Rit DyeMore: https://www.epiccosplay.com/pages/rit-dyemore-synthetic-wig-fiber-tutorial
+- Epic Cosplay: Sharpie dye method: https://www.epiccosplay.com/pages/how-to-sharpie-dye-an-epiccosplay-wig
 
 ## Lesson 72: Compare Color Strategies
 
@@ -228,7 +228,7 @@ Key terms:
 - weft: A sewn strip of wig hair that can be added, removed, moved, or harvested.
 
 References:
-- Reference images: Compare Color Strategies: https://duckduckgo.com/?q=cosplay+wig+Compare+Color+Strategies+donor+wig+weft+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Compare Color Strategies: https://duckduckgo.com/?q=cosplay+wig+Compare+Color+Strategies+donor+wig+weft+tutorial+guide
+- Epic Cosplay: make a two-toned wig: https://www.epiccosplay.com/pages/how-to-make-a-two-toned-wig
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: dip-dye a synthetic wig: https://www.epiccosplay.com/pages/dip-dye-tutorial
 

@@ -38,9 +38,9 @@ Key terms:
 - backcombing: Pushing fibers toward the roots to create hidden grip and volume.
 
 References:
-- Reference images: Teasing Vs Backcombing: https://duckduckgo.com/?q=cosplay+wig+Teasing+Vs+Backcombing+teasing+backcombing+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Teasing Vs Backcombing: https://duckduckgo.com/?q=cosplay+wig+Teasing+Vs+Backcombing+teasing+backcombing+tutorial+guide
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
+- Epic Cosplay: Aphrodite spiking guide: https://www.epiccosplay.com/pages/aphrodite-spiking-guide
+- Epic Cosplay: make upright All Might bangs: https://www.epiccosplay.com/blogs/styling-guide/all-might-wig-tutorial-how-to-make-bangs-stand-up
 
 ## Lesson 38: Surface Layer
 
@@ -60,9 +60,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Surface Layer: https://duckduckgo.com/?q=cosplay+wig+Surface+Layer+surface+layer+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Surface Layer: https://duckduckgo.com/?q=cosplay+wig+Surface+Layer+surface+layer+coverage+tutorial+guide
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
+- Epic Cosplay: Aphrodite spiking guide: https://www.epiccosplay.com/pages/aphrodite-spiking-guide
 
 ## Lesson 39: Small Volume Test
 
@@ -82,9 +82,9 @@ Key terms:
 - density: How much hair is present in an area; higher density looks fuller but adds weight.
 
 References:
-- Reference images: Small Volume Test: https://duckduckgo.com/?q=cosplay+wig+Small+Volume+Test+hidden+support+density+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Small Volume Test: https://duckduckgo.com/?q=cosplay+wig+Small+Volume+Test+hidden+support+density+tutorial+guide
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
+- Epic Cosplay: add volume by fluffing a straight wig: https://www.epiccosplay.com/blogs/customer-gallery/show-us-how-you-style-fluff-a-straight-wig-by-vicious-cosplay
+- Epic Cosplay: why stylists crimp wigs: https://www.epiccosplay.com/blogs/wig-tips/why-do-some-cosplayers-and-stylists-crimp-their-wigs
 
 ## Lesson 40: Frizz Boundary
 
@@ -104,9 +104,9 @@ Key terms:
 - surface layer: The visible hair layer that hides support work and gives the final finish.
 
 References:
-- Reference images: Frizz Boundary: https://duckduckgo.com/?q=cosplay+wig+Frizz+Boundary+friction+frizz+surface+layer+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Frizz Boundary: https://duckduckgo.com/?q=cosplay+wig+Frizz+Boundary+friction+frizz+surface+layer+tutorial+guide
+- Epic Cosplay: identify and reduce wig frizz: https://www.epiccosplay.com/blogs/wig-tips/wig-frizz
+- Arda Wigs: save a tangled, frizzy wig: https://arda-wigs.com/blogs/tutorials/how-to-save-a-tangled-frizzy-wig
+- Epic Cosplay: detangle a long wig from the ends: https://www.epiccosplay.com/pages/how-to-detangle-a-long-wig
 
 ## Lesson 41: Product Is Not Structure
 
@@ -128,9 +128,9 @@ Key terms:
 - load path: The route weight and force take through the wig into anchors and the wearer's head.
 
 References:
-- Reference images: Product Is Not Structure: https://duckduckgo.com/?q=cosplay+wig+Product+Is+Not+Structure+adhesive+load+path+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Product Is Not Structure: https://duckduckgo.com/?q=cosplay+wig+Product+Is+Not+Structure+adhesive+load+path+tutorial+guide
+- Epic Cosplay: Gon wig with inner support: https://www.epiccosplay.com/pages/gon-freecss-wig-tutorial
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Arda Wigs: wood-glue fiber structure: https://arda-wigs.com/blogs/tutorials/wood-glue-magic
 
 ## Lesson 42: Freeze Hold Concept
 
@@ -152,9 +152,9 @@ Key terms:
 - surface layer: The visible hair layer that hides support work and gives the final finish.
 
 References:
-- Reference images: Freeze Hold Concept: https://duckduckgo.com/?q=cosplay+wig+Freeze+Hold+Concept+spike+surface+layer+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Freeze Hold Concept: https://duckduckgo.com/?q=cosplay+wig+Freeze+Hold+Concept+spike+surface+layer+tutorial+guide
+- Epic Cosplay: Aphrodite spiking guide: https://www.epiccosplay.com/pages/aphrodite-spiking-guide
+- Epic Cosplay: make upright All Might bangs: https://www.epiccosplay.com/blogs/styling-guide/all-might-wig-tutorial-how-to-make-bangs-stand-up
+- Epic Cosplay: shape a spiky Sasuke wig: https://www.epiccosplay.com/blogs/styling-guide/wig-styling-tutorial-spiky-stylingsasukes-hairstyle-tutorial-by-jin-behindinfinity
 
 ## Lesson 43: Glue Categories
 
@@ -176,9 +176,9 @@ Key terms:
 - skin adhesive: A product meant to bond something to skin and release with the correct remover.
 
 References:
-- Reference images: Glue Categories: https://duckduckgo.com/?q=cosplay+wig+Glue+Categories+adhesive+skin+adhesive+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Glue Categories: https://duckduckgo.com/?q=cosplay+wig+Glue+Categories+adhesive+skin+adhesive+tutorial+guide
+- Arda Wigs: wood-glue fiber structure: https://arda-wigs.com/blogs/tutorials/wood-glue-magic
+- Cosplay Advice: fit and attach a lace-front wig: https://cosplayadvice.com/lace-front-wig/
+- Mehron: Spirit Gum use and matching remover: https://www.mehron.com/spirit-gum/
 
 ## Lesson 44: Patch Test
 
@@ -200,9 +200,9 @@ Key terms:
 - skin adhesive: A product meant to bond something to skin and release with the correct remover.
 
 References:
-- Reference images: Patch Test: https://duckduckgo.com/?q=cosplay+wig+Patch+Test+patch+test+skin+adhesive+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Patch Test: https://duckduckgo.com/?q=cosplay+wig+Patch+Test+patch+test+skin+adhesive+tutorial+guide
+- Mehron: skin-adhesive patch test and safe removal: https://www.mehron.com/product_images/uploaded_images/media-KMP-BC_Instructions_23.pdf
+- Cosplay Advice: fit and attach a lace-front wig: https://cosplayadvice.com/lace-front-wig/
+- Mehron: Spirit Gum use and matching remover: https://www.mehron.com/spirit-gum/
 
 ## Lesson 45: Cleanup Plan
 
@@ -224,7 +224,7 @@ Key terms:
 - patch test: A small skin test for adhesives, removers, or products before full use.
 
 References:
-- Reference images: Cleanup Plan: https://duckduckgo.com/?q=cosplay+wig+Cleanup+Plan+skin+adhesive+patch+test+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Cleanup Plan: https://duckduckgo.com/?q=cosplay+wig+Cleanup+Plan+skin+adhesive+patch+test+tutorial+guide
+- Mehron: Spirit Gum use and matching remover: https://www.mehron.com/spirit-gum/
+- Epic Cosplay: wash styling gel out of a wig: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-how-to-wash-gel-out-of-an-epiccosplay-wig
+- Epic Cosplay: wash a synthetic wig: https://www.epiccosplay.com/pages/how-to-wash-your-wig
 

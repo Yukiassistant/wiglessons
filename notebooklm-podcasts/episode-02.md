@@ -38,9 +38,9 @@ Key terms:
 - touch-up kit: Products and tools packed for quick fixes during wear.
 
 References:
-- Reference images: Task Materials Map: https://duckduckgo.com/?q=cosplay+wig+Task+Materials+Map+base+wig+touch-up+kit+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Task Materials Map: https://duckduckgo.com/?q=cosplay+wig+Task+Materials+Map+base+wig+touch-up+kit+tutorial+guide
+- Epic Cosplay: basic tools for beginning wig stylists: https://www.epiccosplay.com/blogs/wig-tips/basic-tools-for-beginning-wig-stylists
+- Epic Cosplay: using heat tools on synthetic fiber: https://www.epiccosplay.com/pages/using-heat-tools
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
 
 ## Lesson 11: Fit Comes First
 
@@ -62,9 +62,9 @@ Key terms:
 - pressure point: A spot where weight, edge, clip, strap, or shell presses uncomfortably.
 
 References:
-- Reference images: Fit Comes First: https://duckduckgo.com/?q=cosplay+wig+Fit+Comes+First+fit+pressure+point+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Fit Comes First: https://duckduckgo.com/?q=cosplay+wig+Fit+Comes+First+fit+pressure+point+tutorial+guide
+- Epic Cosplay: adjust wig size: https://www.epiccosplay.com/pages/adjusting-wig-size
+- Epic Cosplay: make a wig bigger or smaller: https://www.epiccosplay.com/pages/how-to-make-a-wig-bigger-or-smaller
+- Arda Wigs: use a wig grip: https://arda-wigs.com/blogs/tutorials/how-to-use-our-wig-grips
 
 ## Lesson 12: Block Basics
 
@@ -84,9 +84,9 @@ Key terms:
 - fit: How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.
 
 References:
-- Reference images: Block Basics: https://duckduckgo.com/?q=cosplay+wig+Block+Basics+block+fit+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Block Basics: https://duckduckgo.com/?q=cosplay+wig+Block+Basics+block+fit+tutorial+guide
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Arda Wigs: Misfit wig fit tutorial: https://arda-wigs.com/blogs/tutorials/hee-hee-s-misfit-wigfit
+- Epic Cosplay: compare wig length on a head: https://www.epiccosplay.com/blogs/wig-tips/is-wig-length-important-to-you-this-is-a-must-read
 
 ## Lesson 13: Mark The Front
 
@@ -106,9 +106,9 @@ Key terms:
 - ear tab: The side tab area of a wig near the ear, important for fit and edge blending.
 
 References:
-- Reference images: Mark The Front: https://duckduckgo.com/?q=cosplay+wig+Mark+The+Front+hairline+ear+tab+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Mark The Front: https://duckduckgo.com/?q=cosplay+wig+Mark+The+Front+hairline+ear+tab+tutorial+guide
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Epic Cosplay: wig hairline types compared: https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences
+- Epic Cosplay: restyle a skin-top part: https://www.epiccosplay.com/pages/restyle-a-skin-top-hair-part
 
 ## Lesson 14: Comfort Gap
 
@@ -130,9 +130,9 @@ Key terms:
 - helmet wig: A wig built over a rigid or semi-rigid shell, usually for large sculptural hair.
 
 References:
-- Reference images: Comfort Gap: https://duckduckgo.com/?q=cosplay+wig+Comfort+Gap+pressure+point+helmet+wig+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Comfort Gap: https://duckduckgo.com/?q=cosplay+wig+Comfort+Gap+pressure+point+helmet+wig+tutorial+guide
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Epic Cosplay: make a wig bigger or smaller: https://www.epiccosplay.com/pages/how-to-make-a-wig-bigger-or-smaller
 
 ## Lesson 15: Wear-Test Planning
 
@@ -154,9 +154,9 @@ Key terms:
 - fit: How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.
 
 References:
-- Reference images: Wear-Test Planning: https://duckduckgo.com/?q=cosplay+wig+Wear-Test+Planning+wear+test+fit+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Wear-Test Planning: https://duckduckgo.com/?q=cosplay+wig+Wear-Test+Planning+wear+test+fit+tutorial+guide
+- Arda Wigs: use a wig grip: https://arda-wigs.com/blogs/tutorials/how-to-use-our-wig-grips
+- Epic Cosplay: secure a wig with toupee clips: https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips
+- Epic Cosplay: adjust wig size: https://www.epiccosplay.com/pages/adjusting-wig-size
 
 ## Lesson 16: Synthetic Fiber Rule
 
@@ -178,9 +178,9 @@ Key terms:
 - strand test: A small-fiber trial professionals use before applying heat, dye, or product broadly.
 
 References:
-- Reference images: Synthetic Fiber Rule: https://duckduckgo.com/?q=cosplay+wig+Synthetic+Fiber+Rule+heat-resistant+strand+test+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Synthetic Fiber Rule: https://duckduckgo.com/?q=cosplay+wig+Synthetic+Fiber+Rule+heat-resistant+strand+test+tutorial+guide
+- Epic Cosplay: heat-resistant is not heat-proof: https://www.epiccosplay.com/blogs/wig-tips/wigs-and-heat
+- Epic Cosplay: using heat tools on synthetic fiber: https://www.epiccosplay.com/pages/using-heat-tools
+- Epic Cosplay: Kanekalon and Futura fiber test: https://www.epiccosplay.com/pages/testing-kanekalon-and-futura-wig-fibers
 
 ## Lesson 17: Cool-Down Rule
 
@@ -202,9 +202,9 @@ Key terms:
 - fiber memory: Synthetic fiber's tendency to keep the shape it cooled or was stored in.
 
 References:
-- Reference images: Cool-Down Rule: https://duckduckgo.com/?q=cosplay+wig+Cool-Down+Rule+cool-down+fiber+memory+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Cool-Down Rule: https://duckduckgo.com/?q=cosplay+wig+Cool-Down+Rule+cool-down+fiber+memory+tutorial+guide
+- Epic Cosplay: using heat tools on synthetic fiber: https://www.epiccosplay.com/pages/using-heat-tools
+- Epic Cosplay: straighten a wig with controlled heat: https://www.epiccosplay.com/pages/straightening-a-wig-with-heat
+- Epic Cosplay: steam-curling and heat-setting tips: https://www.epiccosplay.com/blogs/styling-guide/how-to-curl-our-wig-using-steam-and-other-heat-styling-tips
 
 ## Lesson 18: Tension Rule
 
@@ -224,7 +224,7 @@ Key terms:
 - setting: Shaping synthetic fiber with heat, steam, tension, clips, or rollers until it cools.
 
 References:
-- Reference images: Tension Rule: https://duckduckgo.com/?q=cosplay+wig+Tension+Rule+tension+setting+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Tension Rule: https://duckduckgo.com/?q=cosplay+wig+Tension+Rule+tension+setting+tutorial+guide
+- Epic Cosplay: straighten a wig with controlled heat: https://www.epiccosplay.com/pages/straightening-a-wig-with-heat
+- Epic Cosplay: set mermaid waves: https://www.epiccosplay.com/pages/mermaid-waves-tutorial
+- Epic Cosplay: detangle a long wig from the ends: https://www.epiccosplay.com/pages/how-to-detangle-a-long-wig
 

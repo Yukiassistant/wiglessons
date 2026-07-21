@@ -5,7 +5,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from urllib.parse import quote_plus
+from urllib.parse import urlparse
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -285,52 +285,149 @@ OWNERSHIP_REQUIREMENT_PHRASES = (
     "for wig practice",
 )
 
-
-TUTORIAL_HUBS = {
-    "arda_master": {
-        "title": "Tutorial hub: Arda Wigs master list",
-        "url": "https://arda-wigs.com/blogs/tutorials/tutorial-master-list",
-    },
-    "arda_structural": {
-        "title": "Tutorial hub: Arda Wigs structural builds",
-        "url": "https://arda-wigs.com/blogs/tutorials/tagged/iron-wig",
-    },
-    "epic_beginner": {
-        "title": "Beginner guide: Epic Cosplay Wigs",
-        "url": "https://www.epiccosplay.com/pages/wigs",
-    },
-    "epic_tips": {
-        "title": "Tutorial hub: Epic Cosplay tips and tricks",
-        "url": "https://www.epiccosplay.com/pages/tips-and-tricks",
-    },
+SEARCH_HOSTS = {"bing.com", "duckduckgo.com", "google.com", "www.bing.com", "www.google.com"}
+BROAD_REFERENCE_URLS = {
+    "https://arda-wigs.com/blogs/tutorials",
+    "https://arda-wigs.com/blogs/tutorials/tagged/iron-wig",
+    "https://arda-wigs.com/blogs/tutorials/tutorial-master-list",
+    "https://www.epiccosplay.com/pages/cosplay-wig-tutorials",
+    "https://www.epiccosplay.com/pages/tips-and-tricks",
+    "https://www.epiccosplay.com/pages/wigs",
 }
 
 
-def tutorial_hub_for(title: str, terms: list[str]) -> dict[str, str]:
-    text = " ".join([title, *terms]).lower()
-    if any(word in text for word in ("hard cap", "shell", "helmet", "armature", "foam", "wire", "mechanical", "detachable")):
-        return TUTORIAL_HUBS["arda_structural"]
-    if any(word in text for word in ("heat", "cool", "steam", "strand", "swatch", "color", "cut", "layer", "thin", "razor", "crimp", "teas", "frizz", "dye")):
-        return TUTORIAL_HUBS["epic_tips"]
-    if any(word in text for word in ("hairline", "lace", "ventilat", "edge", "weft", "pony", "braid", "updo", "bun", "clip", "donor")):
-        return TUTORIAL_HUBS["arda_master"]
-    return TUTORIAL_HUBS["epic_beginner"]
+REFERENCE_LIBRARY = {
+    "quality": ("Epic Cosplay: how to judge wig quality", "https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality"),
+    "hairlines": ("Epic Cosplay: wig hairline types compared", "https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences"),
+    "lace_front": ("Epic Cosplay: add a lace front", "https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig"),
+    "skin_part": ("Epic Cosplay: restyle a skin-top part", "https://www.epiccosplay.com/pages/restyle-a-skin-top-hair-part"),
+    "wefting": ("Epic Cosplay: add wefting to a wig", "https://www.epiccosplay.com/pages/add-wefting-to-a-wig"),
+    "sew_wefts": ("Epic Cosplay: sew wig wefts", "https://www.epiccosplay.com/pages/how-to-sew-wefts"),
+    "volume": ("Epic Cosplay: add instant wig volume", "https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig"),
+    "fibers": ("Epic Cosplay: Kanekalon and Futura fiber test", "https://www.epiccosplay.com/pages/testing-kanekalon-and-futura-wig-fibers"),
+    "base_options": ("Epic Cosplay: base-wig options for large styles", "https://www.epiccosplay.com/blogs/wig-tips/wig-base-options-for-characters-like-miku-sailor-moon-etc"),
+    "shapes": ("Arda Wigs: create different wig shapes", "https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig"),
+    "gon_support": ("Epic Cosplay: Gon wig with inner support", "https://www.epiccosplay.com/pages/gon-freecss-wig-tutorial"),
+    "hard_cap": ("Arda Wigs: make a hard-shell wig cap", "https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap"),
+    "head_copy": ("Bakka Cosplay: make an accurate head and hairline copy", "https://www.bakkacosplay.com/headcopy"),
+    "basic_tools": ("Epic Cosplay: basic tools for beginning wig stylists", "https://www.epiccosplay.com/blogs/wig-tips/basic-tools-for-beginning-wig-stylists"),
+    "adjust_size": ("Epic Cosplay: adjust wig size", "https://www.epiccosplay.com/pages/adjusting-wig-size"),
+    "resize": ("Epic Cosplay: make a wig bigger or smaller", "https://www.epiccosplay.com/pages/how-to-make-a-wig-bigger-or-smaller"),
+    "wigfit": ("Arda Wigs: Misfit wig fit tutorial", "https://arda-wigs.com/blogs/tutorials/hee-hee-s-misfit-wigfit"),
+    "grips": ("Arda Wigs: use a wig grip", "https://arda-wigs.com/blogs/tutorials/how-to-use-our-wig-grips"),
+    "toupee_clips": ("Epic Cosplay: secure a wig with toupee clips", "https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips"),
+    "hime_cut": ("Epic Cosplay: section and fit a Hime cut", "https://www.epiccosplay.com/pages/creating-a-hime-cut"),
+    "wig_length": ("Epic Cosplay: compare wig length on a head", "https://www.epiccosplay.com/blogs/wig-tips/is-wig-length-important-to-you-this-is-a-must-read"),
+    "heat_safety": ("Epic Cosplay: heat-resistant is not heat-proof", "https://www.epiccosplay.com/blogs/wig-tips/wigs-and-heat"),
+    "heat_tools": ("Epic Cosplay: using heat tools on synthetic fiber", "https://www.epiccosplay.com/pages/using-heat-tools"),
+    "straighten": ("Epic Cosplay: straighten a wig with controlled heat", "https://www.epiccosplay.com/pages/straightening-a-wig-with-heat"),
+    "steam": ("Epic Cosplay: steam-curling and heat-setting tips", "https://www.epiccosplay.com/blogs/styling-guide/how-to-curl-our-wig-using-steam-and-other-heat-styling-tips"),
+    "hot_water": ("Epic Cosplay: curl a wig with hot water", "https://www.epiccosplay.com/pages/curl-your-wig-with-hot-water"),
+    "mermaid_waves": ("Epic Cosplay: set mermaid waves", "https://www.epiccosplay.com/pages/mermaid-waves-tutorial"),
+    "detangle": ("Epic Cosplay: detangle a long wig from the ends", "https://www.epiccosplay.com/pages/how-to-detangle-a-long-wig"),
+    "frizz": ("Epic Cosplay: identify and reduce wig frizz", "https://www.epiccosplay.com/blogs/wig-tips/wig-frizz"),
+    "save_tangled": ("Arda Wigs: save a tangled, frizzy wig", "https://arda-wigs.com/blogs/tutorials/how-to-save-a-tangled-frizzy-wig"),
+    "long_care": ("Epic Cosplay: long-wig care instructions", "https://www.epiccosplay.com/pages/long-wig-care-instructions"),
+    "wash": ("Epic Cosplay: wash a synthetic wig", "https://www.epiccosplay.com/pages/how-to-wash-your-wig"),
+    "wash_tips": ("Epic Cosplay: tips for washing wigs", "https://www.epiccosplay.com/blogs/wig-tips/tips-on-washing-your-wigs"),
+    "wash_product": ("Epic Cosplay: wash styling gel out of a wig", "https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-how-to-wash-gel-out-of-an-epiccosplay-wig"),
+    "travel": ("Epic Cosplay: protect a styled wig while traveling", "https://www.epiccosplay.com/pages/how-to-keep-a-wig-safe-while-traveling"),
+    "cut_four": ("Epic Cosplay: four wig-cutting techniques", "https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways"),
+    "bangs": ("Epic Cosplay: cut different bang shapes", "https://www.epiccosplay.com/pages/how-to-cut-any-bangs"),
+    "razor_bangs": ("Epic Cosplay: cut bangs with a hair razor", "https://www.epiccosplay.com/pages/cutting-bangs-with-a-hair-razor"),
+    "kirito": ("Epic Cosplay: short layered Kirito wig", "https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig"),
+    "prompto": ("Epic Cosplay: textured Prompto wig", "https://www.epiccosplay.com/pages/prompto-argentum-wig-tutorial"),
+    "crimp": ("Epic Cosplay: why stylists crimp wigs", "https://www.epiccosplay.com/blogs/wig-tips/why-do-some-cosplayers-and-stylists-crimp-their-wigs"),
+    "fluff": ("Epic Cosplay: add volume by fluffing a straight wig", "https://www.epiccosplay.com/blogs/customer-gallery/show-us-how-you-style-fluff-a-straight-wig-by-vicious-cosplay"),
+    "spike": ("Epic Cosplay: Aphrodite spiking guide", "https://www.epiccosplay.com/pages/aphrodite-spiking-guide"),
+    "sasuke": ("Epic Cosplay: shape a spiky Sasuke wig", "https://www.epiccosplay.com/blogs/styling-guide/wig-styling-tutorial-spiky-stylingsasukes-hairstyle-tutorial-by-jin-behindinfinity"),
+    "all_might": ("Epic Cosplay: make upright All Might bangs", "https://www.epiccosplay.com/blogs/styling-guide/all-might-wig-tutorial-how-to-make-bangs-stand-up"),
+    "wood_glue": ("Arda Wigs: wood-glue fiber structure", "https://arda-wigs.com/blogs/tutorials/wood-glue-magic"),
+    "lace_wear": ("Cosplay Advice: fit and attach a lace-front wig", "https://cosplayadvice.com/lace-front-wig/"),
+    "patch_test": ("Mehron: skin-adhesive patch test and safe removal", "https://www.mehron.com/product_images/uploaded_images/media-KMP-BC_Instructions_23.pdf"),
+    "spirit_gum": ("Mehron: Spirit Gum use and matching remover", "https://www.mehron.com/spirit-gum/"),
+    "ventilate": ("Luvme Hair: close-up lace ventilation tutorial", "https://shop.luvmehair.com/blogs/tutorial-video/how-to-ventilate-a-lace-front-tutorial-video"),
+    "ventilate_steps": ("IAA Club: ventilate hair into a lace-front wig", "https://iaanimeclub.weebly.com/tutorialshelp-archive/how-to-ventilate-or-add-hair-to-a-lacefront-wig"),
+    "sideburns": ("Leafnin Cosplay: add sideburns to a pulled-back wig", "https://leafnincosplay.com/2022/12/07/adding-sideburns-into-a-pulled-back-wig/"),
+    "color_help": ("Epic Cosplay: compare wig colors and undertones", "https://www.epiccosplay.com/blogs/wig-tips/wig-color-help"),
+    "rit_dye": ("Epic Cosplay: dye synthetic wig fiber with Rit DyeMore", "https://www.epiccosplay.com/pages/rit-dyemore-synthetic-wig-fiber-tutorial"),
+    "rit_swatches": ("Epic Cosplay: Rit DyeMore color swatch results", "https://www.epiccosplay.com/blogs/news/rit-dyemore-color-swatches"),
+    "two_tone": ("Epic Cosplay: make a two-toned wig", "https://www.epiccosplay.com/pages/how-to-make-a-two-toned-wig"),
+    "dip_dye": ("Epic Cosplay: dip-dye a synthetic wig", "https://www.epiccosplay.com/pages/dip-dye-tutorial"),
+    "sharpie_dye": ("Epic Cosplay: Sharpie dye method", "https://www.epiccosplay.com/pages/how-to-sharpie-dye-an-epiccosplay-wig"),
+    "sombra": ("Arda Wigs: Sombra root and color styling", "https://arda-wigs.com/blogs/tutorials/sombra-wig-tutorial"),
+    "remove_clip_fiber": ("Epic Cosplay: remove fiber from a clip-on ponytail", "https://www.epiccosplay.com/pages/how-to-remove-fibers-from-a-clip-on-ponytail"),
+    "clip_vs_weft": ("Arda Wigs: long clip versus long weft", "https://arda-wigs.com/blogs/tutorials/long-clip-vs-long-weft"),
+    "ponytail": ("Epic Cosplay: restyle a ponytail wig", "https://www.epiccosplay.com/pages/ponytail-wig-restyling-guide"),
+    "ponytail_build": ("Epic Cosplay: put a standard wig into a ponytail", "https://www.epiccosplay.com/pages/how-to-put-a-wig-into-a-ponytail"),
+    "detachable_pony": ("Arda Wigs: detachable high-volume ponytail", "https://arda-wigs.com/blogs/tutorials/how-to-make-a-detachable-ponytail-wig-w-extra-volume"),
+    "clip_on": ("Epic Cosplay: use a ponytail clip-on", "https://www.epiccosplay.com/pages/how-to-use-ponytail-clip-ons"),
+    "mini_clip": ("Epic Cosplay: make a smaller hair clip-on", "https://www.epiccosplay.com/pages/mini-hair-clip-tutorial"),
+    "french_braid": ("Epic Cosplay: romantic French-braid tutorial", "https://www.epiccosplay.com/pages/romantic-french-braid-tutorial"),
+    "jumbo_braid": ("Arda Wigs: wig and tail with jumbo braids", "https://arda-wigs.com/blogs/tutorials/fox-wig-and-tail-using-jumbo-braids"),
+    "braids": ("Arda Wigs: structural Braids Galore build", "https://arda-wigs.com/blogs/iron-wig/iron-wig-2024-final-round-braids-galore"),
+    "updo": ("Arda Wigs: Countess updo tutorial", "https://arda-wigs.com/blogs/tutorials/the-countess-updo-tutorial-by-hee-hee"),
+    "sailor_moon": ("Arda Wigs: Sailor Moon ponytail and bun build", "https://arda-wigs.com/blogs/tutorials/how-to-style-a-sailor-moon-wig-by-antiquitydreams"),
+    "armature": ("Famore: foam-and-wire armatures for cosplay wigs", "https://www.famcut.com/blogs/updates/how-to-make-cosplay-wigs"),
+    "cloud": ("Arda Wigs: supported Cloud Strife spikes", "https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan"),
+    "panadonia": ("Arda Wigs: Panadonia structural wig build", "https://arda-wigs.com/blogs/tutorials/iron-wig-2021-panadonias-tutorial"),
+    "doremi": ("Arda Wigs: Doremi sculptural wig build", "https://arda-wigs.com/blogs/tutorials/doremi-harukaze"),
+}
 
 
-def reference_resources(title: str, terms: list[str]) -> list[dict[str, str]]:
-    search_text = " ".join(["cosplay wig", title, *terms])
-    image_query = quote_plus(f"{search_text} reference images")
-    website_query = quote_plus(f"{search_text} tutorial guide")
+REFERENCE_KEYS_BY_DAY = {
+    1: ("wefting", "quality", "hairlines"), 2: ("quality", "wefting", "sew_wefts"),
+    3: ("fibers", "quality", "volume"), 4: ("hairlines", "lace_front", "skin_part"),
+    5: ("base_options", "shapes", "hard_cap"), 6: ("basic_tools", "shapes", "base_options"),
+    7: ("kirito", "prompto", "cloud"), 8: ("shapes", "gon_support", "cloud"),
+    9: ("ponytail_build", "updo", "sailor_moon"), 10: ("basic_tools", "heat_tools", "wefting"),
+    11: ("adjust_size", "resize", "grips"), 12: ("head_copy", "wigfit", "wig_length"),
+    13: ("head_copy", "hairlines", "skin_part"), 14: ("hard_cap", "head_copy", "resize"),
+    15: ("grips", "toupee_clips", "adjust_size"), 16: ("heat_safety", "heat_tools", "fibers"),
+    17: ("heat_tools", "straighten", "steam"), 18: ("straighten", "mermaid_waves", "detangle"),
+    19: ("steam", "hot_water", "heat_safety"), 20: ("heat_safety", "heat_tools", "straighten"),
+    21: ("detangle", "frizz", "save_tangled"), 22: ("travel", "long_care", "quality"),
+    23: ("toupee_clips", "travel", "long_care"), 24: ("wash", "wash_tips", "wash_product"),
+    25: ("long_care", "detangle", "wash_tips"), 26: ("cut_four", "bangs", "razor_bangs"),
+    27: ("hime_cut", "bangs", "cut_four"), 28: ("hime_cut", "bangs", "kirito"),
+    29: ("cut_four", "razor_bangs", "hime_cut"), 30: ("hime_cut", "wig_length", "head_copy"),
+    31: ("cut_four", "kirito", "prompto"), 32: ("cut_four", "razor_bangs", "remove_clip_fiber"),
+    33: ("razor_bangs", "cut_four", "sasuke"), 34: ("kirito", "prompto", "hime_cut"),
+    35: ("cut_four", "hime_cut", "wig_length"), 36: ("crimp", "volume", "fluff"),
+    37: ("volume", "spike", "all_might"), 38: ("shapes", "kirito", "spike"),
+    39: ("volume", "fluff", "crimp"), 40: ("frizz", "save_tangled", "detangle"),
+    41: ("gon_support", "shapes", "wood_glue"), 42: ("spike", "all_might", "sasuke"),
+    43: ("wood_glue", "lace_wear", "spirit_gum"), 44: ("patch_test", "lace_wear", "spirit_gum"),
+    45: ("spirit_gum", "wash_product", "wash"), 46: ("shapes", "kirito", "cloud"),
+    47: ("shapes", "sasuke", "kirito"), 48: ("shapes", "cloud", "spike"),
+    49: ("spike", "sasuke", "kirito"), 50: ("gon_support", "cloud", "shapes"),
+    51: ("toupee_clips", "detachable_pony", "grips"), 52: ("wefting", "sew_wefts", "volume"),
+    53: ("remove_clip_fiber", "clip_vs_weft", "volume"), 54: ("wefting", "sew_wefts", "ponytail"),
+    55: ("wefting", "ponytail", "ponytail_build"), 56: ("sew_wefts", "wefting", "volume"),
+    57: ("detachable_pony", "ponytail", "ponytail_build"), 58: ("clip_on", "clip_vs_weft", "mini_clip"),
+    59: ("french_braid", "jumbo_braid", "braids"), 60: ("updo", "ponytail_build", "sailor_moon"),
+    61: ("toupee_clips", "grips", "detachable_pony"), 62: ("hairlines", "lace_front", "skin_part"),
+    63: ("ventilate", "ventilate_steps", "lace_front"), 64: ("ventilate", "hairlines", "quality"),
+    65: ("lace_front", "sideburns", "lace_wear"), 66: ("sideburns", "head_copy", "lace_wear"),
+    67: ("hairlines", "lace_front", "skin_part"), 68: ("color_help", "rit_dye", "two_tone"),
+    69: ("rit_swatches", "rit_dye", "fibers"), 70: ("sombra", "sharpie_dye", "dip_dye"),
+    71: ("rit_swatches", "rit_dye", "sharpie_dye"), 72: ("two_tone", "wefting", "dip_dye"),
+    73: ("hard_cap", "panadonia", "doremi"), 74: ("hard_cap", "head_copy", "panadonia"),
+    75: ("armature", "shapes", "hard_cap"), 76: ("armature", "gon_support", "shapes"),
+    77: ("armature", "cloud", "hard_cap"), 78: ("toupee_clips", "grips", "detachable_pony"),
+    79: ("detachable_pony", "clip_on", "mini_clip"), 80: ("hard_cap", "head_copy", "lace_wear"),
+    81: ("lace_wear", "wash_product", "clip_on"), 82: ("travel", "long_care", "hard_cap"),
+    83: ("basic_tools", "cut_four", "heat_safety"), 84: ("shapes", "armature", "hard_cap"),
+    85: ("ventilate", "lace_front", "sideburns"), 86: ("quality", "kirito", "cloud"),
+    87: ("quality", "frizz", "adjust_size"), 88: ("basic_tools", "quality", "fibers"),
+    89: ("basic_tools", "head_copy", "quality"), 90: ("quality", "adjust_size", "travel"),
+}
+
+
+def reference_resources(day: int) -> list[dict[str, str]]:
     return [
-        {
-            "title": f"Reference images: {title}",
-            "url": f"https://duckduckgo.com/?q={image_query}&iax=images&ia=images",
-        },
-        tutorial_hub_for(title, terms),
-        {
-            "title": f"Website search: {title}",
-            "url": f"https://duckduckgo.com/?q={website_query}",
-        },
+        {"title": REFERENCE_LIBRARY[key][0], "url": REFERENCE_LIBRARY[key][1]}
+        for key in REFERENCE_KEYS_BY_DAY[day]
     ]
 
 
@@ -343,7 +440,7 @@ def lesson(day: int, spec: tuple[str, str, str, list[str], str, str, str]) -> di
         "objective": objective,
         "concept": concept,
         "glossary": [{"term": term, "definition": DEFINITIONS[term]} for term in terms],
-        "requiredResources": reference_resources(title, terms),
+        "requiredResources": reference_resources(day),
         "optionalResources": [],
         "practice": practice,
         "safety": SAFETY_BY_DAY.get(day, ""),
@@ -370,6 +467,9 @@ def collect_strings(value) -> list[str]:
 
 def validate_lessons(data: dict) -> None:
     problems: list[str] = []
+    expected_days = set(range(1, len(SPECS) + 1))
+    if set(REFERENCE_KEYS_BY_DAY) != expected_days:
+        problems.append("Reference map must contain every lesson day exactly once")
     actual_safety_days = {item["day"] for item in data["lessons"] if item.get("safety")}
     if actual_safety_days != set(SAFETY_BY_DAY):
         problems.append(
@@ -379,8 +479,24 @@ def validate_lessons(data: dict) -> None:
         day = item["day"]
         if item.get("estimatedMinutes") != 5:
             problems.append(f"Day {day}: expected estimatedMinutes=5")
-        if len(item.get("requiredResources", [])) < 3:
-            problems.append(f"Day {day}: missing required references")
+        resources = item.get("requiredResources", [])
+        if len(resources) != 3:
+            problems.append(f"Day {day}: expected exactly three direct references")
+        resource_urls = [entry.get("url", "") for entry in resources]
+        if len(resource_urls) != len(set(resource_urls)):
+            problems.append(f"Day {day}: duplicate reference URL")
+        for entry in resources:
+            title = entry.get("title", "")
+            url = entry.get("url", "")
+            parsed = urlparse(url)
+            if parsed.scheme != "https" or not parsed.netloc:
+                problems.append(f"Day {day}: reference is not a direct HTTPS URL: {url!r}")
+            if parsed.netloc.lower() in SEARCH_HOSTS:
+                problems.append(f"Day {day}: search-engine reference is not allowed: {url!r}")
+            if url.rstrip("/") in BROAD_REFERENCE_URLS:
+                problems.append(f"Day {day}: broad tutorial hub is not allowed: {url!r}")
+            if any(word in title.lower() for word in ("search results", "tutorial hub", "website search")):
+                problems.append(f"Day {day}: non-specific reference title: {title!r}")
         for entry in item.get("glossary", []):
             term = entry["term"].lower()
             if term in BANNED_GLOSSARY_TERMS:

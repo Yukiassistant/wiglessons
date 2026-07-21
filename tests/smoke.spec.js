@@ -24,8 +24,7 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
     /This course is now|micro-lesson|resource note|outside reading|large tutorial|web app|tracker|a few shared words|avoid drowning|shopping spiral|fun step|vague feeling|lesson plan/i,
   );
   await expect(page.locator("#detail .resource-list a")).toHaveCount(3);
-  await expect(page.getByRole("link", { name: /^Reference images:/ })).toBeVisible();
-  await expect(page.getByRole("link", { name: /guide|hub/i })).toBeVisible();
+  await expect(page.getByRole("link", { name: "Epic Cosplay: add wefting to a wig" })).toBeVisible();
 
   const exportBox = await page.locator("#exportButton").boundingBox();
   const importBox = await page.locator("label[for='importFile']").boundingBox();
@@ -59,7 +58,7 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await expect(page.getByRole("heading", { name: "Wig Anatomy First Look" })).toBeVisible();
   await expect(page.getByText("A wig has two main layers: the cap, which provides fit and structure")).toBeVisible();
   await expect(page.locator("#detail").getByRole("heading", { name: "Safety" })).toHaveCount(0);
-  await expect(page.getByText("Reference images: Wig Anatomy First Look")).toBeVisible();
+  await expect(page.getByText("Epic Cosplay: wig hairline types compared")).toBeVisible();
   const detailTop = await page.locator("#detail").evaluate((node) => node.getBoundingClientRect().top);
   const mapTop = await page.locator(".lesson-list").evaluate((node) => node.getBoundingClientRect().top);
   expect(detailTop).toBeLessThan(mapTop);
@@ -72,6 +71,38 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   const stored = await page.evaluate(() => localStorage.getItem("wiglessons.progress.v1"));
   expect(stored).toContain('"read":true');
   expect(errors).toEqual([]);
+});
+
+test("every lesson uses three direct, specific references", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+
+  const audit = await page.evaluate(async () => {
+    const data = await fetch("./lessons.json").then((response) => response.json());
+    const searchHosts = new Set(["bing.com", "duckduckgo.com", "google.com", "www.bing.com", "www.google.com"]);
+    const broadPaths = new Set([
+      "/blogs/tutorials", "/blogs/tutorials/tagged/iron-wig", "/blogs/tutorials/tutorial-master-list",
+      "/pages/cosplay-wig-tutorials", "/pages/tips-and-tricks", "/pages/wigs",
+    ]);
+    const violations = [];
+    for (const lesson of data.lessons) {
+      if (lesson.requiredResources.length !== 3) violations.push(`Day ${lesson.day}: wrong reference count`);
+      const urls = lesson.requiredResources.map((resource) => resource.url);
+      if (new Set(urls).size !== urls.length) violations.push(`Day ${lesson.day}: duplicate reference`);
+      for (const resource of lesson.requiredResources) {
+        const url = new URL(resource.url);
+        if (url.protocol !== "https:") violations.push(`Day ${lesson.day}: non-HTTPS URL`);
+        if (searchHosts.has(url.hostname)) violations.push(`Day ${lesson.day}: search-engine URL`);
+        if (broadPaths.has(url.pathname.replace(/\/$/, ""))) violations.push(`Day ${lesson.day}: broad hub URL`);
+        if (/search results|tutorial hub|website search/i.test(resource.title)) {
+          violations.push(`Day ${lesson.day}: generic reference title`);
+        }
+      }
+    }
+    return violations;
+  });
+
+  expect(audit).toEqual([]);
 });
 
 test("all lesson content remains ownership-neutral", async ({ page }) => {

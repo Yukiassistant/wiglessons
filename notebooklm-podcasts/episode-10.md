@@ -38,9 +38,9 @@ Key terms:
 - touch-up kit: Products and tools packed for quick fixes during wear.
 
 References:
-- Reference images: Transport Shape: https://duckduckgo.com/?q=cosplay+wig+Transport+Shape+helmet+wig+touch-up+kit+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Transport Shape: https://duckduckgo.com/?q=cosplay+wig+Transport+Shape+helmet+wig+touch-up+kit+tutorial+guide
+- Epic Cosplay: protect a styled wig while traveling: https://www.epiccosplay.com/pages/how-to-keep-a-wig-safe-while-traveling
+- Epic Cosplay: long-wig care instructions: https://www.epiccosplay.com/pages/long-wig-care-instructions
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
 
 ## Lesson 83: Milestone: Soft Wig Plan
 
@@ -62,9 +62,9 @@ Key terms:
 - rough cut: The first conservative cut that removes length while leaving room to refine.
 
 References:
-- Reference images: Milestone: Soft Wig Plan: https://duckduckgo.com/?q=cosplay+wig+Milestone%3A+Soft+Wig+Plan+base+wig+rough+cut+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Milestone: Soft Wig Plan: https://duckduckgo.com/?q=cosplay+wig+Milestone%3A+Soft+Wig+Plan+base+wig+rough+cut+tutorial+guide
+- Epic Cosplay: basic tools for beginning wig stylists: https://www.epiccosplay.com/blogs/wig-tips/basic-tools-for-beginning-wig-stylists
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: heat-resistant is not heat-proof: https://www.epiccosplay.com/blogs/wig-tips/wigs-and-heat
 
 ## Lesson 84: Milestone: Support Sample
 
@@ -86,9 +86,9 @@ Key terms:
 - shake test: A movement test that checks whether a style or attachment survives motion.
 
 References:
-- Reference images: Milestone: Support Sample: https://duckduckgo.com/?q=cosplay+wig+Milestone%3A+Support+Sample+mockup+shake+test+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Milestone: Support Sample: https://duckduckgo.com/?q=cosplay+wig+Milestone%3A+Support+Sample+mockup+shake+test+tutorial+guide
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Famore: foam-and-wire armatures for cosplay wigs: https://www.famcut.com/blogs/updates/how-to-make-cosplay-wigs
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
 
 ## Lesson 85: Milestone: Edge Sample
 
@@ -110,9 +110,9 @@ Key terms:
 - ventilating: Tying individual hairs into lace or mesh to create hairlines, parts, or repairs.
 
 References:
-- Reference images: Milestone: Edge Sample: https://duckduckgo.com/?q=cosplay+wig+Milestone%3A+Edge+Sample+edge+ventilating+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Milestone: Edge Sample: https://duckduckgo.com/?q=cosplay+wig+Milestone%3A+Edge+Sample+edge+ventilating+tutorial+guide
+- Luvme Hair: close-up lace ventilation tutorial: https://shop.luvmehair.com/blogs/tutorial-video/how-to-ventilate-a-lace-front-tutorial-video
+- Epic Cosplay: add a lace front: https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig
+- Leafnin Cosplay: add sideburns to a pulled-back wig: https://leafnincosplay.com/2022/12/07/adding-sideburns-into-a-pulled-back-wig/
 
 ## Lesson 86: Photo Checklist
 
@@ -132,9 +132,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Photo Checklist: https://duckduckgo.com/?q=cosplay+wig+Photo+Checklist+accuracy+coverage+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Photo Checklist: https://duckduckgo.com/?q=cosplay+wig+Photo+Checklist+accuracy+coverage+tutorial+guide
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
 
 ## Lesson 87: Critique With Causes
 
@@ -154,9 +154,9 @@ Key terms:
 - accuracy: How closely the wig matches the character reference while still working on a real head.
 
 References:
-- Reference images: Critique With Causes: https://duckduckgo.com/?q=cosplay+wig+Critique+With+Causes+fit+accuracy+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Critique With Causes: https://duckduckgo.com/?q=cosplay+wig+Critique+With+Causes+fit+accuracy+tutorial+guide
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: identify and reduce wig frizz: https://www.epiccosplay.com/blogs/wig-tips/wig-frizz
+- Epic Cosplay: adjust wig size: https://www.epiccosplay.com/pages/adjusting-wig-size
 
 ## Lesson 88: Next Skill Target
 
@@ -176,9 +176,9 @@ Key terms:
 - swatch test: A small-fiber color or product trial used before changing a whole wig.
 
 References:
-- Reference images: Next Skill Target: https://duckduckgo.com/?q=cosplay+wig+Next+Skill+Target+strand+test+swatch+test+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Next Skill Target: https://duckduckgo.com/?q=cosplay+wig+Next+Skill+Target+strand+test+swatch+test+tutorial+guide
+- Epic Cosplay: basic tools for beginning wig stylists: https://www.epiccosplay.com/blogs/wig-tips/basic-tools-for-beginning-wig-stylists
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: Kanekalon and Futura fiber test: https://www.epiccosplay.com/pages/testing-kanekalon-and-futura-wig-fibers
 
 ## Lesson 89: Personal Workflow
 
@@ -198,9 +198,9 @@ Key terms:
 - wear test: A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points.
 
 References:
-- Reference images: Personal Workflow: https://duckduckgo.com/?q=cosplay+wig+Personal+Workflow+wig+map+wear+test+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Personal Workflow: https://duckduckgo.com/?q=cosplay+wig+Personal+Workflow+wig+map+wear+test+tutorial+guide
+- Epic Cosplay: basic tools for beginning wig stylists: https://www.epiccosplay.com/blogs/wig-tips/basic-tools-for-beginning-wig-stylists
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
 
 ## Lesson 90: Build Review
 
@@ -220,7 +220,7 @@ Key terms:
 - wear test: A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points.
 
 References:
-- Reference images: Build Review: https://duckduckgo.com/?q=cosplay+wig+Build+Review+accuracy+wear+test+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Build Review: https://duckduckgo.com/?q=cosplay+wig+Build+Review+accuracy+wear+test+tutorial+guide
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: adjust wig size: https://www.epiccosplay.com/pages/adjusting-wig-size
+- Epic Cosplay: protect a styled wig while traveling: https://www.epiccosplay.com/pages/how-to-keep-a-wig-safe-while-traveling
 

@@ -40,9 +40,9 @@ Key terms:
 - fiber memory: Synthetic fiber's tendency to keep the shape it cooled or was stored in.
 
 References:
-- Reference images: Steam As Moist Heat: https://duckduckgo.com/?q=cosplay+wig+Steam+As+Moist+Heat+setting+fiber+memory+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Steam As Moist Heat: https://duckduckgo.com/?q=cosplay+wig+Steam+As+Moist+Heat+setting+fiber+memory+tutorial+guide
+- Epic Cosplay: steam-curling and heat-setting tips: https://www.epiccosplay.com/blogs/styling-guide/how-to-curl-our-wig-using-steam-and-other-heat-styling-tips
+- Epic Cosplay: curl a wig with hot water: https://www.epiccosplay.com/pages/curl-your-wig-with-hot-water
+- Epic Cosplay: heat-resistant is not heat-proof: https://www.epiccosplay.com/blogs/wig-tips/wigs-and-heat
 
 ## Lesson 20: Heat Log
 
@@ -64,9 +64,9 @@ Key terms:
 - heat-resistant: Able to tolerate controlled heat better than standard synthetic fiber, but still meltable.
 
 References:
-- Reference images: Heat Log: https://duckduckgo.com/?q=cosplay+wig+Heat+Log+strand+test+heat-resistant+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Heat Log: https://duckduckgo.com/?q=cosplay+wig+Heat+Log+strand+test+heat-resistant+tutorial+guide
+- Epic Cosplay: heat-resistant is not heat-proof: https://www.epiccosplay.com/blogs/wig-tips/wigs-and-heat
+- Epic Cosplay: using heat tools on synthetic fiber: https://www.epiccosplay.com/pages/using-heat-tools
+- Epic Cosplay: straighten a wig with controlled heat: https://www.epiccosplay.com/pages/straightening-a-wig-with-heat
 
 ## Lesson 21: Detangle Ends First
 
@@ -86,9 +86,9 @@ Key terms:
 - friction frizz: Frizz caused by rubbing against clothes, hands, collars, bags, or storage surfaces.
 
 References:
-- Reference images: Detangle Ends First: https://duckduckgo.com/?q=cosplay+wig+Detangle+Ends+First+detangling+friction+frizz+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Detangle Ends First: https://duckduckgo.com/?q=cosplay+wig+Detangle+Ends+First+detangling+friction+frizz+tutorial+guide
+- Epic Cosplay: detangle a long wig from the ends: https://www.epiccosplay.com/pages/how-to-detangle-a-long-wig
+- Epic Cosplay: identify and reduce wig frizz: https://www.epiccosplay.com/blogs/wig-tips/wig-frizz
+- Arda Wigs: save a tangled, frizzy wig: https://arda-wigs.com/blogs/tutorials/how-to-save-a-tangled-frizzy-wig
 
 ## Lesson 22: Storage Shape
 
@@ -108,9 +108,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Storage Shape: https://duckduckgo.com/?q=cosplay+wig+Storage+Shape+silhouette+coverage+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Storage Shape: https://duckduckgo.com/?q=cosplay+wig+Storage+Shape+silhouette+coverage+tutorial+guide
+- Epic Cosplay: protect a styled wig while traveling: https://www.epiccosplay.com/pages/how-to-keep-a-wig-safe-while-traveling
+- Epic Cosplay: long-wig care instructions: https://www.epiccosplay.com/pages/long-wig-care-instructions
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
 
 ## Lesson 23: Basic Repair Kit
 
@@ -130,9 +130,9 @@ Key terms:
 - wear test: A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points.
 
 References:
-- Reference images: Basic Repair Kit: https://duckduckgo.com/?q=cosplay+wig+Basic+Repair+Kit+touch-up+kit+wear+test+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Basic Repair Kit: https://duckduckgo.com/?q=cosplay+wig+Basic+Repair+Kit+touch-up+kit+wear+test+tutorial+guide
+- Epic Cosplay: secure a wig with toupee clips: https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips
+- Epic Cosplay: protect a styled wig while traveling: https://www.epiccosplay.com/pages/how-to-keep-a-wig-safe-while-traveling
+- Epic Cosplay: long-wig care instructions: https://www.epiccosplay.com/pages/long-wig-care-instructions
 
 ## Lesson 24: Cleaning Caution
 
@@ -154,9 +154,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Cleaning Caution: https://duckduckgo.com/?q=cosplay+wig+Cleaning+Caution+edge+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Cleaning Caution: https://duckduckgo.com/?q=cosplay+wig+Cleaning+Caution+edge+coverage+tutorial+guide
+- Epic Cosplay: wash a synthetic wig: https://www.epiccosplay.com/pages/how-to-wash-your-wig
+- Epic Cosplay: tips for washing wigs: https://www.epiccosplay.com/blogs/wig-tips/tips-on-washing-your-wigs
+- Epic Cosplay: wash styling gel out of a wig: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-how-to-wash-gel-out-of-an-epiccosplay-wig
 
 ## Lesson 25: Maintenance Habit
 
@@ -176,9 +176,9 @@ Key terms:
 - wear test: A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points.
 
 References:
-- Reference images: Maintenance Habit: https://duckduckgo.com/?q=cosplay+wig+Maintenance+Habit+touch-up+kit+wear+test+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Maintenance Habit: https://duckduckgo.com/?q=cosplay+wig+Maintenance+Habit+touch-up+kit+wear+test+tutorial+guide
+- Epic Cosplay: long-wig care instructions: https://www.epiccosplay.com/pages/long-wig-care-instructions
+- Epic Cosplay: detangle a long wig from the ends: https://www.epiccosplay.com/pages/how-to-detangle-a-long-wig
+- Epic Cosplay: tips for washing wigs: https://www.epiccosplay.com/blogs/wig-tips/tips-on-washing-your-wigs
 
 ## Lesson 26: Cutting Is Permanent
 
@@ -200,9 +200,9 @@ Key terms:
 - sectioning: Dividing hair into controlled areas before cutting, heating, teasing, or styling.
 
 References:
-- Reference images: Cutting Is Permanent: https://duckduckgo.com/?q=cosplay+wig+Cutting+Is+Permanent+rough+cut+sectioning+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Cutting Is Permanent: https://duckduckgo.com/?q=cosplay+wig+Cutting+Is+Permanent+rough+cut+sectioning+tutorial+guide
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
+- Epic Cosplay: cut different bang shapes: https://www.epiccosplay.com/pages/how-to-cut-any-bangs
+- Epic Cosplay: cut bangs with a hair razor: https://www.epiccosplay.com/pages/cutting-bangs-with-a-hair-razor
 
 ## Lesson 27: Section Before Cutting
 
@@ -224,7 +224,7 @@ Key terms:
 - surface layer: The visible hair layer that hides support work and gives the final finish.
 
 References:
-- Reference images: Section Before Cutting: https://duckduckgo.com/?q=cosplay+wig+Section+Before+Cutting+sectioning+surface+layer+reference+images&iax=images&ia=images
-- Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
-- Website search: Section Before Cutting: https://duckduckgo.com/?q=cosplay+wig+Section+Before+Cutting+sectioning+surface+layer+tutorial+guide
+- Epic Cosplay: section and fit a Hime cut: https://www.epiccosplay.com/pages/creating-a-hime-cut
+- Epic Cosplay: cut different bang shapes: https://www.epiccosplay.com/pages/how-to-cut-any-bangs
+- Epic Cosplay: four wig-cutting techniques: https://www.epiccosplay.com/pages/how-to-cut-wig-hair-in-4-different-ways
 

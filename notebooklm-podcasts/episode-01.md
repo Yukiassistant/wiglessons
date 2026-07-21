@@ -38,9 +38,9 @@ Key terms:
 - hairline: The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.
 
 References:
-- Reference images: Wig Anatomy First Look: https://duckduckgo.com/?q=cosplay+wig+Wig+Anatomy+First+Look+base+wig+hairline+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Wig Anatomy First Look: https://duckduckgo.com/?q=cosplay+wig+Wig+Anatomy+First+Look+base+wig+hairline+tutorial+guide
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: wig hairline types compared: https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences
 
 ## Lesson 2: Cap And Weft Basics
 
@@ -60,9 +60,9 @@ Key terms:
 - weft: A sewn strip of wig hair that can be added, removed, moved, or harvested.
 
 References:
-- Reference images: Cap And Weft Basics: https://duckduckgo.com/?q=cosplay+wig+Cap+And+Weft+Basics+cap+weft+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Cap And Weft Basics: https://duckduckgo.com/?q=cosplay+wig+Cap+And+Weft+Basics+cap+weft+tutorial+guide
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: add wefting to a wig: https://www.epiccosplay.com/pages/add-wefting-to-a-wig
+- Epic Cosplay: sew wig wefts: https://www.epiccosplay.com/pages/how-to-sew-wefts
 
 ## Lesson 3: Fiber And Density
 
@@ -82,9 +82,9 @@ Key terms:
 - density: How much hair is present in an area; higher density looks fuller but adds weight.
 
 References:
-- Reference images: Fiber And Density: https://duckduckgo.com/?q=cosplay+wig+Fiber+And+Density+fiber+density+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Fiber And Density: https://duckduckgo.com/?q=cosplay+wig+Fiber+And+Density+fiber+density+tutorial+guide
+- Epic Cosplay: Kanekalon and Futura fiber test: https://www.epiccosplay.com/pages/testing-kanekalon-and-futura-wig-fibers
+- Epic Cosplay: how to judge wig quality: https://www.epiccosplay.com/blogs/styling-guide/how-to-judge-wig-quality
+- Epic Cosplay: add instant wig volume: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-add-instant-volume-to-an-epiccosplay-wig
 
 ## Lesson 4: Hairline And Lace Front
 
@@ -104,9 +104,9 @@ Key terms:
 - lace front: A wig with sheer lace at the front where individual hairs create a realistic hairline.
 
 References:
-- Reference images: Hairline And Lace Front: https://duckduckgo.com/?q=cosplay+wig+Hairline+And+Lace+Front+hairline+lace+front+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Hairline And Lace Front: https://duckduckgo.com/?q=cosplay+wig+Hairline+And+Lace+Front+hairline+lace+front+tutorial+guide
+- Epic Cosplay: wig hairline types compared: https://www.epiccosplay.com/blogs/wig-tips/wig-hairlines-and-their-differences
+- Epic Cosplay: add a lace front: https://www.epiccosplay.com/pages/add-a-lace-front-to-your-wig
+- Epic Cosplay: restyle a skin-top part: https://www.epiccosplay.com/pages/restyle-a-skin-top-hair-part
 
 ## Lesson 5: Soft, Supported, Or Helmet
 
@@ -126,9 +126,9 @@ Key terms:
 - helmet wig: A wig built over a rigid or semi-rigid shell, usually for large sculptural hair.
 
 References:
-- Reference images: Soft, Supported, Or Helmet: https://duckduckgo.com/?q=cosplay+wig+Soft%2C+Supported%2C+Or+Helmet+hidden+support+helmet+wig+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Soft, Supported, Or Helmet: https://duckduckgo.com/?q=cosplay+wig+Soft%2C+Supported%2C+Or+Helmet+hidden+support+helmet+wig+tutorial+guide
+- Epic Cosplay: base-wig options for large styles: https://www.epiccosplay.com/blogs/wig-tips/wig-base-options-for-characters-like-miku-sailor-moon-etc
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
 
 ## Lesson 6: Make A Wig Map
 
@@ -148,9 +148,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Make A Wig Map: https://duckduckgo.com/?q=cosplay+wig+Make+A+Wig+Map+wig+map+coverage+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Make A Wig Map: https://duckduckgo.com/?q=cosplay+wig+Make+A+Wig+Map+wig+map+coverage+tutorial+guide
+- Epic Cosplay: basic tools for beginning wig stylists: https://www.epiccosplay.com/blogs/wig-tips/basic-tools-for-beginning-wig-stylists
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Epic Cosplay: base-wig options for large styles: https://www.epiccosplay.com/blogs/wig-tips/wig-base-options-for-characters-like-miku-sailor-moon-etc
 
 ## Lesson 7: Choose One Reference Angle
 
@@ -170,9 +170,9 @@ Key terms:
 - silhouette: The outer shape of the hairstyle, usually the first thing viewers recognize.
 
 References:
-- Reference images: Choose One Reference Angle: https://duckduckgo.com/?q=cosplay+wig+Choose+One+Reference+Angle+character+read+silhouette+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Choose One Reference Angle: https://duckduckgo.com/?q=cosplay+wig+Choose+One+Reference+Angle+character+read+silhouette+tutorial+guide
+- Epic Cosplay: short layered Kirito wig: https://www.epiccosplay.com/pages/how-to-style-a-kirito-wig
+- Epic Cosplay: textured Prompto wig: https://www.epiccosplay.com/pages/prompto-argentum-wig-tutorial
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
 
 ## Lesson 8: Side View Check
 
@@ -192,9 +192,9 @@ Key terms:
 - load path: The route weight and force take through the wig into anchors and the wearer's head.
 
 References:
-- Reference images: Side View Check: https://duckduckgo.com/?q=cosplay+wig+Side+View+Check+negative+space+load+path+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Side View Check: https://duckduckgo.com/?q=cosplay+wig+Side+View+Check+negative+space+load+path+tutorial+guide
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Epic Cosplay: Gon wig with inner support: https://www.epiccosplay.com/pages/gon-freecss-wig-tutorial
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
 
 ## Lesson 9: Back View Check
 
@@ -214,7 +214,7 @@ Key terms:
 - hair direction: The direction fibers travel so the style, seams, and coverage look intentional.
 
 References:
-- Reference images: Back View Check: https://duckduckgo.com/?q=cosplay+wig+Back+View+Check+cap+exposure+hair+direction+reference+images&iax=images&ia=images
-- Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Back View Check: https://duckduckgo.com/?q=cosplay+wig+Back+View+Check+cap+exposure+hair+direction+tutorial+guide
+- Epic Cosplay: put a standard wig into a ponytail: https://www.epiccosplay.com/pages/how-to-put-a-wig-into-a-ponytail
+- Arda Wigs: Countess updo tutorial: https://arda-wigs.com/blogs/tutorials/the-countess-updo-tutorial-by-hee-hee
+- Arda Wigs: Sailor Moon ponytail and bun build: https://arda-wigs.com/blogs/tutorials/how-to-style-a-sailor-moon-wig-by-antiquitydreams
 

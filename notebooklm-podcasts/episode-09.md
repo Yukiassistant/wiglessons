@@ -40,9 +40,9 @@ Key terms:
 - shell: A rigid or semi-rigid base structure that carries a shape, usually hidden under hair.
 
 References:
-- Reference images: Hard Cap Purpose: https://duckduckgo.com/?q=cosplay+wig+Hard+Cap+Purpose+hard+cap+shell+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Hard Cap Purpose: https://duckduckgo.com/?q=cosplay+wig+Hard+Cap+Purpose+hard+cap+shell+tutorial+guide
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
+- Arda Wigs: Panadonia structural wig build: https://arda-wigs.com/blogs/tutorials/iron-wig-2021-panadonias-tutorial
+- Arda Wigs: Doremi sculptural wig build: https://arda-wigs.com/blogs/tutorials/doremi-harukaze
 
 ## Lesson 74: Shell Mockup
 
@@ -64,9 +64,9 @@ Key terms:
 - shell: A rigid or semi-rigid base structure that carries a shape, usually hidden under hair.
 
 References:
-- Reference images: Shell Mockup: https://duckduckgo.com/?q=cosplay+wig+Shell+Mockup+mockup+shell+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Shell Mockup: https://duckduckgo.com/?q=cosplay+wig+Shell+Mockup+mockup+shell+tutorial+guide
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Arda Wigs: Panadonia structural wig build: https://arda-wigs.com/blogs/tutorials/iron-wig-2021-panadonias-tutorial
 
 ## Lesson 75: Armature Choice
 
@@ -88,9 +88,9 @@ Key terms:
 - load path: The route weight and force take through the wig into anchors and the wearer's head.
 
 References:
-- Reference images: Armature Choice: https://duckduckgo.com/?q=cosplay+wig+Armature+Choice+armature+load+path+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Armature Choice: https://duckduckgo.com/?q=cosplay+wig+Armature+Choice+armature+load+path+tutorial+guide
+- Famore: foam-and-wire armatures for cosplay wigs: https://www.famcut.com/blogs/updates/how-to-make-cosplay-wigs
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
 
 ## Lesson 76: Foam Core Coverage
 
@@ -112,9 +112,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Foam Core Coverage: https://duckduckgo.com/?q=cosplay+wig+Foam+Core+Coverage+foam+core+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Foam Core Coverage: https://duckduckgo.com/?q=cosplay+wig+Foam+Core+Coverage+foam+core+coverage+tutorial+guide
+- Famore: foam-and-wire armatures for cosplay wigs: https://www.famcut.com/blogs/updates/how-to-make-cosplay-wigs
+- Epic Cosplay: Gon wig with inner support: https://www.epiccosplay.com/pages/gon-freecss-wig-tutorial
+- Arda Wigs: create different wig shapes: https://arda-wigs.com/blogs/tutorials/creating-different-shapes-for-wig
 
 ## Lesson 77: Wire Safety
 
@@ -136,9 +136,9 @@ Key terms:
 - pressure point: A spot where weight, edge, clip, strap, or shell presses uncomfortably.
 
 References:
-- Reference images: Wire Safety: https://duckduckgo.com/?q=cosplay+wig+Wire+Safety+wire+support+pressure+point+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Wire Safety: https://duckduckgo.com/?q=cosplay+wig+Wire+Safety+wire+support+pressure+point+tutorial+guide
+- Famore: foam-and-wire armatures for cosplay wigs: https://www.famcut.com/blogs/updates/how-to-make-cosplay-wigs
+- Arda Wigs: supported Cloud Strife spikes: https://arda-wigs.com/blogs/tutorials/cloud-strife-from-final-fantasy-7-cosplay-wig-tutorial-by-malindachan
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
 
 ## Lesson 78: Mechanical Attachments
 
@@ -160,9 +160,9 @@ Key terms:
 - anchor: The point or structure that carries pull, weight, clips, straps, or supports.
 
 References:
-- Reference images: Mechanical Attachments: https://duckduckgo.com/?q=cosplay+wig+Mechanical+Attachments+mechanical+attachment+anchor+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Mechanical Attachments: https://duckduckgo.com/?q=cosplay+wig+Mechanical+Attachments+mechanical+attachment+anchor+tutorial+guide
+- Epic Cosplay: secure a wig with toupee clips: https://www.epiccosplay.com/pages/securing-wigs-with-toupee-clips
+- Arda Wigs: use a wig grip: https://arda-wigs.com/blogs/tutorials/how-to-use-our-wig-grips
+- Arda Wigs: detachable high-volume ponytail: https://arda-wigs.com/blogs/tutorials/how-to-make-a-detachable-ponytail-wig-w-extra-volume
 
 ## Lesson 79: Detachable Sections
 
@@ -184,9 +184,9 @@ Key terms:
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Detachable Sections: https://duckduckgo.com/?q=cosplay+wig+Detachable+Sections+mechanical+attachment+coverage+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Detachable Sections: https://duckduckgo.com/?q=cosplay+wig+Detachable+Sections+mechanical+attachment+coverage+tutorial+guide
+- Arda Wigs: detachable high-volume ponytail: https://arda-wigs.com/blogs/tutorials/how-to-make-a-detachable-ponytail-wig-w-extra-volume
+- Epic Cosplay: use a ponytail clip-on: https://www.epiccosplay.com/pages/how-to-use-ponytail-clip-ons
+- Epic Cosplay: make a smaller hair clip-on: https://www.epiccosplay.com/pages/mini-hair-clip-tutorial
 
 ## Lesson 80: Ventilation Gap
 
@@ -208,9 +208,9 @@ Key terms:
 - helmet wig: A wig built over a rigid or semi-rigid shell, usually for large sculptural hair.
 
 References:
-- Reference images: Ventilation Gap: https://duckduckgo.com/?q=cosplay+wig+Ventilation+Gap+wear+test+helmet+wig+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Ventilation Gap: https://duckduckgo.com/?q=cosplay+wig+Ventilation+Gap+wear+test+helmet+wig+tutorial+guide
+- Arda Wigs: make a hard-shell wig cap: https://arda-wigs.com/blogs/tutorials/how-to-make-a-hard-shell-wig-cap
+- Bakka Cosplay: make an accurate head and hairline copy: https://www.bakkacosplay.com/headcopy
+- Cosplay Advice: fit and attach a lace-front wig: https://cosplayadvice.com/lace-front-wig/
 
 ## Lesson 81: Removal Method
 
@@ -232,7 +232,7 @@ Key terms:
 - mechanical attachment: A physical attachment method like clips, screws, snaps, straps, buckles, or magnets.
 
 References:
-- Reference images: Removal Method: https://duckduckgo.com/?q=cosplay+wig+Removal+Method+skin+adhesive+mechanical+attachment+reference+images&iax=images&ia=images
-- Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
-- Website search: Removal Method: https://duckduckgo.com/?q=cosplay+wig+Removal+Method+skin+adhesive+mechanical+attachment+tutorial+guide
+- Cosplay Advice: fit and attach a lace-front wig: https://cosplayadvice.com/lace-front-wig/
+- Epic Cosplay: wash styling gel out of a wig: https://www.epiccosplay.com/blogs/styling-guide/wig-tutorial-how-to-wash-gel-out-of-an-epiccosplay-wig
+- Epic Cosplay: use a ponytail clip-on: https://www.epiccosplay.com/pages/how-to-use-ponytail-clip-ons
 
