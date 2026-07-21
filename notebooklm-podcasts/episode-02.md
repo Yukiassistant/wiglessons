@@ -2,7 +2,7 @@
 
 Lesson range: 10-18
 
-Episode focus: Prepare tools, check fit, mark alignment points, and understand the basic heat-safety rules for synthetic fiber.
+Episode focus: Understand task-specific tools, fit checks, alignment points, and the basic heat-safety rules for synthetic fiber.
 
 # Host Brief
 
@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -19,36 +20,40 @@ Style requirements:
 
 # Source Lessons
 
-## Lesson 10: Task Materials List
+## Lesson 10: Task Materials Map
 
-Objective: Match tools to the wig task.
+Objective: Match tools to a wig-making task without acquiring them.
 
-Core concept: A materials list belongs to a specific wig task: cutting, heat setting, sewing, gluing, transport, or touch-up. Leave unrelated tools out.
+Core concept: Different tasks use different tools: cutting, heat setting, sewing, gluing, transport, and touch-up each have their own small set. A planning map helps distinguish what a builder would use without turning the lesson into a shopping list.
 
-Practice prompt: Write three items needed for one basic wig practice session.
+Practice prompt: Choose one technique from a reference and name three tools or materials a builder would typically use.
 
-Check question: Which item is required before the task can start?
 
-Ready when: You have a three-item task list.
+Check question: Which item performs the technique's main job?
+
+Ready when: You can match three example items to one technique.
 
 Key terms:
-- base wig: The starting wig chosen for color, length, cap type, density, and hairline needs.
+- base wig: The main wig used as the foundation of a build, selected for color, length, cap type, density, and hairline needs.
 - touch-up kit: Products and tools packed for quick fixes during wear.
 
 References:
-- Reference images: Task Materials List: https://duckduckgo.com/?q=cosplay+wig+Task+Materials+List+base+wig+touch-up+kit+reference+images&iax=images&ia=images
+- Reference images: Task Materials Map: https://duckduckgo.com/?q=cosplay+wig+Task+Materials+Map+base+wig+touch-up+kit+reference+images&iax=images&ia=images
 - Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Task Materials List: https://duckduckgo.com/?q=cosplay+wig+Task+Materials+List+base+wig+touch-up+kit+tutorial+guide
+- Website search: Task Materials Map: https://duckduckgo.com/?q=cosplay+wig+Task+Materials+Map+base+wig+touch-up+kit+tutorial+guide
 
 ## Lesson 11: Fit Comes First
 
-Objective: Check fit before surface styling.
+Objective: Recognize fit problems before surface styling.
 
 Core concept: A styled wig that slips, pinches, or sits crooked will still fail in wear. Fit controls placement, comfort, and whether the hairline lands correctly.
 
-Practice prompt: Put on or imagine a wig and name one place it might squeeze, slide, or rub.
+Practice prompt: From a reference image or hypothetical example, name one place a wig might squeeze, slide, or rub.
 
-Check question: Where would you notice discomfort first?
+Safety note: A real fit check should stop at pain, numbness, blocked vision, breathing restriction, or unstable placement.
+
+
+Check question: Where would a wearer likely notice discomfort first?
 
 Ready when: You can name one fit risk.
 
@@ -63,18 +68,19 @@ References:
 
 ## Lesson 12: Block Basics
 
-Objective: Compare the work head to the wearer.
+Objective: Understand how a work head relates to a wearer.
 
-Core concept: The block is the head form used for styling and building. A too-small or too-large block can distort the final fit, height, and hairline placement.
+Core concept: A block is a head form used for styling and building. If its size differs from the wearer's head, it can distort final fit, height, and hairline placement.
 
-Practice prompt: Write whether your work head is smaller, larger, or unknown compared with your head.
+Practice prompt: Compare two hypothetical measurements and predict the effect of a block being smaller or larger than the wearer's head.
 
-Check question: What error could that create?
 
-Ready when: You know whether your block needs checking.
+Check question: What fit error could that create?
+
+Ready when: You can explain why block size needs checking.
 
 Key terms:
-- block: The head form used for styling, cutting, fitting, and building wig structures.
+- block: A head form that builders use for styling, cutting, fitting, and constructing wig structures.
 - fit: How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.
 
 References:
@@ -89,6 +95,7 @@ Objective: Prevent crooked work.
 Core concept: A front mark, center line, and ear landmarks keep cuts, parts, and attachments aligned to the wearer instead of the stand.
 
 Practice prompt: On paper or a photo, mark front center and both ear areas.
+
 
 Check question: What would look wrong if the wig rotated slightly?
 
@@ -111,6 +118,9 @@ Core concept: Rigid or bulky builds need room for hair, pins, padding, and movem
 
 Practice prompt: Name one place a shell or heavy wig needs extra room.
 
+Safety note: Rigid-build plans should allow airflow, rounded edges, and padding; persistent pressure is a stop signal, not an acceptable fit.
+
+
 Check question: What would hurt after ten minutes?
 
 Ready when: You can name one comfort allowance.
@@ -124,26 +134,29 @@ References:
 - Tutorial hub: Arda Wigs structural builds: https://arda-wigs.com/blogs/tutorials/tagged/iron-wig
 - Website search: Comfort Gap: https://duckduckgo.com/?q=cosplay+wig+Comfort+Gap+pressure+point+helmet+wig+tutorial+guide
 
-## Lesson 15: Quick Wear Test Idea
+## Lesson 15: Wear-Test Planning
 
-Objective: Plan a short fit test.
+Objective: Understand what a short fit test checks.
 
-Core concept: A wear test checks heat, slipping, pressure, blocked vision, and edge lift before the wig is final.
+Core concept: A wear test checks heat, slipping, pressure, blocked vision, and edge lift before a wig is considered finished.
 
-Practice prompt: Write a five-minute wear-test checklist with three things to notice.
+Practice prompt: Write a hypothetical five-minute wear-test checklist with three things a wearer should notice.
 
-Check question: What would make you stop wearing it?
+Safety note: A real wear test should stop at pain, dizziness, overheating, numbness, blocked vision, or an unstable attachment.
 
-Ready when: You have a wear-test checklist.
+
+Check question: What observation should end a wear test immediately?
+
+Ready when: You can explain three wear-test checks.
 
 Key terms:
 - wear test: A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points.
 - fit: How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.
 
 References:
-- Reference images: Quick Wear Test Idea: https://duckduckgo.com/?q=cosplay+wig+Quick+Wear+Test+Idea+wear+test+fit+reference+images&iax=images&ia=images
+- Reference images: Wear-Test Planning: https://duckduckgo.com/?q=cosplay+wig+Wear-Test+Planning+wear+test+fit+reference+images&iax=images&ia=images
 - Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Quick Wear Test Idea: https://duckduckgo.com/?q=cosplay+wig+Quick+Wear+Test+Idea+wear+test+fit+tutorial+guide
+- Website search: Wear-Test Planning: https://duckduckgo.com/?q=cosplay+wig+Wear-Test+Planning+wear+test+fit+tutorial+guide
 
 ## Lesson 16: Synthetic Fiber Rule
 
@@ -153,13 +166,16 @@ Core concept: Heat-resistant fiber can still melt. Always test a hidden strand o
 
 Practice prompt: Write the sentence: test hidden fiber before visible heat.
 
+Safety note: Any real heat work should begin with the lowest practical setting on hidden test fiber; synthetic fiber can melt or burn.
+
+
 Check question: What happens if the label is wrong?
 
 Ready when: You know the test comes before the tool.
 
 Key terms:
 - heat-resistant: Able to tolerate controlled heat better than standard synthetic fiber, but still meltable.
-- strand test: A hidden test on a small fiber section before using heat, dye, or product broadly.
+- strand test: A small-fiber trial professionals use before applying heat, dye, or product broadly.
 
 References:
 - Reference images: Synthetic Fiber Rule: https://duckduckgo.com/?q=cosplay+wig+Synthetic+Fiber+Rule+heat-resistant+strand+test+reference+images&iax=images&ia=images
@@ -173,6 +189,9 @@ Objective: Understand how synthetic fiber sets.
 Core concept: Synthetic fiber often holds the shape it cools in. Moving it too soon can weaken the set.
 
 Practice prompt: Name one shape that would need to cool while held in place.
+
+Safety note: Heated fiber and tools can remain hot during cool-down, so a real setup should keep skin clear until both are safe to touch.
+
 
 Check question: Why is waiting part of the technique?
 
@@ -194,6 +213,7 @@ Objective: Use controlled pull, not force.
 Core concept: Tension helps straightening, setting, and smoothing, but too much pull can stretch, frizz, or deform fiber.
 
 Practice prompt: Mime or imagine holding a small section straight while it cools.
+
 
 Check question: Where is the line between controlled and rough?
 

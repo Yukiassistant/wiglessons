@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -21,18 +22,19 @@ Style requirements:
 
 ## Lesson 1: Wig Anatomy First Look
 
-Objective: Identify the wig's main parts.
+Objective: Identify a wig's main parts from a reference.
 
-Core concept: Before styling, separate the base wig from the hair surface. The cap creates fit and structure; the hairline is the visible front edge that needs clean coverage.
+Core concept: A wig has two main layers: the cap, which provides fit and structure, and the visible hair surface. The hairline is the front edge where coverage and construction are most noticeable.
 
-Practice prompt: Look at one wig or photo and point out the cap area and front hairline.
+Practice prompt: Open a reference image of a wig and identify the cap area and front hairline.
+
 
 Check question: Which part affects fit, and which part affects what people see first?
 
-Ready when: You can identify the base wig and hairline in one example.
+Ready when: You can identify the cap and hairline in one reference image.
 
 Key terms:
-- base wig: The starting wig chosen for color, length, cap type, density, and hairline needs.
+- base wig: The main wig used as the foundation of a build, selected for color, length, cap type, density, and hairline needs.
 - hairline: The visible edge where wig hair begins around the forehead, temples, sideburns, or nape.
 
 References:
@@ -46,14 +48,15 @@ Objective: Know what holds the hair in place.
 
 Core concept: A cap is the foundation that sits on the head. Wefts are sewn strips of hair attached to that foundation, and their direction affects coverage.
 
-Practice prompt: Point to where the cap is and where a weft would sit on any wig photo or wig you own.
+Practice prompt: Use a reference photo or diagram to point out the cap and where a weft is attached.
+
 
 Check question: Which word describes the base, and which describes a strip of hair?
 
 Ready when: You can use cap and weft correctly in one sentence.
 
 Key terms:
-- cap: The base of the wig that sits on your head and holds the hair or wefts.
+- cap: The base of a wig that sits on the wearer's head and holds the hair or wefts.
 - weft: A sewn strip of wig hair that can be added, removed, moved, or harvested.
 
 References:
@@ -68,6 +71,7 @@ Objective: Understand what the hair is and how full it is.
 Core concept: Synthetic wig hair is fiber. Density is how much fiber is packed into an area, which changes fullness, weight, and cap coverage.
 
 Practice prompt: Look at one wig image and label it low, medium, or high density from visible fullness.
+
 
 Check question: Would more density help this wig, or make it heavier than needed?
 
@@ -90,6 +94,7 @@ Core concept: A visible forehead or pulled-back style needs a planned edge. Lace
 
 Practice prompt: Pick one character and decide whether the front hairline is visible or hidden by bangs.
 
+
 Check question: Does this character need realism at the edge, or just clean coverage?
 
 Ready when: You can choose lace or a hidden hairline for one character.
@@ -110,6 +115,7 @@ Objective: Sort hairstyles by structure before styling.
 Core concept: Some wigs are mostly hair. Some need hidden support. Some are closer to a helmet covered in hair.
 
 Practice prompt: Sort three character hairstyles into soft, supported, or helmet candidates.
+
 
 Check question: Which one stops behaving like hair?
 
@@ -132,12 +138,13 @@ Core concept: A wig map labels visible hair, hidden support, hairline, attachmen
 
 Practice prompt: Draw a rough outline of one hairstyle and label three zones.
 
+
 Check question: What part must be hidden for the style to work?
 
 Ready when: You have a labeled map with at least three zones.
 
 Key terms:
-- wig map: A simple plan that labels what each part of the wig must do.
+- wig map: A diagram that labels what each part of a wig design must do.
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
@@ -152,6 +159,7 @@ Objective: Identify the main silhouette.
 Core concept: The front view usually controls character recognition. Use it to name the largest outside shape before choosing tools or products.
 
 Practice prompt: Find or imagine one front-view reference and name the biggest shape.
+
 
 Check question: What makes the character recognizable first?
 
@@ -174,6 +182,7 @@ Core concept: The side view reveals whether hair falls naturally, sticks out, or
 
 Practice prompt: Look at a side view and mark one part that sticks out or floats.
 
+
 Check question: Where would gravity pull this shape?
 
 Ready when: You can name one likely support problem.
@@ -194,6 +203,7 @@ Objective: Account for the rear view.
 Core concept: The back can expose wefts, gaps, ponytail anchors, and unfinished support. Mark one rear-view requirement before cutting, sewing, or attaching pieces.
 
 Practice prompt: Write one sentence about what the back of the wig must show or hide.
+
 
 Check question: What would look unfinished from behind?
 

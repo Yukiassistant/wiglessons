@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -26,6 +27,9 @@ Objective: Know what steam is for.
 Core concept: Steam can relax or reshape synthetic fiber with less direct contact than a hot iron, but steam still heats the fiber.
 
 Practice prompt: Write one job steam might do: relax, smooth, reshape, or reset.
+
+Safety note: Steam can burn skin and soften synthetic fiber unexpectedly; real steam work needs distance, controlled direction, and a test section.
+
 
 Check question: Which steam job changes the fiber shape?
 
@@ -48,12 +52,15 @@ Core concept: A heat log records tool, temperature, time, and result so a succes
 
 Practice prompt: Create a four-field heat log template.
 
+Safety note: A heat log supports safety only after a hidden test succeeds; recorded settings are not transferable between unknown fibers or tools.
+
+
 Check question: Which field records the exact temperature?
 
 Ready when: You have a reusable heat-test note.
 
 Key terms:
-- strand test: A hidden test on a small fiber section before using heat, dye, or product broadly.
+- strand test: A small-fiber trial professionals use before applying heat, dye, or product broadly.
 - heat-resistant: Able to tolerate controlled heat better than standard synthetic fiber, but still meltable.
 
 References:
@@ -68,6 +75,7 @@ Objective: Avoid making knots worse.
 Core concept: Detangle from the ends upward. Starting at the roots pushes knots tighter and increases friction frizz.
 
 Practice prompt: Write the order: ends, middle, roots.
+
 
 Check question: What causes frizz besides tangles?
 
@@ -90,6 +98,7 @@ Core concept: Storage should protect the shape you built. A loose wig and a spik
 
 Practice prompt: Name one storage risk for a long wig and one for a styled wig.
 
+
 Check question: What would get crushed first?
 
 Ready when: You can choose storage based on shape.
@@ -110,6 +119,7 @@ Objective: Pack for likely wig failures.
 Core concept: A repair kit should match the wig's failure points: loose clips, lifted edges, flyaways, broken supports, or rubbed color.
 
 Practice prompt: List three repair items for a styled wig.
+
 
 Check question: Which failure is most likely?
 
@@ -132,6 +142,9 @@ Core concept: Lace, product, glued pieces, and structured shapes can be damaged 
 
 Practice prompt: Name one part of a styled wig you would clean gently.
 
+Safety note: Any real cleaning method should follow product directions, use ventilation where required, and never mix incompatible cleaners.
+
+
 Check question: What could loosen or frizz?
 
 Ready when: You can name one cleaning risk.
@@ -147,15 +160,16 @@ References:
 
 ## Lesson 25: Maintenance Habit
 
-Objective: End sessions with a reset.
+Objective: Understand an end-of-session reset.
 
 Core concept: An end-of-session reset removes loose pins, records damage, protects the silhouette, and stores the wig away from friction.
 
-Practice prompt: Write a two-step shutdown routine for wig practice.
+Practice prompt: Put these hypothetical reset steps in order: inspect, remove loose items, record damage, protect the silhouette, store.
+
 
 Check question: Which step protects the finished shape?
 
-Ready when: You have a shutdown routine.
+Ready when: You can put the reset sequence in a sensible order.
 
 Key terms:
 - touch-up kit: Products and tools packed for quick fixes during wear.
@@ -173,6 +187,9 @@ Objective: Start conservative.
 Core concept: Synthetic wig cutting is unforgiving. Leave extra length, test the fall, then refine.
 
 Practice prompt: Choose a pretend bang length, then write a safer longer first cut.
+
+Safety note: Real cutting requires sharp, controlled tools directed away from hands, face, and the wearer; cutting should happen off the body.
+
 
 Check question: Where would overcutting hurt most?
 
@@ -194,6 +211,9 @@ Objective: Control what you cut.
 Core concept: Sectioning isolates the hair being cut from display layers, support layers, and hair that still needs length for blending.
 
 Practice prompt: Describe one section you would clip away before trimming bangs.
+
+Safety note: In real cutting work, secure sections before using blades or shears and keep hands outside the cutting path.
+
 
 Check question: What hair should not be cut yet?
 

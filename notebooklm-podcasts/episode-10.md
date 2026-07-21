@@ -2,7 +2,7 @@
 
 Lesson range: 82-90
 
-Episode focus: Protect the build in transport, plan small samples, document the finished wig, critique by cause, and choose the next practice target.
+Episode focus: Understand transport protection, plan sample concepts, evaluate documentation, critique by cause, and choose the next study target.
 
 # Host Brief
 
@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -26,6 +27,7 @@ Objective: Pack for the build type.
 Core concept: A helmet wig, spike wig, and loose wig need different protection. Packing is part of the design.
 
 Practice prompt: Choose box, stand, bag, or custom support for one style.
+
 
 Check question: What would break in transit?
 
@@ -48,12 +50,15 @@ Core concept: A soft wig project can use a base wig, conservative cut, light sha
 
 Practice prompt: Write a three-step plan for a short or medium soft wig.
 
+Safety note: A real soft-wig plan should pair every proposed cutting, heat, or product step with its specific blade, test-fiber, or ventilation precaution.
+
+
 Check question: Which step changes the wig permanently?
 
 Ready when: You have a soft-wig plan.
 
 Key terms:
-- base wig: The starting wig chosen for color, length, cap type, density, and hairline needs.
+- base wig: The main wig used as the foundation of a build, selected for color, length, cap type, density, and hairline needs.
 - rough cut: The first conservative cut that removes length while leaving room to refine.
 
 References:
@@ -68,6 +73,9 @@ Objective: Plan one structural test.
 Core concept: Before a huge build, prove one support idea in miniature: spike, bun, ahoge, ponytail, or horn integration.
 
 Practice prompt: Pick one support sample and write what it must prove.
+
+Safety note: A real structural sample needs covered sharp points, low test loads, and a clear area so a failed support cannot injure someone.
+
 
 Check question: What failure would teach you the most?
 
@@ -90,6 +98,9 @@ Core concept: A hairline or sideburn test is smaller than a full wig and reveals
 
 Practice prompt: Choose one edge sample: lace, false hairline, sideburn, or nape.
 
+Safety note: A real edge sample may use needles or skin adhesive; sharp-tool control, patch testing, and a compatible remover belong in the plan.
+
+
 Check question: What viewing distance matters?
 
 Ready when: You have one edge sample idea.
@@ -105,15 +116,16 @@ References:
 
 ## Lesson 86: Photo Checklist
 
-Objective: Capture useful proof.
+Objective: Recognize useful documentation angles.
 
-Core concept: Good photos show front, side, back, three-quarter, edge, and any interior support so fit, silhouette, and coverage can be checked separately.
+Core concept: Good documentation shows front, side, back, three-quarter, edge, and any interior support so fit, silhouette, and coverage can be checked separately.
 
-Practice prompt: Write three photos you would take of a finished wig.
+Practice prompt: Choose three views that would best document a hypothetical or reference wig.
 
-Check question: Which photo checks coverage?
 
-Ready when: You have a three-shot checklist.
+Check question: Which view checks coverage?
+
+Ready when: You can create a three-view documentation checklist.
 
 Key terms:
 - accuracy: How closely the wig matches the character reference while still working on a real head.
@@ -132,6 +144,7 @@ Core concept: Useful critique says why something looks wrong: fit, density, edge
 
 Practice prompt: Pick one possible flaw and name its likely cause.
 
+
 Check question: Is the problem visual, structural, or comfort-related?
 
 Ready when: You can critique by cause.
@@ -147,19 +160,20 @@ References:
 
 ## Lesson 88: Next Skill Target
 
-Objective: Choose one weak skill.
+Objective: Choose one skill to study further.
 
-Core concept: The best next practice target is specific: cutting, heat tests, edge work, wefting, coverage, or support building.
+Core concept: A useful next study target is specific: cutting, heat tests, edge work, wefting, coverage, or support building.
 
-Practice prompt: Choose one skill to practice on scraps before using an expensive wig.
+Practice prompt: Choose one skill and name the reference detail or safety principle you would study next.
+
 
 Check question: Why that skill first?
 
-Ready when: You have one next practice target.
+Ready when: You have one specific next study target.
 
 Key terms:
-- strand test: A hidden test on a small fiber section before using heat, dye, or product broadly.
-- swatch test: A small color or product test on scrap fiber before changing the whole wig.
+- strand test: A small-fiber trial professionals use before applying heat, dye, or product broadly.
+- swatch test: A small-fiber color or product trial used before changing a whole wig.
 
 References:
 - Reference images: Next Skill Target: https://duckduckgo.com/?q=cosplay+wig+Next+Skill+Target+strand+test+swatch+test+reference+images&iax=images&ia=images
@@ -174,12 +188,13 @@ Core concept: A repeatable workflow orders reference, fit, tests, structure, sur
 
 Practice prompt: Write a five-step personal wig workflow from reference to storage.
 
+
 Check question: Which step checks fit before styling?
 
 Ready when: You have a short repeatable workflow.
 
 Key terms:
-- wig map: A simple plan that labels what each part of the wig must do.
+- wig map: A diagram that labels what each part of a wig design must do.
 - wear test: A timed trial wear to check heat, pressure, slipping, visibility, comfort, and failure points.
 
 References:
@@ -189,15 +204,16 @@ References:
 
 ## Lesson 90: Build Review
 
-Objective: Review the wig by technical category.
+Objective: Review a wig design by technical category.
 
 Core concept: A useful review checks fit, comfort, accuracy, coverage, color, edges, support, and transport as separate categories.
 
-Practice prompt: Pick one finished or planned wig and name the next technical improvement.
+Practice prompt: Pick one published reference or hypothetical wig plan and name its next technical improvement.
 
-Check question: Which category would improve the build most?
 
-Ready when: You have one practical next target.
+Check question: Which category would improve the design most?
+
+Ready when: You have one practical next study target.
 
 Key terms:
 - accuracy: How closely the wig matches the character reference while still working on a real head.

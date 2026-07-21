@@ -1,22 +1,22 @@
 {
   "course": {
     "title": "Cosplay Wig Styling",
-    "startDate": "2026-07-02",
+    "startDate": "2026-07-20",
     "timezone": "America/Los_Angeles",
     "estimatedMinutes": 5,
-    "description": "A self-contained 90-day cosplay wig styling course with short daily lessons."
+    "description": "A theory-first 90-day cosplay wig styling course that uses references, diagrams, and hypothetical planning. No wig, tools, materials, or purchases are required."
   },
   "lessons": [
     {
       "day": 1,
       "title": "Wig Anatomy First Look",
       "estimatedMinutes": 5,
-      "objective": "Identify the wig's main parts.",
-      "concept": "Before styling, separate the base wig from the hair surface. The cap creates fit and structure; the hairline is the visible front edge that needs clean coverage.",
+      "objective": "Identify a wig's main parts from a reference.",
+      "concept": "A wig has two main layers: the cap, which provides fit and structure, and the visible hair surface. The hairline is the front edge where coverage and construction are most noticeable.",
       "glossary": [
         {
           "term": "base wig",
-          "definition": "The starting wig chosen for color, length, cap type, density, and hairline needs."
+          "definition": "The main wig used as the foundation of a build, selected for color, length, cap type, density, and hairline needs."
         },
         {
           "term": "hairline",
@@ -38,10 +38,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Look at one wig or photo and point out the cap area and front hairline.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "practice": "Open a reference image of a wig and identify the cap area and front hairline.",
+      "safety": "",
       "reflection": "Which part affects fit, and which part affects what people see first?",
-      "readiness": "You can identify the base wig and hairline in one example."
+      "readiness": "You can identify the cap and hairline in one reference image."
     },
     {
       "day": 2,
@@ -52,7 +52,7 @@
       "glossary": [
         {
           "term": "cap",
-          "definition": "The base of the wig that sits on your head and holds the hair or wefts."
+          "definition": "The base of a wig that sits on the wearer's head and holds the hair or wefts."
         },
         {
           "term": "weft",
@@ -74,8 +74,8 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Point to where the cap is and where a weft would sit on any wig photo or wig you own.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "practice": "Use a reference photo or diagram to point out the cap and where a weft is attached.",
+      "safety": "",
       "reflection": "Which word describes the base, and which describes a strip of hair?",
       "readiness": "You can use cap and weft correctly in one sentence."
     },
@@ -111,7 +111,7 @@
       ],
       "optionalResources": [],
       "practice": "Look at one wig image and label it low, medium, or high density from visible fullness.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Would more density help this wig, or make it heavier than needed?",
       "readiness": "You can explain density without touching styling tools."
     },
@@ -147,7 +147,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick one character and decide whether the front hairline is visible or hidden by bangs.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Does this character need realism at the edge, or just clean coverage?",
       "readiness": "You can choose lace or a hidden hairline for one character."
     },
@@ -183,7 +183,7 @@
       ],
       "optionalResources": [],
       "practice": "Sort three character hairstyles into soft, supported, or helmet candidates.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which one stops behaving like hair?",
       "readiness": "You can choose a broad build category."
     },
@@ -196,7 +196,7 @@
       "glossary": [
         {
           "term": "wig map",
-          "definition": "A simple plan that labels what each part of the wig must do."
+          "definition": "A diagram that labels what each part of a wig design must do."
         },
         {
           "term": "coverage",
@@ -219,7 +219,7 @@
       ],
       "optionalResources": [],
       "practice": "Draw a rough outline of one hairstyle and label three zones.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What part must be hidden for the style to work?",
       "readiness": "You have a labeled map with at least three zones."
     },
@@ -255,7 +255,7 @@
       ],
       "optionalResources": [],
       "practice": "Find or imagine one front-view reference and name the biggest shape.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What makes the character recognizable first?",
       "readiness": "You can name the main silhouette in one phrase."
     },
@@ -291,7 +291,7 @@
       ],
       "optionalResources": [],
       "practice": "Look at a side view and mark one part that sticks out or floats.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Where would gravity pull this shape?",
       "readiness": "You can name one likely support problem."
     },
@@ -327,20 +327,20 @@
       ],
       "optionalResources": [],
       "practice": "Write one sentence about what the back of the wig must show or hide.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What would look unfinished from behind?",
       "readiness": "You can state one back-view requirement."
     },
     {
       "day": 10,
-      "title": "Task Materials List",
+      "title": "Task Materials Map",
       "estimatedMinutes": 5,
-      "objective": "Match tools to the wig task.",
-      "concept": "A materials list belongs to a specific wig task: cutting, heat setting, sewing, gluing, transport, or touch-up. Leave unrelated tools out.",
+      "objective": "Match tools to a wig-making task without acquiring them.",
+      "concept": "Different tasks use different tools: cutting, heat setting, sewing, gluing, transport, and touch-up each have their own small set. A planning map helps distinguish what a builder would use without turning the lesson into a shopping list.",
       "glossary": [
         {
           "term": "base wig",
-          "definition": "The starting wig chosen for color, length, cap type, density, and hairline needs."
+          "definition": "The main wig used as the foundation of a build, selected for color, length, cap type, density, and hairline needs."
         },
         {
           "term": "touch-up kit",
@@ -349,29 +349,29 @@
       ],
       "requiredResources": [
         {
-          "title": "Reference images: Task Materials List",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Task+Materials+List+base+wig+touch-up+kit+reference+images&iax=images&ia=images"
+          "title": "Reference images: Task Materials Map",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Task+Materials+Map+base+wig+touch-up+kit+reference+images&iax=images&ia=images"
         },
         {
           "title": "Beginner guide: Epic Cosplay Wigs",
           "url": "https://www.epiccosplay.com/pages/wigs"
         },
         {
-          "title": "Website search: Task Materials List",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Task+Materials+List+base+wig+touch-up+kit+tutorial+guide"
+          "title": "Website search: Task Materials Map",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Task+Materials+Map+base+wig+touch-up+kit+tutorial+guide"
         }
       ],
       "optionalResources": [],
-      "practice": "Write three items needed for one basic wig practice session.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Which item is required before the task can start?",
-      "readiness": "You have a three-item task list."
+      "practice": "Choose one technique from a reference and name three tools or materials a builder would typically use.",
+      "safety": "",
+      "reflection": "Which item performs the technique's main job?",
+      "readiness": "You can match three example items to one technique."
     },
     {
       "day": 11,
       "title": "Fit Comes First",
       "estimatedMinutes": 5,
-      "objective": "Check fit before surface styling.",
+      "objective": "Recognize fit problems before surface styling.",
       "concept": "A styled wig that slips, pinches, or sits crooked will still fail in wear. Fit controls placement, comfort, and whether the hairline lands correctly.",
       "glossary": [
         {
@@ -398,21 +398,21 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Put on or imagine a wig and name one place it might squeeze, slide, or rub.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Where would you notice discomfort first?",
+      "practice": "From a reference image or hypothetical example, name one place a wig might squeeze, slide, or rub.",
+      "safety": "A real fit check should stop at pain, numbness, blocked vision, breathing restriction, or unstable placement.",
+      "reflection": "Where would a wearer likely notice discomfort first?",
       "readiness": "You can name one fit risk."
     },
     {
       "day": 12,
       "title": "Block Basics",
       "estimatedMinutes": 5,
-      "objective": "Compare the work head to the wearer.",
-      "concept": "The block is the head form used for styling and building. A too-small or too-large block can distort the final fit, height, and hairline placement.",
+      "objective": "Understand how a work head relates to a wearer.",
+      "concept": "A block is a head form used for styling and building. If its size differs from the wearer's head, it can distort final fit, height, and hairline placement.",
       "glossary": [
         {
           "term": "block",
-          "definition": "The head form used for styling, cutting, fitting, and building wig structures."
+          "definition": "A head form that builders use for styling, cutting, fitting, and constructing wig structures."
         },
         {
           "term": "fit",
@@ -434,10 +434,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Write whether your work head is smaller, larger, or unknown compared with your head.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "What error could that create?",
-      "readiness": "You know whether your block needs checking."
+      "practice": "Compare two hypothetical measurements and predict the effect of a block being smaller or larger than the wearer's head.",
+      "safety": "",
+      "reflection": "What fit error could that create?",
+      "readiness": "You can explain why block size needs checking."
     },
     {
       "day": 13,
@@ -471,7 +471,7 @@
       ],
       "optionalResources": [],
       "practice": "On paper or a photo, mark front center and both ear areas.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What would look wrong if the wig rotated slightly?",
       "readiness": "You can identify front center and ear zones."
     },
@@ -507,16 +507,16 @@
       ],
       "optionalResources": [],
       "practice": "Name one place a shell or heavy wig needs extra room.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Rigid-build plans should allow airflow, rounded edges, and padding; persistent pressure is a stop signal, not an acceptable fit.",
       "reflection": "What would hurt after ten minutes?",
       "readiness": "You can name one comfort allowance."
     },
     {
       "day": 15,
-      "title": "Quick Wear Test Idea",
+      "title": "Wear-Test Planning",
       "estimatedMinutes": 5,
-      "objective": "Plan a short fit test.",
-      "concept": "A wear test checks heat, slipping, pressure, blocked vision, and edge lift before the wig is final.",
+      "objective": "Understand what a short fit test checks.",
+      "concept": "A wear test checks heat, slipping, pressure, blocked vision, and edge lift before a wig is considered finished.",
       "glossary": [
         {
           "term": "wear test",
@@ -529,23 +529,23 @@
       ],
       "requiredResources": [
         {
-          "title": "Reference images: Quick Wear Test Idea",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Quick+Wear+Test+Idea+wear+test+fit+reference+images&iax=images&ia=images"
+          "title": "Reference images: Wear-Test Planning",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Wear-Test+Planning+wear+test+fit+reference+images&iax=images&ia=images"
         },
         {
           "title": "Beginner guide: Epic Cosplay Wigs",
           "url": "https://www.epiccosplay.com/pages/wigs"
         },
         {
-          "title": "Website search: Quick Wear Test Idea",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Quick+Wear+Test+Idea+wear+test+fit+tutorial+guide"
+          "title": "Website search: Wear-Test Planning",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Wear-Test+Planning+wear+test+fit+tutorial+guide"
         }
       ],
       "optionalResources": [],
-      "practice": "Write a five-minute wear-test checklist with three things to notice.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "What would make you stop wearing it?",
-      "readiness": "You have a wear-test checklist."
+      "practice": "Write a hypothetical five-minute wear-test checklist with three things a wearer should notice.",
+      "safety": "A real wear test should stop at pain, dizziness, overheating, numbness, blocked vision, or an unstable attachment.",
+      "reflection": "What observation should end a wear test immediately?",
+      "readiness": "You can explain three wear-test checks."
     },
     {
       "day": 16,
@@ -560,7 +560,7 @@
         },
         {
           "term": "strand test",
-          "definition": "A hidden test on a small fiber section before using heat, dye, or product broadly."
+          "definition": "A small-fiber trial professionals use before applying heat, dye, or product broadly."
         }
       ],
       "requiredResources": [
@@ -579,7 +579,7 @@
       ],
       "optionalResources": [],
       "practice": "Write the sentence: test hidden fiber before visible heat.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Any real heat work should begin with the lowest practical setting on hidden test fiber; synthetic fiber can melt or burn.",
       "reflection": "What happens if the label is wrong?",
       "readiness": "You know the test comes before the tool."
     },
@@ -615,7 +615,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one shape that would need to cool while held in place.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Heated fiber and tools can remain hot during cool-down, so a real setup should keep skin clear until both are safe to touch.",
       "reflection": "Why is waiting part of the technique?",
       "readiness": "You can explain heat, hold, cool."
     },
@@ -651,7 +651,7 @@
       ],
       "optionalResources": [],
       "practice": "Mime or imagine holding a small section straight while it cools.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Where is the line between controlled and rough?",
       "readiness": "You can describe gentle tension."
     },
@@ -687,7 +687,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one job steam might do: relax, smooth, reshape, or reset.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Steam can burn skin and soften synthetic fiber unexpectedly; real steam work needs distance, controlled direction, and a test section.",
       "reflection": "Which steam job changes the fiber shape?",
       "readiness": "You can name one steam use and one caution."
     },
@@ -700,7 +700,7 @@
       "glossary": [
         {
           "term": "strand test",
-          "definition": "A hidden test on a small fiber section before using heat, dye, or product broadly."
+          "definition": "A small-fiber trial professionals use before applying heat, dye, or product broadly."
         },
         {
           "term": "heat-resistant",
@@ -723,7 +723,7 @@
       ],
       "optionalResources": [],
       "practice": "Create a four-field heat log template.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A heat log supports safety only after a hidden test succeeds; recorded settings are not transferable between unknown fibers or tools.",
       "reflection": "Which field records the exact temperature?",
       "readiness": "You have a reusable heat-test note."
     },
@@ -759,7 +759,7 @@
       ],
       "optionalResources": [],
       "practice": "Write the order: ends, middle, roots.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What causes frizz besides tangles?",
       "readiness": "You know the detangling direction."
     },
@@ -795,7 +795,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one storage risk for a long wig and one for a styled wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What would get crushed first?",
       "readiness": "You can choose storage based on shape."
     },
@@ -831,7 +831,7 @@
       ],
       "optionalResources": [],
       "practice": "List three repair items for a styled wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which failure is most likely?",
       "readiness": "You have a repair-kit draft."
     },
@@ -867,7 +867,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one part of a styled wig you would clean gently.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Any real cleaning method should follow product directions, use ventilation where required, and never mix incompatible cleaners.",
       "reflection": "What could loosen or frizz?",
       "readiness": "You can name one cleaning risk."
     },
@@ -875,7 +875,7 @@
       "day": 25,
       "title": "Maintenance Habit",
       "estimatedMinutes": 5,
-      "objective": "End sessions with a reset.",
+      "objective": "Understand an end-of-session reset.",
       "concept": "An end-of-session reset removes loose pins, records damage, protects the silhouette, and stores the wig away from friction.",
       "glossary": [
         {
@@ -902,10 +902,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Write a two-step shutdown routine for wig practice.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "practice": "Put these hypothetical reset steps in order: inspect, remove loose items, record damage, protect the silhouette, store.",
+      "safety": "",
       "reflection": "Which step protects the finished shape?",
-      "readiness": "You have a shutdown routine."
+      "readiness": "You can put the reset sequence in a sensible order."
     },
     {
       "day": 26,
@@ -939,7 +939,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose a pretend bang length, then write a safer longer first cut.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real cutting requires sharp, controlled tools directed away from hands, face, and the wearer; cutting should happen off the body.",
       "reflection": "Where would overcutting hurt most?",
       "readiness": "You know the first cut should leave room."
     },
@@ -975,7 +975,7 @@
       ],
       "optionalResources": [],
       "practice": "Describe one section you would clip away before trimming bangs.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "In real cutting work, secure sections before using blades or shears and keep hands outside the cutting path.",
       "reflection": "What hair should not be cut yet?",
       "readiness": "You can name one protected section."
     },
@@ -1011,7 +1011,7 @@
       ],
       "optionalResources": [],
       "practice": "Look at one character and name the left and right face-frame shapes.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Are they symmetrical?",
       "readiness": "You can identify the face-frame pieces."
     },
@@ -1047,20 +1047,20 @@
       ],
       "optionalResources": [],
       "practice": "Write when you might want a soft edge instead of a blunt edge.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Point cutting still uses sharp shears; real cuts should be small, controlled, and made away from hands and the wearer.",
       "reflection": "Which characters need graphic bluntness?",
       "readiness": "You know point cutting changes the edge feel."
     },
     {
       "day": 30,
-      "title": "Check On The Head",
+      "title": "Stand View Versus Worn View",
       "estimatedMinutes": 5,
-      "objective": "Compare stand fit to worn fit.",
-      "concept": "Hair falls differently on a block than on a real head. Fit, height, and face shape can change the cut.",
+      "objective": "Compare stand fit to worn fit from references.",
+      "concept": "Hair falls differently on a block than on a real head. Fit, height, and face shape can change the apparent cut.",
       "glossary": [
         {
           "term": "block",
-          "definition": "The head form used for styling, cutting, fitting, and building wig structures."
+          "definition": "A head form that builders use for styling, cutting, fitting, and constructing wig structures."
         },
         {
           "term": "fit",
@@ -1069,23 +1069,23 @@
       ],
       "requiredResources": [
         {
-          "title": "Reference images: Check On The Head",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Check+On+The+Head+block+fit+reference+images&iax=images&ia=images"
+          "title": "Reference images: Stand View Versus Worn View",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Stand+View+Versus+Worn+View+block+fit+reference+images&iax=images&ia=images"
         },
         {
           "title": "Beginner guide: Epic Cosplay Wigs",
           "url": "https://www.epiccosplay.com/pages/wigs"
         },
         {
-          "title": "Website search: Check On The Head",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Check+On+The+Head+block+fit+tutorial+guide"
+          "title": "Website search: Stand View Versus Worn View",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Stand+View+Versus+Worn+View+block+fit+tutorial+guide"
         }
       ],
       "optionalResources": [],
-      "practice": "Write one thing you would check while wearing the wig before final cutting.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "What changes between block and head?",
-      "readiness": "You can name one on-head check."
+      "practice": "Compare stand-mounted and worn reference photos, or imagine the pair, and name one difference to check before a final cut.",
+      "safety": "",
+      "reflection": "What can change between block and wearer?",
+      "readiness": "You can name one worn-view check."
     },
     {
       "day": 31,
@@ -1119,7 +1119,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose one reason to layer a wig: movement, volume control, or shape.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Layering uses repeated blade or shear work; a real setup should keep tools sharp, controlled, and away from skin.",
       "reflection": "What happens if you layer without a goal?",
       "readiness": "You can state the purpose before cutting."
     },
@@ -1155,7 +1155,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one area where thinning would be risky.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Thinning shears can pinch or cut; real thinning should happen in small, visible sections away from skin.",
       "reflection": "Where is the cap easiest to expose?",
       "readiness": "You can identify a thinning danger zone."
     },
@@ -1191,7 +1191,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one style that wants piecey texture.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Razors and razor combs expose sharp edges; real texture work should use guarded tools, controlled strokes, and an off-body setup.",
       "reflection": "Would this texture match realism or stylization?",
       "readiness": "You can identify one use for razor texture."
     },
@@ -1227,7 +1227,7 @@
       ],
       "optionalResources": [],
       "practice": "Plan two photo angles before a cut: front and side.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which angle shows the cut line most clearly?",
       "readiness": "You have a two-angle photo plan."
     },
@@ -1263,7 +1263,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one sentence that tells you when to stop cutting for the day.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Fatigue and sharp tools are a poor combination; real cutting should stop when attention or hand control declines.",
       "reflection": "What is the sign you are overworking it?",
       "readiness": "You have a stop rule."
     },
@@ -1299,7 +1299,7 @@
       ],
       "optionalResources": [],
       "practice": "Point to where crimping would hide under a visible layer.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Crimping irons can burn skin and melt synthetic fiber; real crimping needs a hidden heat test and a heat-safe resting surface.",
       "reflection": "Why not crimp the whole outside?",
       "readiness": "You can place crimping in a hidden layer."
     },
@@ -1335,7 +1335,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one place you would tease and one place you would keep smooth.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What should stay visible and clean?",
       "readiness": "You can separate support texture from surface finish."
     },
@@ -1371,7 +1371,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one visible section that should stay smoother than the underlayer.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What construction might show through?",
       "readiness": "You can identify a display layer."
     },
@@ -1407,7 +1407,7 @@
       ],
       "optionalResources": [],
       "practice": "Rank crimping, teasing, and extra wefts from least to most material-heavy.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which method changes weight the most?",
       "readiness": "You can choose a low-commitment lift method."
     },
@@ -1443,7 +1443,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one way to protect the visible layer while building volume below.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Where does support texture become visible mess?",
       "readiness": "You can name one anti-frizz habit."
     },
@@ -1479,7 +1479,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one job for hairspray and one job it should not do.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real sprays and pastes should follow label directions and ventilation requirements, while clips or hardware should have no sharp or unstable load points.",
       "reflection": "Which part carries weight?",
       "readiness": "You can separate finish from support."
     },
@@ -1515,7 +1515,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose one small surface detail that spray could control.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Strong sprays can irritate eyes and lungs and may be flammable; real use requires label-directed ventilation and distance from heat or flame.",
       "reflection": "What would break if it flexed?",
       "readiness": "You can name a cosmetic hold job."
     },
@@ -1551,7 +1551,7 @@
       ],
       "optionalResources": [],
       "practice": "Sort these into skin or not-skin: spirit gum, hot glue, hairspray.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Craft adhesives do not belong on skin; real skin contact requires a skin-rated product, label review, patch testing, and the matching remover.",
       "reflection": "Which one needs a remover?",
       "readiness": "You can separate skin adhesives from craft products."
     },
@@ -1587,7 +1587,7 @@
       ],
       "optionalResources": [],
       "practice": "Write where and when you would patch test an adhesive.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A patch test does not guarantee compatibility; any real redness, swelling, burning, or breathing symptom means the product should not be used.",
       "reflection": "What would make you avoid using it?",
       "readiness": "You can explain the patch-test purpose."
     },
@@ -1623,7 +1623,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one adhesive and the matching remover you would verify before use.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real adhesive plan should identify the product's compatible remover before application and keep craft adhesive away from skin.",
       "reflection": "What happens if removal is improvised?",
       "readiness": "You know remover planning is mandatory."
     },
@@ -1659,7 +1659,7 @@
       ],
       "optionalResources": [],
       "practice": "Name the three biggest chunks in one character hairstyle.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which chunk matters most for recognition?",
       "readiness": "You can reduce a style to major forms."
     },
@@ -1695,7 +1695,7 @@
       ],
       "optionalResources": [],
       "practice": "Rank three hair chunks as primary, secondary, or detail.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which piece could be simplified?",
       "readiness": "You can prioritize chunks."
     },
@@ -1731,7 +1731,7 @@
       ],
       "optionalResources": [],
       "practice": "Find one empty shape around a character's hair and describe it.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Would filling that gap ruin the read?",
       "readiness": "You can notice negative space."
     },
@@ -1767,7 +1767,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose whether one spike is short enough to stay soft.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real soft-spike work may involve blades, heat, or sprays; each method needs its own guarded cutting, test-fiber, or ventilation precautions.",
       "reflection": "What would make it need support?",
       "readiness": "You can classify a short spike."
     },
@@ -1803,7 +1803,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick wire or foam for a pretend long spike and say why.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real spike supports need covered ends, low weight, stable anchors, and no sharp or concentrated pressure points.",
       "reflection": "Which support is lighter or safer here?",
       "readiness": "You can choose a support type."
     },
@@ -1839,7 +1839,7 @@
       ],
       "optionalResources": [],
       "practice": "Write what you would watch during a gentle shake test.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real movement test should start gently in a clear area and stop if an attachment shifts, sheds parts, or creates pressure.",
       "reflection": "What failure would be acceptable in a mockup?",
       "readiness": "You can define a movement test."
     },
@@ -1875,20 +1875,20 @@
       ],
       "optionalResources": [],
       "practice": "Name one reason to add a weft besides making hair fuller.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What problem could added weight create?",
       "readiness": "You can name two weft jobs."
     },
     {
       "day": 53,
-      "title": "Donor Wig Concept",
+      "title": "Extra Fiber Sources",
       "estimatedMinutes": 5,
-      "objective": "Use extra hair deliberately.",
-      "concept": "A donor wig provides matching or contrasting fiber for wefts, repairs, hairlines, or covering supports.",
+      "objective": "Understand how builders use extra fiber.",
+      "concept": "Extra fiber may come from existing wefts, loose fiber, or a repurposed donor wig. These are construction options to recognize, not items required for this course.",
       "glossary": [
         {
           "term": "donor wig",
-          "definition": "A second wig used for extra fiber, wefts, color sections, or repairs."
+          "definition": "An existing wig repurposed as a source of extra fiber, wefts, color sections, or repair material."
         },
         {
           "term": "coverage",
@@ -1897,23 +1897,23 @@
       ],
       "requiredResources": [
         {
-          "title": "Reference images: Donor Wig Concept",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Donor+Wig+Concept+donor+wig+coverage+reference+images&iax=images&ia=images"
+          "title": "Reference images: Extra Fiber Sources",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Extra+Fiber+Sources+donor+wig+coverage+reference+images&iax=images&ia=images"
         },
         {
           "title": "Tutorial hub: Arda Wigs master list",
           "url": "https://arda-wigs.com/blogs/tutorials/tutorial-master-list"
         },
         {
-          "title": "Website search: Donor Wig Concept",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Donor+Wig+Concept+donor+wig+coverage+tutorial+guide"
+          "title": "Website search: Extra Fiber Sources",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Extra+Fiber+Sources+donor+wig+coverage+tutorial+guide"
         }
       ],
       "optionalResources": [],
-      "practice": "Name one part of a build that could use donor wig fiber.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Does the fiber need to match exactly?",
-      "readiness": "You can name one donor-wig use."
+      "practice": "From a reference build, name one area where extra fiber could add coverage or repair material.",
+      "safety": "",
+      "reflection": "When would fiber need to match exactly?",
+      "readiness": "You can name one use for extra fiber and one possible source."
     },
     {
       "day": 54,
@@ -1947,7 +1947,7 @@
       ],
       "optionalResources": [],
       "practice": "Draw one arrow showing how an added weft should fall.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What would look wrong if it pointed the other way?",
       "readiness": "You can plan weft direction."
     },
@@ -1983,7 +1983,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one style that might need reverse wefting.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Where would tracks show?",
       "readiness": "You can identify a reverse-weft use case."
     },
@@ -2019,7 +2019,7 @@
       ],
       "optionalResources": [],
       "practice": "Write a one-line sew plan for a short hidden weft.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real weft sewing uses sharp needles; the work should be stabilized off the body with fingers kept clear of the needle path.",
       "reflection": "Where should the thread start and stop?",
       "readiness": "You can describe a short sew plan."
     },
@@ -2055,7 +2055,7 @@
       ],
       "optionalResources": [],
       "practice": "Name where a ponytail's weight pulls on the wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Heavy ponytail plans should spread the load and reject any design that creates slipping, neck strain, or concentrated pressure.",
       "reflection": "What would stop it sliding back?",
       "readiness": "You can identify the pull direction."
     },
@@ -2091,7 +2091,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick one style where a clip-on would be easier than building in the ponytail.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real clip-on placement should avoid pinching skin, sharp contact points, and unbalanced weight that can pull during movement.",
       "reflection": "What edge must be hidden?",
       "readiness": "You can decide if clip-on helps."
     },
@@ -2126,9 +2126,9 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Estimate whether one character braid needs extra fiber.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Would a donor wig help?",
+      "practice": "Estimate from a character reference whether one braid would need extra fiber.",
+      "safety": "",
+      "reflection": "Would added fiber be structurally useful?",
       "readiness": "You can spot braid-density needs."
     },
     {
@@ -2163,7 +2163,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one area an updo might expose.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "How could you hide it?",
       "readiness": "You can name an updo exposure risk."
     },
@@ -2199,7 +2199,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one backup for a heavy ponytail or bun.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real heavy attachments need redundant anchors, covered hardware, and a gentle movement test before wear.",
       "reflection": "Which backup keeps the attachment from rotating?",
       "readiness": "You can name a backup anchor idea."
     },
@@ -2235,7 +2235,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose one character edge and label it realistic, stylized, or hidden.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What does the viewer actually see?",
       "readiness": "You can classify an edge."
     },
@@ -2271,7 +2271,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one place ventilating would be worth the time.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Ventilating uses a fine hook or needle; real work should be stabilized off the body with the sharp point directed away from hands.",
       "reflection": "Which visible edge would benefit most?",
       "readiness": "You can name one high-value ventilating use."
     },
@@ -2307,7 +2307,7 @@
       ],
       "optionalResources": [],
       "practice": "Describe sparse-to-dense in one sentence.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Where should the edge be lighter?",
       "readiness": "You can explain hairline density gradient."
     },
@@ -2343,7 +2343,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one style where a false hairline might be enough.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Any real false-hairline method that contacts skin requires a skin-rated adhesive, patch testing, and a verified removal method.",
       "reflection": "What makes it acceptable from viewing distance?",
       "readiness": "You can describe a false-edge option."
     },
@@ -2379,7 +2379,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick one non-forehead edge to check on a character.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Would movement reveal it?",
       "readiness": "You can name one side or back edge risk."
     },
@@ -2392,7 +2392,7 @@
       "glossary": [
         {
           "term": "wig map",
-          "definition": "A simple plan that labels what each part of the wig must do."
+          "definition": "A diagram that labels what each part of a wig design must do."
         },
         {
           "term": "hairline",
@@ -2415,7 +2415,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one hairline method for one character.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Any real hairline plan that places adhesive on skin should specify a skin-rated product, patch test, and compatible remover.",
       "reflection": "Which reference detail supports that method?",
       "readiness": "You can choose a hairline method."
     },
@@ -2423,12 +2423,12 @@
       "day": 68,
       "title": "Color Reality Check",
       "estimatedMinutes": 5,
-      "objective": "Synthetic color has limits.",
-      "concept": "Synthetic wigs usually cannot be lightened like human hair. Darkening, tinting, adding wefts, or buying a closer base are different risk levels.",
+      "objective": "Understand synthetic color limits.",
+      "concept": "Synthetic wigs usually cannot be lightened like human hair. Darkening, tinting, adding separate color sections, or starting with a closer base color are different technical paths, presented here for comparison only.",
       "glossary": [
         {
           "term": "swatch test",
-          "definition": "A small color or product test on scrap fiber before changing the whole wig."
+          "definition": "A small-fiber color or product trial used before changing a whole wig."
         },
         {
           "term": "fiber",
@@ -2450,10 +2450,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Write whether one color change is darker, lighter, or same-level.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Which option changes the original wig the least?",
-      "readiness": "You can identify risky color changes."
+      "practice": "Classify one reference color change as darker, lighter, or same-level.",
+      "safety": "Real synthetic-color methods should follow product compatibility and ventilation guidance; unknown dyes, solvents, and heat should be tested only on separate fiber.",
+      "reflection": "Which path would alter an existing base the least?",
+      "readiness": "You can identify risky color changes from a scenario."
     },
     {
       "day": 69,
@@ -2464,11 +2464,11 @@
       "glossary": [
         {
           "term": "swatch test",
-          "definition": "A small color or product test on scrap fiber before changing the whole wig."
+          "definition": "A small-fiber color or product trial used before changing a whole wig."
         },
         {
           "term": "strand test",
-          "definition": "A hidden test on a small fiber section before using heat, dye, or product broadly."
+          "definition": "A small-fiber trial professionals use before applying heat, dye, or product broadly."
         }
       ],
       "requiredResources": [
@@ -2487,7 +2487,7 @@
       ],
       "optionalResources": [],
       "practice": "List three things a color swatch should check.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real swatch test should check color transfer, texture change, fumes, and heat response in a ventilated area before broader use.",
       "reflection": "What would make the swatch fail?",
       "readiness": "You can design a color swatch test."
     },
@@ -2523,7 +2523,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one character or style where darker roots would help.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real root-color products can create fumes or transfer; label-directed ventilation and a dry rub-off test are essential.",
       "reflection": "Would it improve realism or accuracy?",
       "readiness": "You can identify a root-shadow use."
     },
@@ -2536,7 +2536,7 @@
       "glossary": [
         {
           "term": "swatch test",
-          "definition": "A small color or product test on scrap fiber before changing the whole wig."
+          "definition": "A small-fiber color or product trial used before changing a whole wig."
         },
         {
           "term": "friction frizz",
@@ -2559,20 +2559,20 @@
       ],
       "optionalResources": [],
       "practice": "Name one surface the wig might rub against.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real color-transfer test should include dry and damp contact while keeping unverified colorants away from skin and costume surfaces.",
       "reflection": "What would be ruined by color transfer?",
       "readiness": "You can name one rub-off risk."
     },
     {
       "day": 72,
-      "title": "Buy Vs Modify",
+      "title": "Compare Color Strategies",
       "estimatedMinutes": 5,
-      "objective": "Choose the lower-risk color path.",
-      "concept": "Sometimes the best color technique is buying a closer wig or adding a colored weft, not dyeing.",
+      "objective": "Compare lower-risk color paths without recommending acquisition.",
+      "concept": "A builder might start with a close base color, add a separate colored section, or test a compatible tint. Comparing those methods teaches risk without requiring materials or an acquisition decision.",
       "glossary": [
         {
           "term": "donor wig",
-          "definition": "A second wig used for extra fiber, wefts, color sections, or repairs."
+          "definition": "An existing wig repurposed as a source of extra fiber, wefts, color sections, or repair material."
         },
         {
           "term": "weft",
@@ -2581,23 +2581,23 @@
       ],
       "requiredResources": [
         {
-          "title": "Reference images: Buy Vs Modify",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Buy+Vs+Modify+donor+wig+weft+reference+images&iax=images&ia=images"
+          "title": "Reference images: Compare Color Strategies",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Compare+Color+Strategies+donor+wig+weft+reference+images&iax=images&ia=images"
         },
         {
-          "title": "Tutorial hub: Arda Wigs master list",
-          "url": "https://arda-wigs.com/blogs/tutorials/tutorial-master-list"
+          "title": "Tutorial hub: Epic Cosplay tips and tricks",
+          "url": "https://www.epiccosplay.com/pages/tips-and-tricks"
         },
         {
-          "title": "Website search: Buy Vs Modify",
-          "url": "https://duckduckgo.com/?q=cosplay+wig+Buy+Vs+Modify+donor+wig+weft+tutorial+guide"
+          "title": "Website search: Compare Color Strategies",
+          "url": "https://duckduckgo.com/?q=cosplay+wig+Compare+Color+Strategies+donor+wig+weft+tutorial+guide"
         }
       ],
       "optionalResources": [],
-      "practice": "Choose buy, add weft, or color-test for one pretend color problem.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Which option risks the final wig least?",
-      "readiness": "You can choose a safer color path."
+      "practice": "For one hypothetical color problem, compare base-color matching, an added color section, and a tint test.",
+      "safety": "Any real tint test should use a compatible product, label-directed ventilation, and separate test fiber before broader application.",
+      "reflection": "Which method changes existing fiber the least?",
+      "readiness": "You can compare three color strategies by risk."
     },
     {
       "day": 73,
@@ -2631,7 +2631,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one hairstyle that might justify a hard cap.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real hard cap needs smooth edges, airflow, safe visibility, and no pressure points; discomfort or overheating is a stop signal.",
       "reflection": "What comfort issue would you check first?",
       "readiness": "You can explain why a shell might exist."
     },
@@ -2667,7 +2667,7 @@
       ],
       "optionalResources": [],
       "practice": "Describe a mini mockup for one large hair shape.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real shell mockups may involve blades, adhesives, or foam dust; the chosen method needs guarded cutting, ventilation, and suitable dust control.",
       "reflection": "What question would the mockup answer?",
       "readiness": "You can name one mockup goal."
     },
@@ -2703,7 +2703,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose whether a floating ahoge needs no support, wire, or foam.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real armatures need covered ends, smooth load paths, stable anchors, and no sharp, conductive, or concentrated pressure points.",
       "reflection": "What carries the load?",
       "readiness": "You can choose or reject armature support."
     },
@@ -2739,7 +2739,7 @@
       ],
       "optionalResources": [],
       "practice": "Name how you would cover one foam shape: wefts, fiber sheet, or surface hair.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real foam work may create dust and use blades or adhesives; method-specific ventilation, dust protection, and guarded cutting are required.",
       "reflection": "Where might foam show?",
       "readiness": "You can pair foam with a coverage method."
     },
@@ -2775,7 +2775,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one safety rule for wire inside a wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real wire supports need deburred, capped ends, strain relief, and enough separation from skin to prevent pokes or pressure injury.",
       "reflection": "Where could wire poke or bend badly?",
       "readiness": "You can name one wire safety risk."
     },
@@ -2811,7 +2811,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick one attachment method for horns, crown, or detachable hair mass.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real mechanical attachments need rounded or covered hardware, secure fasteners, safe magnet handling, and no pinch or pressure points.",
       "reflection": "Why is glue alone weak here?",
       "readiness": "You can choose one mechanical method."
     },
@@ -2847,7 +2847,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one hair piece that should detach for packing.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "Real detachable connections should be checked for sharp edges, pinch points, accidental release, and parts that could fall during movement.",
       "reflection": "How would you hide the join?",
       "readiness": "You can name one detachable build option."
     },
@@ -2883,7 +2883,7 @@
       ],
       "optionalResources": [],
       "practice": "Name one place airflow could exist without ruining the look.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real rigid or dense build should be rejected if it traps unsafe heat, restricts breathing or vision, or cannot be removed quickly.",
       "reflection": "What would make the wig too hot?",
       "readiness": "You can name one ventilation idea."
     },
@@ -2919,7 +2919,7 @@
       ],
       "optionalResources": [],
       "practice": "Write one removal step for a complex wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real removal plan must be reachable, product-compatible, and free of forced pulling; pain, snagging, or a stuck release calls for stopping.",
       "reflection": "Which release point must be reachable first?",
       "readiness": "You can name a safe removal step."
     },
@@ -2955,7 +2955,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose box, stand, bag, or custom support for one style.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "What would break in transit?",
       "readiness": "You can choose transport based on shape."
     },
@@ -2968,7 +2968,7 @@
       "glossary": [
         {
           "term": "base wig",
-          "definition": "The starting wig chosen for color, length, cap type, density, and hairline needs."
+          "definition": "The main wig used as the foundation of a build, selected for color, length, cap type, density, and hairline needs."
         },
         {
           "term": "rough cut",
@@ -2991,7 +2991,7 @@
       ],
       "optionalResources": [],
       "practice": "Write a three-step plan for a short or medium soft wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real soft-wig plan should pair every proposed cutting, heat, or product step with its specific blade, test-fiber, or ventilation precaution.",
       "reflection": "Which step changes the wig permanently?",
       "readiness": "You have a soft-wig plan."
     },
@@ -3027,7 +3027,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick one support sample and write what it must prove.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real structural sample needs covered sharp points, low test loads, and a clear area so a failed support cannot injure someone.",
       "reflection": "What failure would teach you the most?",
       "readiness": "You have one structural sample idea."
     },
@@ -3063,7 +3063,7 @@
       ],
       "optionalResources": [],
       "practice": "Choose one edge sample: lace, false hairline, sideburn, or nape.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "A real edge sample may use needles or skin adhesive; sharp-tool control, patch testing, and a compatible remover belong in the plan.",
       "reflection": "What viewing distance matters?",
       "readiness": "You have one edge sample idea."
     },
@@ -3071,8 +3071,8 @@
       "day": 86,
       "title": "Photo Checklist",
       "estimatedMinutes": 5,
-      "objective": "Capture useful proof.",
-      "concept": "Good photos show front, side, back, three-quarter, edge, and any interior support so fit, silhouette, and coverage can be checked separately.",
+      "objective": "Recognize useful documentation angles.",
+      "concept": "Good documentation shows front, side, back, three-quarter, edge, and any interior support so fit, silhouette, and coverage can be checked separately.",
       "glossary": [
         {
           "term": "accuracy",
@@ -3098,10 +3098,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Write three photos you would take of a finished wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Which photo checks coverage?",
-      "readiness": "You have a three-shot checklist."
+      "practice": "Choose three views that would best document a hypothetical or reference wig.",
+      "safety": "",
+      "reflection": "Which view checks coverage?",
+      "readiness": "You can create a three-view documentation checklist."
     },
     {
       "day": 87,
@@ -3135,7 +3135,7 @@
       ],
       "optionalResources": [],
       "practice": "Pick one possible flaw and name its likely cause.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Is the problem visual, structural, or comfort-related?",
       "readiness": "You can critique by cause."
     },
@@ -3143,16 +3143,16 @@
       "day": 88,
       "title": "Next Skill Target",
       "estimatedMinutes": 5,
-      "objective": "Choose one weak skill.",
-      "concept": "The best next practice target is specific: cutting, heat tests, edge work, wefting, coverage, or support building.",
+      "objective": "Choose one skill to study further.",
+      "concept": "A useful next study target is specific: cutting, heat tests, edge work, wefting, coverage, or support building.",
       "glossary": [
         {
           "term": "strand test",
-          "definition": "A hidden test on a small fiber section before using heat, dye, or product broadly."
+          "definition": "A small-fiber trial professionals use before applying heat, dye, or product broadly."
         },
         {
           "term": "swatch test",
-          "definition": "A small color or product test on scrap fiber before changing the whole wig."
+          "definition": "A small-fiber color or product trial used before changing a whole wig."
         }
       ],
       "requiredResources": [
@@ -3170,10 +3170,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Choose one skill to practice on scraps before using an expensive wig.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "practice": "Choose one skill and name the reference detail or safety principle you would study next.",
+      "safety": "",
       "reflection": "Why that skill first?",
-      "readiness": "You have one next practice target."
+      "readiness": "You have one specific next study target."
     },
     {
       "day": 89,
@@ -3184,7 +3184,7 @@
       "glossary": [
         {
           "term": "wig map",
-          "definition": "A simple plan that labels what each part of the wig must do."
+          "definition": "A diagram that labels what each part of a wig design must do."
         },
         {
           "term": "wear test",
@@ -3207,7 +3207,7 @@
       ],
       "optionalResources": [],
       "practice": "Write a five-step personal wig workflow from reference to storage.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
+      "safety": "",
       "reflection": "Which step checks fit before styling?",
       "readiness": "You have a short repeatable workflow."
     },
@@ -3215,7 +3215,7 @@
       "day": 90,
       "title": "Build Review",
       "estimatedMinutes": 5,
-      "objective": "Review the wig by technical category.",
+      "objective": "Review a wig design by technical category.",
       "concept": "A useful review checks fit, comfort, accuracy, coverage, color, edges, support, and transport as separate categories.",
       "glossary": [
         {
@@ -3242,10 +3242,10 @@
         }
       ],
       "optionalResources": [],
-      "practice": "Pick one finished or planned wig and name the next technical improvement.",
-      "safety": "Stop before heat, blades, adhesives, dye, or dust if the setup is not ventilated, protected, and tested on scrap first.",
-      "reflection": "Which category would improve the build most?",
-      "readiness": "You have one practical next target."
+      "practice": "Pick one published reference or hypothetical wig plan and name its next technical improvement.",
+      "safety": "",
+      "reflection": "Which category would improve the design most?",
+      "readiness": "You have one practical next study target."
     }
   ]
 }

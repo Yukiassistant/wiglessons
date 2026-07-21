@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -26,6 +27,7 @@ Objective: Identify front pieces.
 Core concept: Face-framing pieces define the visible outline beside the cheeks, jaw, and forehead. Their length and angle change the character read.
 
 Practice prompt: Look at one character and name the left and right face-frame shapes.
+
 
 Check question: Are they symmetrical?
 
@@ -48,6 +50,9 @@ Core concept: Point cutting removes small notches from the end so a cut line loo
 
 Practice prompt: Write when you might want a soft edge instead of a blunt edge.
 
+Safety note: Point cutting still uses sharp shears; real cuts should be small, controlled, and made away from hands and the wearer.
+
+
 Check question: Which characters need graphic bluntness?
 
 Ready when: You know point cutting changes the edge feel.
@@ -61,26 +66,27 @@ References:
 - Tutorial hub: Epic Cosplay tips and tricks: https://www.epiccosplay.com/pages/tips-and-tricks
 - Website search: Point Cutting Idea: https://duckduckgo.com/?q=cosplay+wig+Point+Cutting+Idea+rough+cut+thinning+tutorial+guide
 
-## Lesson 30: Check On The Head
+## Lesson 30: Stand View Versus Worn View
 
-Objective: Compare stand fit to worn fit.
+Objective: Compare stand fit to worn fit from references.
 
-Core concept: Hair falls differently on a block than on a real head. Fit, height, and face shape can change the cut.
+Core concept: Hair falls differently on a block than on a real head. Fit, height, and face shape can change the apparent cut.
 
-Practice prompt: Write one thing you would check while wearing the wig before final cutting.
+Practice prompt: Compare stand-mounted and worn reference photos, or imagine the pair, and name one difference to check before a final cut.
 
-Check question: What changes between block and head?
 
-Ready when: You can name one on-head check.
+Check question: What can change between block and wearer?
+
+Ready when: You can name one worn-view check.
 
 Key terms:
-- block: The head form used for styling, cutting, fitting, and building wig structures.
+- block: A head form that builders use for styling, cutting, fitting, and constructing wig structures.
 - fit: How the wig or shell sits on the wearer's head without sliding, squeezing, or rubbing.
 
 References:
-- Reference images: Check On The Head: https://duckduckgo.com/?q=cosplay+wig+Check+On+The+Head+block+fit+reference+images&iax=images&ia=images
+- Reference images: Stand View Versus Worn View: https://duckduckgo.com/?q=cosplay+wig+Stand+View+Versus+Worn+View+block+fit+reference+images&iax=images&ia=images
 - Beginner guide: Epic Cosplay Wigs: https://www.epiccosplay.com/pages/wigs
-- Website search: Check On The Head: https://duckduckgo.com/?q=cosplay+wig+Check+On+The+Head+block+fit+tutorial+guide
+- Website search: Stand View Versus Worn View: https://duckduckgo.com/?q=cosplay+wig+Stand+View+Versus+Worn+View+block+fit+tutorial+guide
 
 ## Lesson 31: Layering Purpose
 
@@ -89,6 +95,9 @@ Objective: Use layers for shape, not random thinning.
 Core concept: Layering can remove bulk, create movement, or shape anime chunks. Each cut should have a job.
 
 Practice prompt: Choose one reason to layer a wig: movement, volume control, or shape.
+
+Safety note: Layering uses repeated blade or shear work; a real setup should keep tools sharp, controlled, and away from skin.
+
 
 Check question: What happens if you layer without a goal?
 
@@ -111,6 +120,9 @@ Core concept: Thinning removes bulk, but too much near the roots can reveal trac
 
 Practice prompt: Name one area where thinning would be risky.
 
+Safety note: Thinning shears can pinch or cut; real thinning should happen in small, visible sections away from skin.
+
+
 Check question: Where is the cap easiest to expose?
 
 Ready when: You can identify a thinning danger zone.
@@ -131,6 +143,9 @@ Objective: Identify piecey texture.
 Core concept: Razor texture creates feathered or separated ends. Use it for piecey shapes; avoid it when the reference needs a blunt graphic edge.
 
 Practice prompt: Name one style that wants piecey texture.
+
+Safety note: Razors and razor combs expose sharp edges; real texture work should use guarded tools, controlled strokes, and an off-body setup.
+
 
 Check question: Would this texture match realism or stylization?
 
@@ -153,6 +168,7 @@ Core concept: Before-and-after photos reveal changes in length, silhouette, symm
 
 Practice prompt: Plan two photo angles before a cut: front and side.
 
+
 Check question: Which angle shows the cut line most clearly?
 
 Ready when: You have a two-angle photo plan.
@@ -174,6 +190,9 @@ Core concept: Many wig problems get worse when you chase perfection while tired.
 
 Practice prompt: Write one sentence that tells you when to stop cutting for the day.
 
+Safety note: Fatigue and sharp tools are a poor combination; real cutting should stop when attention or hand control declines.
+
+
 Check question: What is the sign you are overworking it?
 
 Ready when: You have a stop rule.
@@ -194,6 +213,9 @@ Objective: Use hidden texture for lift.
 Core concept: Crimping adds fine waves that create grip and volume underneath a smoother surface layer.
 
 Practice prompt: Point to where crimping would hide under a visible layer.
+
+Safety note: Crimping irons can burn skin and melt synthetic fiber; real crimping needs a hidden heat test and a heat-safe resting surface.
+
 
 Check question: Why not crimp the whole outside?
 

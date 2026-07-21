@@ -12,11 +12,13 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await page.goto(baseUrl, { waitUntil: "networkidle" });
 
   await expect(page.getByRole("heading", { name: "Cosplay Wig Styling" })).toBeVisible();
+  await expect(page.getByText("No wig, tools, materials, or purchases are required.")).toBeVisible();
   await expect(page.getByRole("tab", { name: "Today" })).toHaveAttribute("aria-selected", "true");
   await expect(page.getByText("0 of 90 lessons complete")).toBeVisible();
   await expect(page.getByText("5 min max").first()).toBeVisible();
   await expect(page.getByRole("heading", { name: "References" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Key terms" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Learning prompt" })).toBeVisible();
   await expect(page.getByRole("heading", { name: "Ready when" })).toBeVisible();
   await expect(page.locator("#detail")).not.toContainText(
     /This course is now|micro-lesson|resource note|outside reading|large tutorial|web app|tracker|a few shared words|avoid drowning|shopping spiral|fun step|vague feeling|lesson plan/i,
@@ -35,9 +37,12 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await expect(page.locator(".lesson-list")).toBeHidden();
   await page.getByLabel("Read lesson").check();
   await expect(page.locator("#detail").getByText("1/5 core done").first()).toBeVisible();
+  await page.getByLabel("Completed learning prompt").check();
+  await expect(page.locator("#detail").getByText("2/5 core done").first()).toBeVisible();
   await expect(page.getByRole("heading", { name: "Lesson flags" })).toBeVisible();
+  await expect(page.getByLabel("Needs more explanation")).toBeVisible();
   await page.getByLabel("Stuck on this").check();
-  await expect(page.locator("#detail").getByText("1/5 core done").first()).toBeVisible();
+  await expect(page.locator("#detail").getByText("2/5 core done").first()).toBeVisible();
 
   const hasHorizontalOverflow = await page.evaluate(
     () => document.documentElement.scrollWidth > document.documentElement.clientWidth,
@@ -52,7 +57,8 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   await expect(page.getByLabel("Jump to lesson").locator("option")).toHaveCount(90);
   await page.getByLabel("Jump to lesson").selectOption("1");
   await expect(page.getByRole("heading", { name: "Wig Anatomy First Look" })).toBeVisible();
-  await expect(page.getByText("Before styling, separate the base wig from the hair surface.")).toBeVisible();
+  await expect(page.getByText("A wig has two main layers: the cap, which provides fit and structure")).toBeVisible();
+  await expect(page.locator("#detail").getByRole("heading", { name: "Safety" })).toHaveCount(0);
   await expect(page.getByText("Reference images: Wig Anatomy First Look")).toBeVisible();
   const detailTop = await page.locator("#detail").evaluate((node) => node.getBoundingClientRect().top);
   const mapTop = await page.locator(".lesson-list").evaluate((node) => node.getBoundingClientRect().top);
@@ -66,6 +72,160 @@ test("wig lesson tracker renders, persists progress, and searches glossary", asy
   const stored = await page.evaluate(() => localStorage.getItem("wiglessons.progress.v1"));
   expect(stored).toContain('"read":true');
   expect(errors).toEqual([]);
+});
+
+test("all lesson content remains ownership-neutral", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+
+  const audit = await page.evaluate(async () => {
+    const data = await fetch("./lessons.json").then((response) => response.json());
+    const forbidden = [
+      /\bbuy(?:ing)?\b/i,
+      /\bpurchase(?:s|d)?\b/i,
+      /wig you own/i,
+      /your wig/i,
+      /your work head/i,
+      /put on or imagine/i,
+      /while wearing the wig/i,
+      /buying a closer wig/i,
+      /choose buy/i,
+      /before using an expensive wig/i,
+      /wig practice session/i,
+      /for wig practice/i,
+    ];
+    const violations = [];
+    for (const lesson of data.lessons) {
+      const text = JSON.stringify(lesson);
+      for (const pattern of forbidden) {
+        if (pattern.test(text)) violations.push(`Day ${lesson.day}: ${pattern}`);
+      }
+    }
+    return {
+      description: data.course.description,
+      startDate: data.course.startDate,
+      lessonCount: data.lessons.length,
+      violations,
+    };
+  });
+
+  expect(audit.lessonCount).toBe(90);
+  expect(audit.startDate).toBe("2026-07-20");
+  expect(audit.description).toContain("No wig, tools, materials, or purchases are required.");
+  expect(audit.violations).toEqual([]);
+});
+
+test("safety guidance appears only for audited hazard lessons", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+
+  const audit = await page.evaluate(async () => {
+    const data = await fetch("./lessons.json").then((response) => response.json());
+    const byDay = Object.fromEntries(data.lessons.map((lesson) => [lesson.day, lesson]));
+    return {
+      safetyDays: data.lessons.filter((lesson) => lesson.safety).map((lesson) => lesson.day),
+      samples: Object.fromEntries([1, 16, 19, 29, 43, 69, 77, 80].map((day) => [day, byDay[day].safety])),
+      blanketCount: data.lessons.filter((lesson) => /observation and planning only/i.test(lesson.safety)).length,
+    };
+  });
+
+  expect(audit.safetyDays).toEqual([
+    11, 14, 15, 16, 17, 19, 20, 24, 26, 27, 29, 31, 32, 33, 35, 36, 41, 42, 43, 44, 45, 49, 50, 51,
+    56, 57, 58, 61, 63, 65, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 83, 84, 85,
+  ]);
+  expect(audit.samples[1]).toBe("");
+  expect(audit.samples[16]).toMatch(/heat|melt|burn/i);
+  expect(audit.samples[19]).toMatch(/steam|burn/i);
+  expect(audit.samples[29]).toMatch(/shears|cut/i);
+  expect(audit.samples[43]).toMatch(/adhesive|skin/i);
+  expect(audit.samples[69]).toMatch(/color|fumes|ventilat/i);
+  expect(audit.samples[77]).toMatch(/wire|pokes|pressure/i);
+  expect(audit.samples[80]).toMatch(/heat|breathing|vision/i);
+  expect(audit.blanketCount).toBe(0);
+
+  await page.getByRole("tab", { name: "All lessons" }).click();
+  await page.getByLabel("Jump to lesson").selectOption("16");
+  await expect(page.locator("#detail").getByRole("heading", { name: "Safety" })).toBeVisible();
+  await expect(page.locator("#detail").getByText(audit.samples[16])).toBeVisible();
+});
+
+test("legacy progress migrates to the ownership-neutral checklist", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.addInitScript(() => {
+    localStorage.setItem("wiglessons.progress.v1", JSON.stringify({
+      1: {
+        checks: { read: true, definitions: true, resource: true, practice: true, ready: true },
+        notes: "Legacy progress",
+        stuck: false,
+        needsMaterials: true,
+      },
+    }));
+  });
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+  await page.getByRole("tab", { name: "All lessons" }).click();
+  await page.getByLabel("Jump to lesson").selectOption("1");
+
+  await expect(page.getByLabel("Completed learning prompt")).toBeChecked();
+  await expect(page.getByLabel("Needs more explanation")).not.toBeChecked();
+  await expect(page.locator("#detail .status-pill")).toHaveText("Complete");
+  const stored = await page.evaluate(() => JSON.parse(localStorage.getItem("wiglessons.progress.v1")));
+  expect(stored[1].checks.learningPrompt).toBe(true);
+  expect(stored[1].checks.practice).toBeUndefined();
+  expect(stored[1].needsExplanation).toBe(false);
+  expect(stored[1].needsMaterials).toBe(true);
+});
+
+test("legacy imported backups migrate before rendering", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+  await page.evaluate(() => localStorage.clear());
+  await page.reload({ waitUntil: "networkidle" });
+
+  await page.locator("#importFile").setInputFiles({
+    name: "legacy-progress.json",
+    mimeType: "application/json",
+    buffer: Buffer.from(JSON.stringify({
+      app: "wiglessons",
+      version: 1,
+      progress: {
+        1: {
+          checks: { read: true, definitions: true, resource: true, practice: true, ready: true },
+          notes: "Imported legacy progress",
+          stuck: false,
+          needsMaterials: true,
+        },
+      },
+    })),
+  });
+
+  await page.getByRole("tab", { name: "All lessons" }).click();
+  await page.getByLabel("Jump to lesson").selectOption("1");
+  await expect(page.getByLabel("Completed learning prompt")).toBeChecked();
+  await expect(page.getByLabel("Needs more explanation")).not.toBeChecked();
+  await expect(page.locator("#detail .status-pill")).toHaveText("Complete");
+});
+
+test("loaded progress survives a migration persistence failure", async ({ page }) => {
+  const baseUrl = process.env.BASE_URL || "http://127.0.0.1:4177";
+  await page.addInitScript(() => {
+    localStorage.setItem("wiglessons.progress.v1", JSON.stringify({
+      1: {
+        checks: { read: true, definitions: true, resource: true, practice: true, ready: true },
+        notes: "Keep this progress visible",
+        stuck: false,
+        needsMaterials: false,
+      },
+    }));
+    Storage.prototype.setItem = () => {
+      throw new DOMException("Storage is read-only", "QuotaExceededError");
+    };
+  });
+
+  await page.goto(baseUrl, { waitUntil: "networkidle" });
+  await page.getByRole("tab", { name: "All lessons" }).click();
+  await page.getByLabel("Jump to lesson").selectOption("1");
+  await expect(page.getByLabel("Completed learning prompt")).toBeChecked();
+  await expect(page.getByLabel("Lesson notes")).toHaveValue("Keep this progress visible");
 });
 
 for (const width of [320, 390, 768, 1440, 1728]) {
@@ -201,11 +361,11 @@ test("lesson navigation, notes, backup, import, and reset remain intact", async 
 
   await page.getByRole("tab", { name: "All lessons" }).click();
   await page.getByLabel("Jump to lesson").selectOption("30");
-  await expect(page.getByRole("heading", { name: "Check On The Head" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Stand View Versus Worn View" })).toBeVisible();
   await page.getByRole("button", { name: "Previous" }).click();
   await expect(page.getByRole("heading", { name: "Point Cutting Idea" })).toBeVisible();
   await page.getByRole("button", { name: "Continue to next lesson" }).click();
-  await expect(page.getByRole("heading", { name: "Check On The Head" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Stand View Versus Worn View" })).toBeVisible();
 
   await page.getByLabel("Lesson notes").fill("Check the silhouette before cutting.");
   await page.getByRole("button", { name: "Save notes" }).click();
@@ -222,7 +382,7 @@ test("lesson navigation, notes, backup, import, and reset remain intact", async 
     read: true,
     definitions: true,
     resource: true,
-    practice: true,
+    learningPrompt: true,
     ready: true,
   };
   await page.locator("#importFile").setInputFiles({
@@ -232,7 +392,7 @@ test("lesson navigation, notes, backup, import, and reset remain intact", async 
       app: "wiglessons",
       version: 1,
       progress: {
-        1: { checks: completeChecks, notes: "Imported note", stuck: true, needsMaterials: false },
+        1: { checks: completeChecks, notes: "Imported note", stuck: true, needsExplanation: false },
       },
     })),
   });

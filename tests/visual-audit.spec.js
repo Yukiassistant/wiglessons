@@ -28,12 +28,12 @@ function denseProgress() {
         read: completed || partial,
         definitions: completed || (partial && day % 2 === 0),
         resource: completed,
-        practice: completed,
+        learningPrompt: completed,
         ready: completed,
       },
       notes: day === 20 ? "Compare edge control and silhouette before the next practice session." : "",
       stuck: day === 23,
-      needsMaterials: day === 27,
+      needsExplanation: day === 27,
     };
   }
   return progress;

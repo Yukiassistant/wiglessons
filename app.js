@@ -4,7 +4,7 @@ const CHECKS = [
   ["read", "Read lesson"],
   ["definitions", "Reviewed definitions"],
   ["resource", "Opened one reference"],
-  ["practice", "Finished practice"],
+  ["learningPrompt", "Completed learning prompt"],
   ["ready", "Ready to move on"],
 ];
 
@@ -22,6 +22,7 @@ const els = {
   atelierStyles: document.querySelector("#atelierStyles"),
   brandEyebrow: document.querySelector("#brandEyebrow"),
   classicStyles: document.querySelector("#classicStyles"),
+  courseDescription: document.querySelector("#courseDescription"),
   exportButton: document.querySelector("#exportButton"),
   importFile: document.querySelector("#importFile"),
   interfaceStyle: document.querySelector("#interfaceStyle"),
@@ -44,6 +45,7 @@ async function init() {
   state.progress = loadProgress();
   const response = await fetch("lessons.json");
   state.data = await response.json();
+  els.courseDescription.textContent = state.data.course.description;
   state.selectedDay = todayDay();
   bindEvents();
   render();
@@ -117,12 +119,44 @@ function updateThemeColor() {
 }
 
 function loadProgress() {
+  let progress;
   try {
     const stored = localStorage.getItem(STORAGE_KEY);
-    return stored ? JSON.parse(stored) : {};
+    if (!stored) return {};
+    progress = migrateProgress(JSON.parse(stored));
   } catch {
     return {};
   }
+
+  try {
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
+  } catch {
+    // Keep using valid loaded progress if storage is temporarily read-only or full.
+  }
+  return progress;
+}
+
+function migrateProgress(rawProgress) {
+  if (!rawProgress || typeof rawProgress !== "object" || Array.isArray(rawProgress)) return {};
+
+  return Object.fromEntries(Object.entries(rawProgress).map(([day, rawLesson]) => {
+    if (!rawLesson || typeof rawLesson !== "object" || Array.isArray(rawLesson)) {
+      return [day, rawLesson];
+    }
+
+    const lesson = { ...rawLesson };
+    const checks = lesson.checks && typeof lesson.checks === "object" && !Array.isArray(lesson.checks)
+      ? { ...lesson.checks }
+      : {};
+    if (!("learningPrompt" in checks) && "practice" in checks) {
+      checks.learningPrompt = Boolean(checks.practice);
+    }
+    delete checks.practice;
+    lesson.checks = checks;
+
+    if (!("needsExplanation" in lesson)) lesson.needsExplanation = false;
+    return [day, lesson];
+  }));
 }
 
 function saveProgress() {
@@ -133,7 +167,7 @@ function saveProgress() {
 
 function lessonProgress(day) {
   if (!state.progress[day]) {
-    state.progress[day] = { checks: {}, notes: "", stuck: false, needsMaterials: false };
+    state.progress[day] = { checks: {}, notes: "", stuck: false, needsExplanation: false };
   }
   return state.progress[day];
 }
@@ -268,6 +302,14 @@ function renderLesson(lesson) {
       </section>
     `
     : "";
+  const safetySection = lesson.safety
+    ? `
+      <section class="section">
+        <h3>Safety</h3>
+        <p>${escapeHtml(lesson.safety)}</p>
+      </section>
+    `
+    : "";
   const lessonPicker = state.view === "lessons"
     ? `
         <label class="lesson-picker" for="lessonPicker">
@@ -317,7 +359,7 @@ function renderLesson(lesson) {
           </div>
           <div class="flag-list">
             ${checkRow(lesson.day, "stuck", "Stuck on this", progress.stuck, "flag")}
-            ${checkRow(lesson.day, "needsMaterials", "Needs materials", progress.needsMaterials, "flag")}
+            ${checkRow(lesson.day, "needsExplanation", "Needs more explanation", progress.needsExplanation, "flag")}
           </div>
         </div>
       </section>
@@ -334,13 +376,10 @@ function renderLesson(lesson) {
       ${requiredResourceSection}
       ${optionalResourceSection}
       <section class="section">
-        <h3>Practice</h3>
+        <h3>Learning prompt</h3>
         <p>${escapeHtml(lesson.practice)}</p>
       </section>
-      <section class="section">
-        <h3>Safety</h3>
-        <p>${escapeHtml(lesson.safety)}</p>
-      </section>
+      ${safetySection}
       <section class="section">
         <h3>Reflection</h3>
         <p>${escapeHtml(lesson.reflection)}</p>
@@ -506,7 +545,7 @@ function renderProgress() {
           ${state.data.lessons.map((lesson) => {
             const progress = lessonProgress(lesson.day);
             const completion = completionFor(lesson.day);
-            const flags = [progress.stuck ? "stuck" : "", progress.needsMaterials ? "needs materials" : ""].filter(Boolean);
+            const flags = [progress.stuck ? "stuck" : "", progress.needsExplanation ? "needs more explanation" : ""].filter(Boolean);
             return `
               <li>
                 <strong>Day ${lesson.day}: ${escapeHtml(lesson.title)}</strong>
@@ -549,7 +588,7 @@ async function importProgress(event) {
   if (!file) return;
   try {
     const payload = JSON.parse(await file.text());
-    state.progress = payload.progress || payload;
+    state.progress = migrateProgress(payload.progress || payload);
     saveProgress();
     render();
   } finally {

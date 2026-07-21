@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -26,6 +27,7 @@ Objective: Translate drawings into buildable shapes.
 Core concept: Drawn hair can be reduced into major chunks: bangs, side pieces, crown volume, spikes, ponytails, buns, and loose ends.
 
 Practice prompt: Name the three biggest chunks in one character hairstyle.
+
 
 Check question: Which chunk matters most for recognition?
 
@@ -48,6 +50,7 @@ Core concept: Primary chunks control the silhouette. Secondary chunks support th
 
 Practice prompt: Rank three hair chunks as primary, secondary, or detail.
 
+
 Check question: Which piece could be simplified?
 
 Ready when: You can prioritize chunks.
@@ -68,6 +71,7 @@ Objective: Use empty shapes as reference.
 Core concept: The spaces between hair chunks are often as recognizable as the chunks themselves.
 
 Practice prompt: Find one empty shape around a character's hair and describe it.
+
 
 Check question: Would filling that gap ruin the read?
 
@@ -90,6 +94,9 @@ Core concept: Short spikes may only need cutting, heat direction, texture, and p
 
 Practice prompt: Choose whether one spike is short enough to stay soft.
 
+Safety note: Real soft-spike work may involve blades, heat, or sprays; each method needs its own guarded cutting, test-fiber, or ventilation precautions.
+
+
 Check question: What would make it need support?
 
 Ready when: You can classify a short spike.
@@ -110,6 +117,9 @@ Objective: Know when hair needs help.
 Core concept: Longer or heavier spikes need a support plan before surface styling. More spray is not the plan.
 
 Practice prompt: Pick wire or foam for a pretend long spike and say why.
+
+Safety note: Real spike supports need covered ends, low weight, stable anchors, and no sharp or concentrated pressure points.
+
 
 Check question: Which support is lighter or safer here?
 
@@ -132,6 +142,9 @@ Core concept: A shake test reveals whether a spike, ponytail, or attachment is a
 
 Practice prompt: Write what you would watch during a gentle shake test.
 
+Safety note: A real movement test should start gently in a clear area and stop if an attachment shifts, sheds parts, or creates pressure.
+
+
 Check question: What failure would be acceptable in a mockup?
 
 Ready when: You can define a movement test.
@@ -153,6 +166,7 @@ Core concept: Wefts can add density, color, coverage, repair material, and direc
 
 Practice prompt: Name one reason to add a weft besides making hair fuller.
 
+
 Check question: What problem could added weight create?
 
 Ready when: You can name two weft jobs.
@@ -166,26 +180,27 @@ References:
 - Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
 - Website search: Wefts Add More Than Hair: https://duckduckgo.com/?q=cosplay+wig+Wefts+Add+More+Than+Hair+weft+density+tutorial+guide
 
-## Lesson 53: Donor Wig Concept
+## Lesson 53: Extra Fiber Sources
 
-Objective: Use extra hair deliberately.
+Objective: Understand how builders use extra fiber.
 
-Core concept: A donor wig provides matching or contrasting fiber for wefts, repairs, hairlines, or covering supports.
+Core concept: Extra fiber may come from existing wefts, loose fiber, or a repurposed donor wig. These are construction options to recognize, not items required for this course.
 
-Practice prompt: Name one part of a build that could use donor wig fiber.
+Practice prompt: From a reference build, name one area where extra fiber could add coverage or repair material.
 
-Check question: Does the fiber need to match exactly?
 
-Ready when: You can name one donor-wig use.
+Check question: When would fiber need to match exactly?
+
+Ready when: You can name one use for extra fiber and one possible source.
 
 Key terms:
-- donor wig: A second wig used for extra fiber, wefts, color sections, or repairs.
+- donor wig: An existing wig repurposed as a source of extra fiber, wefts, color sections, or repair material.
 - coverage: How well hair, fiber sheets, lace, or panels hide supports, gaps, and construction.
 
 References:
-- Reference images: Donor Wig Concept: https://duckduckgo.com/?q=cosplay+wig+Donor+Wig+Concept+donor+wig+coverage+reference+images&iax=images&ia=images
+- Reference images: Extra Fiber Sources: https://duckduckgo.com/?q=cosplay+wig+Extra+Fiber+Sources+donor+wig+coverage+reference+images&iax=images&ia=images
 - Tutorial hub: Arda Wigs master list: https://arda-wigs.com/blogs/tutorials/tutorial-master-list
-- Website search: Donor Wig Concept: https://duckduckgo.com/?q=cosplay+wig+Donor+Wig+Concept+donor+wig+coverage+tutorial+guide
+- Website search: Extra Fiber Sources: https://duckduckgo.com/?q=cosplay+wig+Extra+Fiber+Sources+donor+wig+coverage+tutorial+guide
 
 ## Lesson 54: Weft Direction
 
@@ -194,6 +209,7 @@ Objective: Think before sewing.
 Core concept: The direction a weft points affects how hair falls and what it covers. Placement is a design decision.
 
 Practice prompt: Draw one arrow showing how an added weft should fall.
+
 
 Check question: What would look wrong if it pointed the other way?
 

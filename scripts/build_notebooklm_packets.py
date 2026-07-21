@@ -15,7 +15,8 @@ HOST_BRIEF = """Create a short 5-8 minute private study audio overview from this
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -33,7 +34,7 @@ EPISODES = [
         "number": 2,
         "title": "Setup, Fit, And Heat Safety",
         "days": range(10, 19),
-        "focus": "Prepare tools, check fit, mark alignment points, and understand the basic heat-safety rules for synthetic fiber.",
+        "focus": "Understand task-specific tools, fit checks, alignment points, and the basic heat-safety rules for synthetic fiber.",
     },
     {
         "number": 3,
@@ -81,7 +82,7 @@ EPISODES = [
         "number": 10,
         "title": "Transport, Samples, Photos, And Review",
         "days": range(82, 91),
-        "focus": "Protect the build in transport, plan small samples, document the finished wig, critique by cause, and choose the next practice target.",
+        "focus": "Understand transport protection, plan sample concepts, evaluate documentation, critique by cause, and choose the next study target.",
     },
 ]
 
@@ -95,6 +96,7 @@ def lesson_block(lesson: dict) -> str:
         f"- {entry['term']}: {entry['definition']}" for entry in lesson["glossary"]
     )
     resources = "\n".join(link_line(item) for item in lesson["requiredResources"])
+    safety = f"\nSafety note: {lesson['safety']}\n" if lesson.get("safety") else ""
     return f"""## Lesson {lesson['day']}: {lesson['title']}
 
 Objective: {lesson['objective']}
@@ -102,6 +104,7 @@ Objective: {lesson['objective']}
 Core concept: {lesson['concept']}
 
 Practice prompt: {lesson['practice']}
+{safety}
 
 Check question: {lesson['reflection']}
 

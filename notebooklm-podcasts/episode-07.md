@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -26,6 +27,7 @@ Objective: Understand lifted hair bases.
 Core concept: Reverse wefts help hair pull up or back without exposing tracks, especially for ponytails and updos.
 
 Practice prompt: Name one style that might need reverse wefting.
+
 
 Check question: Where would tracks show?
 
@@ -48,6 +50,9 @@ Core concept: Even a short weft addition needs a start point, end point, directi
 
 Practice prompt: Write a one-line sew plan for a short hidden weft.
 
+Safety note: Real weft sewing uses sharp needles; the work should be stabilized off the body with fingers kept clear of the needle path.
+
+
 Check question: Where should the thread start and stop?
 
 Ready when: You can describe a short sew plan.
@@ -68,6 +73,9 @@ Objective: Account for pull.
 Core concept: Ponytails and pigtails pull on the cap. The higher or heavier they are, the more anchoring matters.
 
 Practice prompt: Name where a ponytail's weight pulls on the wig.
+
+Safety note: Heavy ponytail plans should spread the load and reject any design that creates slipping, neck strain, or concentrated pressure.
+
 
 Check question: What would stop it sliding back?
 
@@ -90,6 +98,9 @@ Core concept: Clip-ons can reduce base-wig complexity, but they still need blend
 
 Practice prompt: Pick one style where a clip-on would be easier than building in the ponytail.
 
+Safety note: Real clip-on placement should avoid pinching skin, sharp contact points, and unbalanced weight that can pull during movement.
+
+
 Check question: What edge must be hidden?
 
 Ready when: You can decide if clip-on helps.
@@ -109,9 +120,10 @@ Objective: Plan for volume.
 
 Core concept: Braids need more fiber than loose hair to look full. A thin braid can make a dense wig look strangely small.
 
-Practice prompt: Estimate whether one character braid needs extra fiber.
+Practice prompt: Estimate from a character reference whether one braid would need extra fiber.
 
-Check question: Would a donor wig help?
+
+Check question: Would added fiber be structurally useful?
 
 Ready when: You can spot braid-density needs.
 
@@ -131,6 +143,7 @@ Objective: Pulled-back styles reveal construction.
 Core concept: Any updo can reveal cap edges, tracks, lace, or sparse zones. Plan coverage before pulling hair back.
 
 Practice prompt: Name one area an updo might expose.
+
 
 Check question: How could you hide it?
 
@@ -153,6 +166,9 @@ Core concept: Heavy attachments are safer when weight is spread or backed up. Si
 
 Practice prompt: Name one backup for a heavy ponytail or bun.
 
+Safety note: Real heavy attachments need redundant anchors, covered hardware, and a gentle movement test before wear.
+
+
 Check question: Which backup keeps the attachment from rotating?
 
 Ready when: You can name a backup anchor idea.
@@ -174,6 +190,7 @@ Core concept: A visible edge can be natural lace, stylized points, or hidden und
 
 Practice prompt: Choose one character edge and label it realistic, stylized, or hidden.
 
+
 Check question: What does the viewer actually see?
 
 Ready when: You can classify an edge.
@@ -194,6 +211,9 @@ Objective: Know what ventilating is for.
 Core concept: Ventilating ties individual hairs into lace or mesh. It is best used for visible edges, part lines, sideburns, napes, and small repairs.
 
 Practice prompt: Name one place ventilating would be worth the time.
+
+Safety note: Ventilating uses a fine hook or needle; real work should be stabilized off the body with the sharp point directed away from hands.
+
 
 Check question: Which visible edge would benefit most?
 

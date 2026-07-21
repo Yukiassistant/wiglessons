@@ -10,7 +10,8 @@ Create a short 5-8 minute private study audio overview from this source.
 
 Style requirements:
 - Explain practical cosplay wig technique in plain beginner-friendly language.
-- Focus on the wig skill, decision, safety caution, and what to look at in references.
+- Focus on the wig skill, decision, and what to look at in references. Include a safety caution only when the source lesson provides one.
+- Treat every exercise as reference-based or hypothetical. Do not tell the listener to obtain, buy, wear, handle, or modify a wig or styling materials.
 - Define terms naturally when they appear.
 - Avoid motivational filler, generic study advice, and meta commentary.
 - Do not mention JSON, the web app, daily lesson structure, NotebookLM, source packets, or curriculum design.
@@ -26,6 +27,7 @@ Objective: Connect two common words.
 Core concept: Teasing and backcombing are closely related: both push fibers toward roots to create grip and volume.
 
 Practice prompt: Write one place you would tease and one place you would keep smooth.
+
 
 Check question: What should stay visible and clean?
 
@@ -48,6 +50,7 @@ Core concept: The surface layer hides support work. It should look like the chos
 
 Practice prompt: Name one visible section that should stay smoother than the underlayer.
 
+
 Check question: What construction might show through?
 
 Ready when: You can identify a display layer.
@@ -68,6 +71,7 @@ Objective: Compare lift methods.
 Core concept: Volume can come from crimping, teasing, added wefts, or support. Material-heavy methods add weight and can change the cap fit.
 
 Practice prompt: Rank crimping, teasing, and extra wefts from least to most material-heavy.
+
 
 Check question: Which method changes weight the most?
 
@@ -90,6 +94,7 @@ Core concept: Support texture belongs under the surface layer. Visible outer fib
 
 Practice prompt: Write one way to protect the visible layer while building volume below.
 
+
 Check question: Where does support texture become visible mess?
 
 Ready when: You can name one anti-frizz habit.
@@ -110,6 +115,9 @@ Objective: Separate surface hold from weight support.
 Core concept: Spray and paste can finish a shape, but weight-bearing pieces need support, anchors, stitches, clips, or hardware.
 
 Practice prompt: Name one job for hairspray and one job it should not do.
+
+Safety note: Real sprays and pastes should follow label directions and ventilation requirements, while clips or hardware should have no sharp or unstable load points.
+
 
 Check question: Which part carries weight?
 
@@ -132,6 +140,9 @@ Core concept: Strong spray locks small spikes, flyaways, and surface direction. 
 
 Practice prompt: Choose one small surface detail that spray could control.
 
+Safety note: Strong sprays can irritate eyes and lungs and may be flammable; real use requires label-directed ventilation and distance from heat or flame.
+
+
 Check question: What would break if it flexed?
 
 Ready when: You can name a cosmetic hold job.
@@ -152,6 +163,9 @@ Objective: Match adhesive type to the surface.
 Core concept: Craft glue, skin adhesive, and styling product solve different problems. The wrong adhesive can damage skin or fail structurally.
 
 Practice prompt: Sort these into skin or not-skin: spirit gum, hot glue, hairspray.
+
+Safety note: Craft adhesives do not belong on skin; real skin contact requires a skin-rated product, label review, patch testing, and the matching remover.
+
 
 Check question: Which one needs a remover?
 
@@ -174,6 +188,9 @@ Core concept: Anything that touches skin for wear should be patch tested when po
 
 Practice prompt: Write where and when you would patch test an adhesive.
 
+Safety note: A patch test does not guarantee compatibility; any real redness, swelling, burning, or breathing symptom means the product should not be used.
+
+
 Check question: What would make you avoid using it?
 
 Ready when: You can explain the patch-test purpose.
@@ -194,6 +211,9 @@ Objective: Plan removal before application.
 Core concept: Adhesive work is not planned until removal is planned. The correct remover is part of the tool list.
 
 Practice prompt: Write one adhesive and the matching remover you would verify before use.
+
+Safety note: A real adhesive plan should identify the product's compatible remover before application and keep craft adhesive away from skin.
+
 
 Check question: What happens if removal is improvised?
 
